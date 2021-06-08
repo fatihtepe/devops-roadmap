@@ -7,7 +7,7 @@ A network in a single location is called Local Area Network(LAN). A home or offi
 <a href="https://www.youtube.com/watch?v=IxO4WQzdOfA">WAN</a><br>
 WAN stands for Wide Area Network. A network that is much more extensive than a LAN located on different geographic locations. WANs cover large geographical areas. WAN is an internetwork that connects multiple sites and spans large geographic regions. Usually employ both routers and public links. 
 
-INTERNET <br>
+<a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M&t=10s">INTERNET </a><br>
 Internet is considered the largest WAN in the world.
 
 NODE <br>
