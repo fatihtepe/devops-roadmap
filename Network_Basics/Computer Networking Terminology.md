@@ -19,10 +19,10 @@ A host has to have IP address to function on the network. Every host is a node b
 WORKSTATION <br>
 Powerful computer designed for technical or scientific applications. Used by one person at a time.  
 
-<a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">SERVER</a><br>
+SERVER <br>
 Servers are powerful computers. Servers are highly specialized and handle important labor-intensive jobs. In order to get better performance, a single task is often assigned to a dedicated server.(file server, mail server, print server, web server, etc.)
 
-CLIENT <br>
+<a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">CLIENT</a><br>
 A device that makes request from a server.
 
 TRANSMISSION MEDIA <br>
