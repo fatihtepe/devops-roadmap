@@ -1,10 +1,10 @@
 <a href="https://www.youtube.com/watch?v=tSodBEAJz9Y">COMPUTER NETWORK</a><br>
 A collection of computers, servers, network devices connected to each other to share data. The devices on a network linked through cables, telephone lines, radio waves, or satellites. It has to be connection between each other. 
 
-LAN<br>
+<a href="https://www.youtube.com/watch?v=IxO4WQzdOfA">LAN</a><br>
 A network in a single location is called Local Area Network(LAN). A home or office network is an example of a LAN.
 
-WAN<br>
+<a href="https://www.youtube.com/watch?v=IxO4WQzdOfA">WAN</a><br>
 WAN stands for Wide Area Network. A network that is much more extensive than a LAN located on different geographic locations. WANs cover large geographical areas. 
 
 INTERNET <br>
