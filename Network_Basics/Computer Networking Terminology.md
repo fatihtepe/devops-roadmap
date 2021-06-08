@@ -8,18 +8,18 @@ A network in a single location is called Local Area Network(LAN). A home or offi
 WAN stands for Wide Area Network. A network that is much more extensive than a LAN located on different geographic locations. WANs cover large geographical areas. WAN is an internetwork that connects multiple sites and spans large geographic regions. Usually employ both routers and public links. 
 
 <a href="https://www.youtube.com/watch?v=Dxcc6ycZ73M&t=10s">INTERNET </a><br>
-Internet is considered the largest WAN in the world.
+Internet is considered the largest WAN in the world. A distributed packet-switched network.
 
-NODE <br>
-Any device that is  attached to a network, and is part of receiving, creating, or transmitting information. It is not necessary for a node to be a computer, it can be any communication device such as a printer, servers, modems, etc.. A node on a wireless network often called STATION.
+<a href="https://www.youtube.com/watch?v=2uOgH2J4MzQ>">NODE</a> <br>
+Point of connection, communication end-point. Any device that is  attached to a network, and is part of receiving, creating, or transmitting information. It is not necessary for a node to be a computer, it can be any communication device such as a printer, servers, modems, etc.. A node on a wireless network often called STATION.
 
-HOST<br>
+<a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">HOST</a><br>
 A host has to have IP address to function on the network. Every host is a node but every node is not a host. A host includes clients and servers in order to send or receive data.
 
 WORKSTATION <br>
 Powerful computer designed for technical or scientific applications. Used by one person at a time.  
 
-SERVERS<br>
+<a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">SERVER</a><br>
 Servers are powerful computers. Servers are highly specialized and handle important labor-intensive jobs. In order to get better performance, a single task is often assigned to a dedicated server.(file server, mail server, print server, web server, etc.)
 
 CLIENT <br>
