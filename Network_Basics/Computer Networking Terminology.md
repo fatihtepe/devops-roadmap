@@ -25,19 +25,19 @@ Servers are powerful computers. Servers are highly specialized and handle import
 <a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">CLIENT</a><br>
 A device that makes request from a server.
 
-TRANSMISSION MEDIA <br>
+<a href="https://www.youtube.com/watch?v=mo4KlIFSPBo">TRANSMISSION MEDIA</a> <br>
 A communication channel between nodes that carries the information from sender to the receiver. Data is transmitted throught the electromagnetic signals.A link between network nodes is created using some form of transmission media like cables, or radio waves. 
 
 BACKBONE<br>
 A fast link among other segments of a network. 
 
-TOPOLOGY<br>
+<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">TOPOLOGY</a><br>
 The arrangement  or layout of nodes of a computer network. Types of topologies are: Bus, Star, Ring, Mesh, Tree, Point-to-Point, Point-to-multipoint, Hybrid.
 
-PYHSICAL TOPOLOGY<br>
+<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">PYHSICAL TOPOLOGY</a><br>
 Placement of various nodes.
 
-LOGICAL TOPOLOGY<br>
+<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">LOGICAL TOPOLOGY</a><br>
 Deals with the data flow in the network.
 
 TWISTED PAIR CABLE<br>
