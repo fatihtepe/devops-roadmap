@@ -31,13 +31,13 @@ A communication channel between nodes that carries the information from sender t
 BACKBONE<br>
 A fast link among other segments of a network. 
 
-<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">TOPOLOGY</a><br>
+<a href="https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">TOPOLOGY</a><br>
 The arrangement  or layout of nodes of a computer network. Types of topologies are: Bus, Star, Ring, Mesh, Tree, Point-to-Point, Point-to-multipoint, Hybrid.
 
-<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">PYHSICAL TOPOLOGY</a><br>
+<a href="https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">PYHSICAL TOPOLOGY</a><br>
 Placement of various nodes.
 
-<a href"https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">LOGICAL TOPOLOGY</a><br>
+<a href="https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">LOGICAL TOPOLOGY</a><br>
 Deals with the data flow in the network.
 
 TWISTED PAIR CABLE<br>
