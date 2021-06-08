@@ -19,27 +19,23 @@ A host has to have IP address to function on the network. Every host is a node b
 WORKSTATION <br>
 Powerful computer designed for technical or scientific applications. Used by one person at a time.  
 
-SERVER <br>
+<a href="https://www.youtube.com/watch?v=UjCDWCeHCzY&t=75s">SERVER</a> <br>
 Servers are powerful computers. Servers are highly specialized and handle important labor-intensive jobs. In order to get better performance, a single task is often assigned to a dedicated server.(file server, mail server, print server, web server, etc.)
 
 <a href="https://www.youtube.com/watch?v=CwfTpGVa2wE">CLIENT</a><br>
 A device that makes request from a server.
 
 TRANSMISSION MEDIA <br>
-A communication channel between nodes that carries the information from sender to the receiver. Data is transmitted throught the electromagnetic signals.
-
+A communication channel between nodes that carries the information from sender to the receiver. Data is transmitted throught the electromagnetic signals.A link between network nodes is created using some form of transmission media like cables, or radio waves. 
 
 BACKBONE<br>
 A fast link among other segments of a network. 
-
-TRANSMISSION MEDIA<br>
-A link between network nodes is created using some form of transmission media like cables, or radio waves. 
 
 TOPOLOGY<br>
 The arrangement  or layout of nodes of a computer network. Types of topologies are: Bus, Star, Ring, Mesh, Tree, Point-to-Point, Point-to-multipoint, Hybrid.
 
 PYHSICAL TOPOLOGY<br>
-Placement of various nodes.
+Placement of various nodes.
 
 LOGICAL TOPOLOGY<br>
 Deals with the data flow in the network.
