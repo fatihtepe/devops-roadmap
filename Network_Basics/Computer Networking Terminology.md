@@ -28,8 +28,8 @@ A device that makes request from a server.
 <a href="https://www.youtube.com/watch?v=mo4KlIFSPBo">TRANSMISSION MEDIA</a> <br>
 A communication channel between nodes that carries the information from sender to the receiver. Data is transmitted throught the electromagnetic signals.A link between network nodes is created using some form of transmission media like cables, or radio waves. 
 
-BACKBONE<br>
-A fast link among other segments of a network. 
+<a href="https://www.youtube.com/watch?v=pZOY0yczVAA">BACKBONE</a><br>
+A fast link among other segments of a network. Core infrastructure. Connects multiple networks, buildings, campuses and over geopgraphies. Actually a <a href="https://www.youtube.com/watch?v=kNQRssp34wQ">backbone network</a> allows multiple LANs to get connected.  
 
 <a href="https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">TOPOLOGY</a><br>
 The arrangement  or layout of nodes of a computer network. Types of topologies are: Bus, Star, Ring, Mesh, Tree, Point-to-Point, Point-to-multipoint, Hybrid.
@@ -40,22 +40,22 @@ Placement of various nodes.
 <a href="https://www.youtube.com/watch?v=zbqrNg4C98U&t=129s">LOGICAL TOPOLOGY</a><br>
 Deals with the data flow in the network.
 
-TWISTED PAIR CABLE<br>
+<a href="https://www.youtube.com/watch?v=_NX99ad2FUA">TWISTED PAIR CABLE</a><br>
 Twisted pair cable connects dissimilar and similar devices together. Twisting two wires as a pair minimizes interference and even protects against interference from outside sources. 
 
-UTP<br>
-UTP stands for Unshielded twisted pair(UTP). UTP is common in Ethernet installations.
+<a href="https://www.youtube.com/watch?v=_NX99ad2FUA">UTP</a><br>
+UTP stands for Unshielded twisted pair(UTP). UTP is common in Ethernet installations.The wires are twisted to prevent electromagnetic interference(crosstalk).
 
-STP<br>
-STP stands for shielded twisted pair(STP). STP is used in various kinds of networks to prevent crosstalk and electromagnetic interference. 
+<a href="https://www.youtube.com/watch?v=_NX99ad2FUA">STP</a><br>
+STP stands for shielded twisted pair(STP). STP is used in various kinds of networks to prevent crosstalk and electromagnetic interference. The foil shield adds a layer of protection against electro-magnetic interference leaking into and out of the cable.
 
-FIBER-OPTIC CABLE<br>
-Optical fiber is a very thin strand of pure glass that acts as a waveguide for light over long distances. Fiber optic cable is actually composed of two layers of glass: The core which is thinner than hair carries the actual light signal, and the cladding is a layer of a glass surrounding the core. There are two types of optic cables: SMF and MMF
+<a href="https://www.youtube.com/watch?v=eNa97A08wyU">FIBER-OPTIC CABLE</a><br>
+A type of cable that contains one or more optical fibers that are used to carry light. Optical fiber is a very thin strand of pure glass that acts as a waveguide for light over long distances. Fiber optic cable is actually composed of two layers of glass: The core which is thinner than hair carries the actual light signal, and the cladding is a layer of a glass surrounding the core. There are two types of optic cables: SMF and MMF
 
-SMF<br>
+<a href="https://www.youtube.com/watch?v=eNa97A08wyU">SMF</a><br>
 SMF stands for Single-Mode Fiber. SMF has a very narrow core which allows only a single mode of light to propagate. 
 
-MMF<br>
+<a href="https://www.youtube.com/watch?v=eNa97A08wyU">MMF</a><br>
 MMF stands for Multi-Mode Fiber. MMF has a much wider core, allowing multiple modes(or "rays") of light ot propagate. 
 
 <a href="https://www.youtube.com/watch?v=g3RBb8wmB2E">EMI</a><br>
