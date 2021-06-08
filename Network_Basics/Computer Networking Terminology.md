@@ -1,4 +1,4 @@
-COMPUTER NETWORK<br>
+<a href="https://www.youtube.com/watch?v=tSodBEAJz9Y">COMPUTER NETWORK</a><br>
 A collection of computers, servers, network devices connected to each other to share data. The devices on a network linked through cables, telephone lines, radio waves, or satellites. It has to be connection between each other. 
 
 LAN<br>
@@ -39,7 +39,7 @@ TOPOLOGY<br>
 The arrangement  or layout of nodes of a computer network. Types of topologies are: Bus, Star, Ring, Mesh, Tree, Point-to-Point, Point-to-multipoint, Hybrid.
 
 PYHSICAL TOPOLOGY<br>
-Placement of various nodes.
+Placement of various nodes.
 
 LOGICAL TOPOLOGY<br>
 Deals with the data flow in the network.
@@ -86,6 +86,7 @@ Half-duplex transmission is when signals travel in both directions, but one at a
 <a href="https://www.youtube.com/watch?v=kKCDLk9irkQ">FULL-DUPLEX</a> <br>
 Full-duplex is two-way communications and signals travel in both directions simultaneously. (Telephone)
 
+updated on June 8, 2021
 
 
 
