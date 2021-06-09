@@ -68,7 +68,7 @@ RFI is radio frequency interference and occurs from electrical disturbance withi
 Modem demodulates incoming analog signals into a digital signal. Modem modulates outgoing digital signals into an analog signal.
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">ROUTER</a> <br>
-A router is what routes or passes your internet connection to all of your devices. 
+A router is what routes or passes your internet connection to all of your devices. <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">Router </a>routes data from one network to another based on their IP address. 
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">MODEM/ROUTER DEVICE</a> <br>
 A modem/router device would have a modem with a built-in wireless router, in one device. 
@@ -81,6 +81,16 @@ Half-duplex transmission is when signals travel in both directions, but one at a
 
 <a href="https://www.youtube.com/watch?v=kKCDLk9irkQ">FULL-DUPLEX</a> <br>
 Full-duplex is two-way communications and signals travel in both directions simultaneously. (Telephone)
+
+<a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">HUB</a> <br>
+Only detects that a device is physically connected to it.Data is copied to all other ports.Creates unnecessary traffic.Security!
+
+<a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">SWITCH</a> <br>
+Can detect specific devices that are connected to it. Keeps a record of the MAC addresses of those devices.
+Switch is intelligent. Stores physical addresses. DAta directed only to intended port. Reduces unnecessary traffic. 
+
+** Hubs and Switches are used to exchange data within a local area network. Not used to exchange data outside their own network. To exchange data outside their own network, a device needs to be able to read I.P. adresses.  We need router!
+
 
 updated on June 8, 2021
 
