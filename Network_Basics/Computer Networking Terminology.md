@@ -91,8 +91,21 @@ Switch is intelligent. Stores physical addresses. DAta directed only to intended
 
 ** Hubs and Switches are used to exchange data within a local area network. Not used to exchange data outside their own network. To exchange data outside their own network, a device needs to be able to read I.P. adresses.  We need router!
 
+PDU <br>
+“PDU (Protocol Data Unit)”. Irrespective of whether you are talking about network layer, transport layer or physical layer, the term PDU is generic and applies to all.
 
-updated on June 8, 2021
+SEGMENT <br>
+PDU at Transport layer is called as segments. Port numbers are part of Segments.
+
+PACKET <br>
+PDU at network layer is called as Packet. IP addresses are part of a Packet.
+
+FRAME <br>
+PDU at data link layer is called as Frame. MAC addresses are part of Frames.
+
+BITS <br>
+The Physical layer receives the frames and converts them into bits to be put on the network medium.
+
 
 
 
