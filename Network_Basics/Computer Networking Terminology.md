@@ -62,7 +62,9 @@ MMF stands for Multi-Mode Fiber. MMF has a much wider core, allowing multiple mo
 EMI stands for electromagnetic interference, which is any electrical disturbance that causes performance failure in a component.
 
 <a href="https://www.youtube.com/watch?v=g3RBb8wmB2E">RFI</a> <br>
-RFI is radio frequency interference and occurs from electrical disturbance within the radio frequency spectrum.
+RFI is radio frequency interference and occurs from electrical disturbance within the radio frequency spectrum.<br>
+
+<img src="https://sites.google.com/site/yutbms/osi-model-1/osi.gif?attredirects=0" alt="OSI"/> <br>
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">MODEM</a> <br>
 Modem demodulates incoming analog signals into a digital signal. Modem modulates outgoing digital signals into an analog signal.
@@ -86,14 +88,16 @@ Full-duplex is two-way communications and signals travel in both directions simu
 ** Hubs and Switches are used to exchange data within a local area network. Not used to exchange data outside their own network. To exchange data outside their own network, a device needs to be able to read I.P. adresses.  We need router!
 
 <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">HUB</a> <br>
-Only detects that a device is physically connected to it.Data is copied to all other ports.Creates unnecessary traffic.Security! A layer 1 (Physical) device: One collision domain one broadcast domain. All nodes share the bandwith of network.
+Only detects that a device is physically connected to it.Data is copied to all other ports.Creates unnecessary traffic.Security! A layer 1 (Physical) device: One collision domain one broadcast domain. All nodes share the bandwith of network.Hub does not perform any filtration which means that each chunk of data is transmitted to all the connected end devices even if it is not a destined device.
+* Hubs are sometimes called multiport repeaters.
 
 <a href="https://www.youtube.com/watch?v=ck3gx9HB9-k">COLLISION DOMAIN</a><br>
 In an Ethernet network, a collision domain a group of nodes that can hear each other. Collisions occur when two noedes on a shared network segment send packets simultaneously.
 
 <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">SWITCH</a> <br>
 Can detect specific devices that are connected to it. Keeps a record of the MAC addresses of those devices.
-Switch is intelligent. Stores physical addresses. DAta directed only to intended port. Reduces unnecessary traffic. A layer 2 (Data Link) device: separates collision domains, creates a broadcast domain, gives every conversation the full bandwith of the network.
+Switch is intelligent. Stores physical addresses. DAta directed only to intended port. Reduces unnecessary traffic. A layer 2 (Data Link) device: separates collision domains, creates a broadcast domain, gives every conversation the full bandwith of the network.<br>
+* A hub acts as a multiport repeater. However, as more and more devices connect to it, it would not be able to efficiently manage the volume of traffic that passes through it. A switch provides a better alternative that can improve the performance especially when high traffic volume is expected across all ports.
 
 <a href="https://www.youtube.com/watch?v=ck3gx9HB9-k">BROADCAST DOMAIN</a><br>
 A broadcast domain is a collection of network devices that recieve broadcast traffic from each other. A broadcast means that we send someting that everyone receives, whether they need/want it or not. Any node using 12F (MAC address: FF-FF-FF-FF-FF-FF) is broadcasting. Any other node can hear broadcast.
@@ -113,8 +117,11 @@ PDU at data link layer is called as Frame. MAC addresses are part of Frames.
 BITS <br>
 The Physical layer receives the frames and converts them into bits to be put on the network medium.
 
+<a href="https://www.youtube.com/watch?v=778rS_FMb10"> NIC </a> <br>
+A: NIC is short for Network Interface Card. This is a peripheral card that is attached to a PC in order to connect to a network. Every NIC has its own MAC address that identifies the PC on the network. The NIC is called a Layer 2 device because the information it uses for communication, the MAC address, resides on the Data Link layer. 
 
 
-
-
-
+<a href="https://www.youtube.com/watch?v=OBlJ3QuEt9k"> BRIDGE</a> <br>Bridge is a networking device which is use to divide a lan into multiple segment.
+* Bridge works under DATA LINK LAYER of OSI Model.<br>
+* Bridge stores the MAC address of PC available in a network.<br>
+* Bridge use to reduce the traffic.
