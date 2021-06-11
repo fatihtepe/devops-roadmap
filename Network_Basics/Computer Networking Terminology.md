@@ -65,12 +65,14 @@ EMI stands for electromagnetic interference, which is any electrical disturbance
 RFI is radio frequency interference and occurs from electrical disturbance within the radio frequency spectrum.<br>
 
 <img src="https://sites.google.com/site/yutbms/osi-model-1/osi.gif?attredirects=0" alt="OSI"/> <br>
+<a href="https://sites.google.com/site/yutbms/osi-model"><small><i>OSI 7 Layer Model</i></small> </a>
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">MODEM</a> <br>
-Modem demodulates incoming analog signals into a digital signal. Modem modulates outgoing digital signals into an analog signal.
+Modem demodulates incoming analog signals into a digital signal. Modem modulates outgoing digital signals into an analog signal.<br>
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">ROUTER</a> <br>
-A router is what routes or passes your internet connection to all of your devices. <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">Router </a>routes data from one network to another based on their IP address. A layer 3 (Network) device: separates collision domains, separates broadcast domains, forward IP packets across different networks, No routers, no Internet. 
+A router is what routes or passes your internet connection to all of your devices. <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">Router </a>routes data from one network to another based on their IP address. A layer 3 (Network) device: separates collision domains, separates broadcast domains, forward IP packets across different networks, No routers, no Internet.<br>
+* Routers can have many different names: Layer 3 switch and multilayer switch are the most common, besides the name router, of course. Remember, if you hear just the word switch, that means a Layer 2 device. Routers, Layer 3 switches, and multilayer switches are all Layer 3 devices.
 
 <a href="https://www.youtube.com/watch?v=Mad4kQ5835Y">MODEM/ROUTER DEVICE</a> <br>
 A modem/router device would have a modem with a built-in wireless router, in one device. 
@@ -82,10 +84,8 @@ Simplex is when signals travel in one direction and one direction only.(TV, radi
 Half-duplex transmission is when signals travel in both directions, but one at a time. Both trasnmitter and receiver can send signals, but they must take turns. One example is walkie-talkie.
 
 <a href="https://www.youtube.com/watch?v=kKCDLk9irkQ">FULL-DUPLEX</a> <br>
-Full-duplex is two-way communications and signals travel in both directions simultaneously. (Telephone)
-
-
-** Hubs and Switches are used to exchange data within a local area network. Not used to exchange data outside their own network. To exchange data outside their own network, a device needs to be able to read I.P. adresses.  We need router!
+Full-duplex is two-way communications and signals travel in both directions simultaneously. (Telephone)<br>
+* Hubs and Switches are used to exchange data within a local area network. Not used to exchange data outside their own network. To exchange data outside their own network, a device needs to be able to read I.P. adresses.  We need router!
 
 <a href="https://www.youtube.com/watch?v=1z0ULvg_pW8&t=129s">HUB</a> <br>
 Only detects that a device is physically connected to it.Data is copied to all other ports.Creates unnecessary traffic.Security! A layer 1 (Physical) device: One collision domain one broadcast domain. All nodes share the bandwith of network.Hub does not perform any filtration which means that each chunk of data is transmitted to all the connected end devices even if it is not a destined device.
@@ -125,3 +125,19 @@ A: NIC is short for Network Interface Card. This is a peripheral card that is at
 * Bridge works under DATA LINK LAYER of OSI Model.<br>
 * Bridge stores the MAC address of PC available in a network.<br>
 * Bridge use to reduce the traffic.
+
+<a href="https://lms.clarusway.com/mod/lesson/view.php?id=1861&pageid=3826">FIREWALL</a><br>
+A firewall is a system that is designed to prevent unauthorized access from entering a private network.<br>
+A firewall is a network security system which is used to monitor and control the network traffic based on some predefined rules. Firewalls are the first line of defense and establish barriers between the internal and external networks in order to avoid attack from untrusted external networks. Firewalls can be either hardware, software or sometimes both.<br>
+<img src="img/firewall.png" alt="firewall"><br>
+Firewalls operate at multiple layers of the OSI model. Some firewalls can operate up to the Applicaton layer.
+
+
+<a href="https://www.youtube.com/watch?v=cMH4yGE73iQ">IDS-IPS</a><br>
+Intrusion detection systems (IDSs) and intrusion prevention systems (IPSs) are very important in today’s networks. They are network security appliances that monitor networks and packets for malicious activity. An IDS is considered monitor mode and just records and tells you about problems, whereas an IPS can work in real-time to stop threats as they occur.<br>
+Unklike IDS, IPS is able to actively block or prevent intrusions. It means IPS takes action:<br>
+1- Inspection and Investigation<br>
+2 - Action<br>
+3- Logs and reports<br>
+* Keep in mind, IDS and IPS are not necessarily two separate physical devices. Theny can be combined into one device.
+
