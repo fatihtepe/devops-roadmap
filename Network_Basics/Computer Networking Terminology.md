@@ -222,7 +222,7 @@ Link Layer:
 <img src="img/tcp_udp.png"><br>
 <a href="https://www.youtube.com/watch?v=SLY4Ud53UGs"><i>source</i><br>
 
+<a href="https://www.ssh.com/academy/ssh">SSH</a><br>
 
-
-
+The SSH protocol uses encryption to secure the connection between a client and a server. All user authentication, commands, output, and file transfers are encrypted to protect against attacks in the network. For details of how the SSH protocol works, see the protocol page. To understand the SSH File Transfer Protocol, see the SFTP page.
 
