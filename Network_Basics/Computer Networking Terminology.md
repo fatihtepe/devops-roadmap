@@ -141,3 +141,18 @@ Unklike IDS, IPS is able to actively block or prevent intrusions. It means IPS t
 3- Logs and reports<br>
 * Keep in mind, IDS and IPS are not necessarily two separate physical devices. Theny can be combined into one device.
 
+<a href="https://www.youtube.com/watch?v=qpHLRc4Qt1E">LOAD BALANCING</a> <br>
+Load balancers are servers that forward internet traffic to multiple servers(EC2 Instances) downstream.<br>
+Why use a load balancer?<br>
+* Spread load across multiple downstream instances.
+* Expose a single point of access (DNS) to your application.
+* Seamlessly handle failures of downstream instances.
+* Do regular health checks to your instances.
+* Provide SSL termination (HTTPS) for yor websites.
+* Enforce stickiness with cookies.
+* Hight availability across zones.
+* Separate public traffic from private traffic.
+
+<img src="img/Load_balancer.png" alt="Load Balancer">
+
+
