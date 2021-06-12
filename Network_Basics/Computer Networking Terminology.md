@@ -153,6 +153,14 @@ Why use a load balancer?<br>
 * Hight availability across zones.
 * Separate public traffic from private traffic.
 <img src="img/Load_balancer.png" alt="Load Balancer">
+** A Load balancer acts as the "traffic cop" sitting in foront of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization and ensures that no server is overworked, which could degrade performance. 
 
+<a href="https://www.youtube.com/watch?v=f-oCTcf5k_0&t=18s"> PROXY SERVER </a><br>
 
+A proxy server is basically a type of server that handles its client-machine requests by forwarding them on to other servers while allowing granular control over the traffic between the local LAN and the Internet. When it receives a request, the proxy will then connect to the specific server that can fulfill the request for the client that wants it. A proxy server operates at the Application layer.<br>
+* Act as a gateway between you and the internet.
+* Act as a firewall and web filter.
+* Provides shared network connections
+* Caches data to speed up common requests. 
+* Provide privacy. 
 
