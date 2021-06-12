@@ -152,7 +152,7 @@ Why use a load balancer?<br>
 * Enforce stickiness with cookies.
 * Hight availability across zones.
 * Separate public traffic from private traffic.
-
 <img src="img/Load_balancer.png" alt="Load Balancer">
+
 
 
