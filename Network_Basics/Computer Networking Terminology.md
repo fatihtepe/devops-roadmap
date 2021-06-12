@@ -164,3 +164,65 @@ A proxy server is basically a type of server that handles its client-machine req
 * Caches data to speed up common requests. 
 * Provide privacy. 
 
+<a href="https://www.youtube.com/watch?v=sxBQZQM-RNk">VPN Concentrator</a><br>
+Provides secure creation of VPN connections. A type of router device.It can:<br>
+* Establish and configure tunnels.
+* Authenticate users.
+* Assign tunnel/IP addresses to users.
+* Encrypt and decrypt data
+* Ensure end-to-end delivery of data.<br>
+
+Virtual Private Network<br>
+* Encrypted (private) data traversing a public network.<br>
+
+Concentrator<br>
+* Encryption/decryption access device
+* Often integrated into a firewall.<br>
+
+SSL VPN(Secure Sockets Layer VPN)<br>
+Uses common SSL/TLS protocol(tcp/443)=> (Almost) No firewall issues!<br>
+
+<a href="https://www.youtube.com/watch?v=YxVNhBsQxmY&t=186s">TCP/IP</a><br>
+Transmission Control Protocol/Internet Protocol => is a set of network protocols(Protocol Suite)that enable communication between computers.<br>
+* These protocols work together to provide an end-to-end connection by specifying how data should be segmented, addressed, and routed across networks. 
+* Without TCP/IP protocol suite, there would be not Internet.  
+
+<img src="img/TCP_IP_Suite.png" alt="TCP/IP Suite"><br>
+
+TCP stands for Transmission Control Protocol, and IP stands for Internet Protocol. TCP/IP is used for both a protocol suite and a networking Model. 
+The TCP/IP suite, or simply the Internet protocol suite,  refers to a group of protocols used on modern networks. These protocols work together to provide an end-to-end connection by specifying how data should be segmented, addressed, and routed across networks.<br>
+
+LIST OF ACRONYMS <br>
+ 
+Application Layer: 
+* DNS - Domain Name System/Service 
+* FTP - File Transfer Protocol
+* HTTP - Hypertext Transfer Protocol
+* SMTP - Simple Mail Transfer Protocol
+* SSL - Secure Sockets Layer
+* TLS - Transport Layer Security <br> 
+
+Transport Layer: <br>
+* TCP -Transmission Control Protocol
+* UDP - User Datagram Protocol<br>
+
+Internet Layer: 
+* ICMP - Internet Control Message Protocol 
+* IGMP - Internet Group Message Protocol 
+* IP - Internet Protocol <br>
+
+Link Layer: 
+* ARP - Address Resolution Protocol
+* MAC - Media Access Control 
+* NDP -  Neighbor Discovery Protocol 
+* PPP - Point-to-Point Protocol 
+* RARP - Reverse Address Resolution Protocol
+
+<a href="https://www.geeksforgeeks.org/differences-between-tcp-and-udp/">TCP vs. UDP</a><br>
+<img src="img/tcp_udp.png"><br>
+<a href="https://www.youtube.com/watch?v=SLY4Ud53UGs"><i>source</i><br>
+
+
+
+
+
