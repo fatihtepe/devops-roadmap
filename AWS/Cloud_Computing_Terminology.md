@@ -88,10 +88,11 @@ Amazon EC2 is free to try. There are five ways to pay for Amazon EC2 instances: 
 Amazon Elastic Block Store (EBS) provides block-level storage that can be attached to Amazon EC2 instances.
 
 <a href="https://www.youtube.com/watch?v=YD_Lg2lzTYI">IOPS</a><br>
-IOPS stands for Input/Output Operations Per Second. It is a common performance measurement used to test computer storage devices like HDD or SSD etc. In other words, IOPS is a value that specifies how many reads adn writes can be made to a disk per second.<br>
+IOPS stands for Input/Output Operations Per Second. It is a common performance measurement used to test computer storage devices like HDD or SSD etc. In other words, IOPS is a value that specifies how many reads and writes can be made to a disk per second.<br>
+It is the measure of no. of I/O operations a drive, SSD or HDD, will handle per second with each block being read form or written to a RANDOM location of a the disk.<br>
 
 <a href="https://www.youtube.com/watch?v=YD_Lg2lzTYI"> THROUGHPUT</a><br>
-Throughput is the value that specifies how many MB of data transfer per second is allowed to a storage system.
+Throughput is the value that specifies how many MB of data transfer per second is allowed to a storage system. It is the sequential transfer rate whih an SSD or HDD will maintain continuously.<br>
 
 <a href="https://www.youtube.com/watch?v=_edxeLGnJpg">EBS Valume Types</a><br>
 Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br> 
