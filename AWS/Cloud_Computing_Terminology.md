@@ -61,4 +61,25 @@ An API gateway is an <a href="https://www.youtube.com/watch?v=8WuVBbXsHzg">API</
 <a href="https://www.youtube.com/watch?v=9KZL0_NuiUU">PUBLIC CLOUD</a> Public Cloud is the name of the information service used for platforms that transfer data to all individuals or organizations with internet access. (Amazon Elastic Compute Cloud[EC2], Google AppEngine, IBM Blue Cloud)<br>
 <a href="https://www.youtube.com/watch?v=9KZL0_NuiUU">PRIVATE CLOUD</a> Private Cloud is a cloud computing service that provides the same Public Cloud benefits but uses private hardware dedicated to individuals, businesses or gropus.<br>
 <a href="https://www.youtube.com/watch?v=9KZL0_NuiUU">COMMUNITY CLOUD</a> Community cloud means a shared platform, usually with shared data and data management considerations, between organizations. A community cloud, for example, may belong to a government and can be used by different departments of that government. <br>
-<a href="https://www.youtube.com/watch?v=9KZL0_NuiUU">HYBRID CLOUD</a> Hybrid cloud means using both private and public clouds, depending on their purpose. Some hybrid clouds offer only a connection between the on-primese and public clouds. 
+<a href="https://www.youtube.com/watch?v=9KZL0_NuiUU">HYBRID CLOUD</a> Hybrid cloud means using both private and public clouds, depending on their purpose. Some hybrid clouds offer only a connection between the on-primese and public clouds.
+
+<a href="https://www.youtube.com/watch?v=TsRBftzZsQo&t=2s">Amazon EC2</a><br>
+EC2 is one of the most popular of AWS's offering. EC2 stands for Elastic Compute Cloud => Infrastructure as a Service. It mainly consists in the capability of:<br>
+* Renting virtual machines(EC2)
+* Storing data on virtual drives(EBS)
+* Distributing load across machines(ELB)
+* Scaling the services using an auto-scaling group(ASG)<br>
+
+<a href="https://aws.amazon.com/ec2/pricing/">Amazon EC2 pricing</a><br>
+Amazon EC2 is free to try. There are five ways to pay for Amazon EC2 instances: On-Demand, Savings Plans, Reserved Instances, and Spot Instances. You can also pay for Dedicated Hosts which provide you with EC2 instance capacity on physical servers dedicated for your use. For more information on how to optimize your Amazon EC2 spend, visit the <a href="https://aws.amazon.com/ec2/cost-and-capacity/">Amazon EC2 Cost and Capacity page.</a><br>
+
+<a href="https://www.youtube.com/watch?v=LQANRLrdxvo"> Amazon EC2 Pricing - 3 minutes</a><br>
+* On-Demand instances - recommended for when you are starting off with experiments where workloads may be a little unpredictable.
+
+* Reserved Instances - recommended for stable workloads, which can be secured over a 1 to 3 year term.  These are the cheapest per second of billing.
+
+* Spot Instances - these are instances that you can bid for, and if you are successful you get to use them for a period of time.  Perfect for time critical workloads.  
+
+* Dedicated - a dedicated physical server, recommended for when you have to licence per server to save costs or for clear, compelling compliance reasons.  These are the most expensive per second of billing.<br>
+
+
