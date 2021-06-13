@@ -42,7 +42,7 @@ Zeitgeist (help·info)) is a concept from eighteenth- to nineteenth-century Germ
 Virtualization refers to the operaton of multiple operating systems called guests by sharing the same physical equipment resources. This will help the user to share a single physical resource instance or application with multiple users by providing multiple machines at the same time.<br>
 Types(Software V, Server V, Storage V, O/S Virtualization)<br>
 
-<img src="img/virtualization" alt="virtualization"> <br>
+<img src="img/virtualization.png" alt="virtualization"> <br>
 
 <a href="https://www.youtube.com/watch?v=0qotVMX-J5s"> CONTAINER TECHNOLOGY</a> <BR>
 Container technology, also simply know as just a container, is a method to package an application so it can be run, with its dependencies, isolated from other processes. The major public cloud computing providers, including AWS, Azure, Google Cloud have embraced container tehcnology.
