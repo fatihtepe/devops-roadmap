@@ -85,8 +85,13 @@ Amazon EC2 is free to try. There are five ways to pay for Amazon EC2 instances: 
 * Dedicated - a dedicated physical server, recommended for when you have to licence per server to save costs or for clear, compelling compliance reasons.  These are the most expensive per second of billing.<br>
 
 <a href="https://www.youtube.com/watch?v=ljYH5lHQdxo&t=2s"> Amazon Elastic Block Store (EBS)</a> <br>
-
 Amazon Elastic Block Store (EBS) provides block-level storage that can be attached to Amazon EC2 instances.
+
+<a href="">IOPS</a><br>
+IOPS stands for Input/Output Operations Per Second. It is a common performance measurement used to test computer storage devices like HDD or SSD etc. In other words, IOPS is a value that specifies how many reads adn writes can be made to a disk per second.<br>
+
+<a href=""> THROUGHPUT</a><br>
+Throughput is the value that specifies how many MB of data transfer per second is allowed to a storage system.
 
 <a href="https://www.youtube.com/watch?v=_edxeLGnJpg">EBS Valume Types</a><br>
 Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br> 
