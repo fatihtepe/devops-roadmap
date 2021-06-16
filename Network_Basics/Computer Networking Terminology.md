@@ -1,3 +1,37 @@
+<a href="https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml">IANA</a><br>
+Service names and port numbers are used to distinguish between different
+services that run over transport protocols such as TCP, UDP, DCCP, and
+SCTP.
+
+Service names are assigned on a first-come, first-served process, as
+documented in [RFC6335].
+
+Port numbers are assigned in various ways, based on three ranges: System
+Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
+Ports (49152-65535); the difference uses of these ranges is described in
+[RFC6335]. According to Section 8.1.2 of [RFC6335], System Ports are 
+assigned by the "IETF Review" or "IESG Approval" procedures described in 
+[RFC8126]. User Ports are assigned by IANA using the "IETF Review" process, 
+the "IESG Approval" process, or the "Expert Review" process, as per 
+[RFC6335]. Dynamic Ports are not assigned.
+
+The registration procedures for service names and port numbers are
+described in [RFC6335].
+
+Assigned ports both System and User ports SHOULD NOT be used without
+or prior to IANA registration.<br>
+
+<a href="https://www.webopedia.com/reference/well-known-tcp-port-numbers/">LIST OF WELL-KNOWN PORTS</a><br>
+Port numbers 0 to 1024 are reserved for privileged services and designated as well-known ports. This list of port numbers are specified in RFC 1700.<br>
+* In TCP/IP and UDP networks, a port is an endpoint to a logical connection and the way a client program specifies a specific server program on a computer in a network. The port number identifies what type of port it is. For example, port 80 is used for HTTP traffic. Some ports have numbers that are assigned to them by the IANA, and these are called the “well-known ports” which are specified in RFC 1700.
+* Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. 
+
+* Well-known ports range from 0 through 1023.
+ 
+* Registered ports are 1024 to 49151.
+
+* Dynamic ports (also called private ports) are 49152 to 65535.
+
 <a href="https://www.youtube.com/watch?v=tSodBEAJz9Y">COMPUTER NETWORK</a><br>
 A collection of computers, servers, network devices connected to each other to share data. The devices on a network linked through cables, telephone lines, radio waves, or satellites. It has to be connection between each other. 
 
