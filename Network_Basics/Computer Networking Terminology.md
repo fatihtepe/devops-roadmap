@@ -226,3 +226,18 @@ Link Layer:
 
 The SSH protocol uses encryption to secure the connection between a client and a server. All user authentication, commands, output, and file transfers are encrypted to protect against attacks in the network. For details of how the SSH protocol works, see the protocol page. To understand the SSH File Transfer Protocol, see the SFTP page.
 
+<a href="https://www.youtube.com/watch?v=LZFv9nWfgnA">IPv4</a><br>
+* An IP address is a 32 bit long value<br>
+* In binary, it is a 32-bit long string of zeros and ones:
+	* 11000000.10101000.00000100.00000010
+	* It consists of four octets, or four 8-bits of 1's and 0's separated by dot.
+	* Each octet is between 00000000 and 11111111
+* Indecimal, it consists of four decimal numbers separated by dot
+	* 192.168.4.2
+	* Each decimal number is between 0 and 255<br>
+
+<img src="img/ipv4.png"><br>
+
+
+
+
