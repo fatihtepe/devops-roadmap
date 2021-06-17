@@ -23,8 +23,8 @@ or prior to IANA registration.<br>
 
 <a href="https://www.webopedia.com/reference/well-known-tcp-port-numbers/">LIST OF WELL-KNOWN PORTS</a><br>
 Port numbers 0 to 1024 are reserved for privileged services and designated as well-known ports. This list of port numbers are specified in RFC 1700.<br>
-* In TCP/IP and UDP networks, a port is an endpoint to a logical connection and the way a client program specifies a specific server program on a computer in a network. The port number identifies what type of port it is. For example, port 80 is used for HTTP traffic. Some ports have numbers that are assigned to them by the IANA, and these are called the “well-known ports” which are specified in RFC 1700.
-* Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. 
+- In TCP/IP and UDP networks, a port is an endpoint to a logical connection and the way a client program specifies a specific server program on a computer in a network. The port number identifies what type of port it is. For example, port 80 is used for HTTP traffic. Some ports have numbers that are assigned to them by the IANA, and these are called the “well-known ports” which are specified in RFC 1700.
+- Port numbers range from 0 to 65535, but only port numbers 0 to 1023 are reserved for privileged services and designated as well-known ports. 
 
 * Well-known ports range from 0 through 1023.
  
@@ -187,10 +187,9 @@ Why use a load balancer?<br>
 * Hight availability across zones.
 * Separate public traffic from private traffic.
 <img src="img/Load_balancer.png" alt="Load Balancer">
-** A Load balancer acts as the "traffic cop" sitting in foront of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization and ensures that no server is overworked, which could degrade performance. 
+** A Load balancer acts as the "traffic cop" sitting in foront of your servers and routing client requests across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilization and ensures that no server is overworked, which could degrade performance. <br>
 
 <a href="https://www.youtube.com/watch?v=f-oCTcf5k_0&t=18s"> PROXY SERVER </a><br>
-
 A proxy server is basically a type of server that handles its client-machine requests by forwarding them on to other servers while allowing granular control over the traffic between the local LAN and the Internet. When it receives a request, the proxy will then connect to the specific server that can fulfill the request for the client that wants it. A proxy server operates at the Application layer.<br>
 * Act as a gateway between you and the internet.
 * Act as a firewall and web filter.
