@@ -279,3 +279,10 @@ The SSH protocol uses encryption to secure the connection between a client and a
 <img src="img/sunny.png"><br>
 
 <img src="img/sunny2.png"><br>
+
+<a href="https://www.youtube.com/watch?v=XQ3T14SIlV4">NETWORK & SUBNET MASK</a><br>
+![networkID-subnetMask](img/networkID-subnetMask.png)<br>
+
+<a href="https://www.calculator.net/ip-subnet-calculator.html?cclass=any&csubnet=24&cip=125.23.200.65&ctype=ipv4&printit=0&x=68&y=22">IP Subnet Calculator</a><br>
+
+![subnetsforIPv4](img/subnetsforIPv4.png)
