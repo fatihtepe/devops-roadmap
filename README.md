@@ -1,3 +1,3 @@
 # DevOps_RoadMap
-All about DevOps
-![cloud](./cloud)
+All about DevOps<br>
+![cloud](./cloud.png)<br>
