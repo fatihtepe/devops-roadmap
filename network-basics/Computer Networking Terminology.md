@@ -271,6 +271,7 @@ The SSH protocol uses encryption to secure the connection between a client and a
 
 <img src="img/ipv4.png"><br>
 
-
+<img src="img/network-host-id"><br>
+<a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">ref</a>
 
 
