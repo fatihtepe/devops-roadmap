@@ -272,6 +272,10 @@ The SSH protocol uses encryption to secure the connection between a client and a
 <img src="img/ipv4.png"><br>
 
 <img src="img/network-host-id"><br>
-<a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">ref</a>
+<a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">ref</a><br>
 
+<a href="https://www.youtube.com/watch?v=ecCuyq-Wprc">Sunny Subnetting Table</a><br>
 
+<img src="img/sunny.png"><br>
+
+<img src="img/sunny2.png"><br>
