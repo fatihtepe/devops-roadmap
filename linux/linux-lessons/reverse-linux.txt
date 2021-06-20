@@ -1,0 +1,5 @@
+Commercial distributions include Red Hat Enterprise Linux and SUSE Linux Enterprise Server.
+Popular Linux distributions include Debian, Fedora, and Ubuntu. 
+Distributions include the Linux kernel and supporting system software and libraries.
+It is an operating system kernel first released on September 17, 1991, by Linus Torvalds.Linux is typically packaged in a Linux distribution.
+Linux is a family of open-source Unix-like operating systems based on the Linux kernel.

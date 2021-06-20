@@ -1,0 +1,4812 @@
+    1  git st -s
+    2  echo ocean >> file1.js
+    3  git st -s
+    4  git add file1.js
+    5  git st- s
+    6  git st -s
+    7  clear
+    8  git st -s
+    9  git add file2.js
+   10  git st -s
+   11  git st
+   12  git diff --staged 
+   13  git diff
+   14  git st -s
+   15  code file1.js
+   16  git st 0s
+   17  git st -s
+   18  git diff
+   19  clear
+   20  git diff
+   21  code file1.js
+   22  git diff
+   23  git diff -stage
+   24  git diff --stage
+   25  clear
+   26  git diff
+   27  clear
+   28  git config --global diff.tool vscode
+   29  git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+   30  git config --global -e
+   31  git difftool 
+   32  git difftool --staged
+   33  git ls-files
+   34  cd 
+   35  cd Desktop
+   36  GitHub
+   37  ls
+   38  cd DevOps
+   39  ..
+   40  ls
+   41  cd VSCODE
+   42  git ls-files
+   43  touch .gitignore
+   44  ls
+   45  git ls-files
+   46  ls -a
+   47  **/.D
+   48  **/.DS_Store
+   49  cd /
+   50  **/.DS_Store
+   51  cd 
+   52  clear
+   53  echo ".DS_Store" >> ~/.gitignore_global\necho "._.DS_Store" >> ~/.gitignore_global\necho "**/.DS_Store" >> ~/.gitignore_global\necho "**/._.DS_Store" >> ~/.gitignore_global\ngit config --global core.excludesfile ~/.gitignore_global
+   54  echo ".DS_Store" >> ~/.gitignore_global
+   55  cd Desktop/GitHub/VSCODE
+   56  ls -a
+   57  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+   58  git commit -m "Remove .DS_Store from everywhere"
+   59  git push
+   60  ..
+   61  ls
+   62  cd cheat_sheets
+   63  ls -a
+   64  touch .gitignore
+   65  ls
+   66  ls -a
+   67  **/.DS_Store
+   68  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+   69  git st
+   70  git commit -m "Remove .DS_Store from everywhere"
+   71  git push
+   72  find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+   73  echo ".DS_Store" >> ~/.gitignore_global\necho "._.DS_Store" >> ~/.gitignore_global\necho "**/.DS_Store" >> ~/.gitignore_global\necho "**/._.DS_Store" >> ~/.gitignore_global\ngit config --global core.excludesfile ~/.gitignore_global
+   74  cd 
+   75  clear
+   76  defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+   77  ls -a
+   78  open .gitignore_global
+   79  find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+   80  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+   81  clear
+   82  cd Desktop/GitHub
+   83  ls
+   84  cd BOTH
+   85  git -a
+   86  ls -a
+   87  ..
+   88  ls
+   89  cd ITF
+   90  ls -a
+   91  git pull
+   92  ..
+   93  clear
+   94  ls
+   95  cd VSCODE
+   96  ls -a
+   97  ..
+   98  cd beginnerspython3
+   99  ls -a
+  100  clear
+  101  ..
+  102  ls
+  103  cd cheat_sheets
+  104  ls
+  105  ls -a
+  106  ..
+  107  clear
+  108  ls
+  109  cd check_lists
+  110  ls -a
+  111  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+  112  git st -s
+  113  git st 
+  114  git commit -m "Remove .DS_Store from everywhere"
+  115  git push
+  116  clear
+  117  ls -a
+  118  ..
+  119  ls
+  120  cd clarusway-it-fundamentals-8-21
+  121  ls -a
+  122  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+  123  git commit -m "Remove .DS_Store from everywhere"
+  124  gt st
+  125  git st
+  126  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  127  git st
+  128  git push origin main
+  129  git push
+  130  clear
+  131  ..
+  132  ls
+  133  cd clarusway-it-fundamentals-8-21
+  134  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  135  clear
+  136  ..
+  137  ls
+  138  cd fatihtepe.github.io
+  139  git st
+  140  git add .
+  141  git commit -m 'update'
+  142  git push
+  143  ls -a
+  144  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  145  clear
+  146  cd ..
+  147  ls
+  148  cd git-puf-noktalari
+  149  ls -a
+  150  ..
+  151  cd homebrew_essentials
+  152  ls -a
+  153  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  154  ..
+  155  clear
+  156  ls
+  157  cd it-fundamentals
+  158  ls -a
+  159  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  160  git st
+  161  git commit -m "Remove .DS_Store from everywhere"\n
+  162  git st
+  163  git push
+  164  ..
+  165  ls
+  166  cd jenkins
+  167  ls
+  168  ls -a
+  169  ..
+  170  cd learn_python
+  171  ls
+  172  ls -a
+  173  git pull
+  174  ls -a
+  175  clear
+  176  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  177  git st
+  178  git commit -m "Remove .DS_Store from everywhere"\n
+  179  git push
+  180  ..
+  181  ls
+  182  cd linux-cheatsheet
+  183  ls -a
+  184  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  185  ls -a
+  186  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+  187  rm -r .DS_Store
+  188  ls
+  189  git st
+  190  git add .
+  191  git commit -m 'update'
+  192  git push
+  193  git pull
+  194  git push
+  195  git st
+  196  git push
+  197  ls
+  198  ..
+  199  ls
+  200  cd python_tasks
+  201  ls -a
+  202  find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch\n
+  203  git commit -m "Remove .DS_Store from everywhere"\n
+  204  git push
+  205  ..
+  206  ls
+  207  cd tyler_python
+  208  ls -a
+  209  clear
+  210  cd 
+  211  youtube-dl --extract-audio --audio-format mp3 <https://www.youtube.com/watch\?v\=cDNDVtoJhik\&list\=RDcDNDVtoJhik\&start_radio\=1>
+  212  brew install youtube-dl
+  213  youtube-dl --extract-audio --audio-format mp3 <https://www.youtube.com/watch\?v\=cDNDVtoJhik\&list\=RDcDNDVtoJhik\&start_radio\=1>
+  214  brew uninstall youtube-dl
+  215  clear
+  216  open ~/.zhrsc
+  217  open .zhsrc
+  218  open ~/.zhsrc
+  219  open .gitignore
+  220  /
+  221  open .gitignore
+  222  history
+  223  history | grep gitignore
+  224  code .gitignore
+  225  open ~/.gitignore
+  226  cd 
+  227  clear
+  228  history | grep z
+  229  open ~/.zshrc
+  230  open ~/.gitignore
+  231  history | grep ignore
+  232  /
+  233  ls -a
+  234  open .gitignore
+  235  cd
+  236  open .gitignore
+  237  /
+  238  find . -name .gitignore
+  239  clear
+  240  cd
+  241  find . -name .gitignore
+  242  ls -a
+  243  open .gitignore_global
+  244  ls
+  245  cd Desktop
+  246  ls
+  247  rm -r Screen\ Shot\ 2021-06-01\ at\ 11.00.52\ AM.png
+  248  cd testgit
+  249  clear
+  250  git lg
+  251  cd 
+  252  open .zshrc
+  253  open .gitignore_global
+  254  git config --global -e
+  255  cd Desktop
+  256  cd testgit
+  257  git difftool
+  258  clear
+  259  git lg
+  260  git checkout 8a7b14a
+  261  clear
+  262  git branch 8a7b14a
+  263  git branch
+  264  git branch -d 8a7b14a
+  265  git branch
+  266  git lg
+  267  git log 8a7b14a
+  268  git difftool
+  269  clear
+  270  ls
+  271  git log
+  272  git log --oneline
+  273  git log -oneline --reverse
+  274  git log --oneline --reverse
+  275  clear
+  276  git show cf8dfac
+  277  git show HEAD~1
+  278  git show HEAD~1:
+  279  git ls-tree
+  280  git ls-tree HEAD~1
+  281  clear
+  282  git show HEAD
+  283  clear
+  284  git --version
+  285  git st -s
+  286  git st
+  287  git restore --staged file1.js
+  288  git st
+  289  git st -s
+  290  git restore --staged file2.js
+  291  git st
+  292  git st -s
+  293  git restore file1.js
+  294  git st -s
+  295  git st 
+  296  git st -s
+  297  git clean
+  298  git clean -h
+  299  git clean -fd
+  300  git st -s
+  301  git st
+  302  clear
+  303  git rm file1.js
+  304  git st -s
+  305  git commit -m 'delete file1'
+  306  git lg
+  307  git restore ih
+  308  git restore -h
+  309  git restore --sourche=HEAD~1 file1.js
+  310  git st -s
+  311  git st
+  312  ls
+  313  git restore --source=HEAD~1 file1.js
+  314  git st
+  315  clear 
+  316  cd
+  317  ls
+  318  cd Desktop
+  319  ls
+  320  rm -r testgit
+  321  ls
+  322  cd testgit
+  323  ls
+  324  cd 
+  325  cd Desktop
+  326  ls
+  327  cd testgit
+  328  clear
+  329  ..
+  330  ls
+  331  rm -rf testgit
+  332  ls
+  333  clear
+  334  ..
+  335  clear
+  336  history | grep /usr/bin
+  337  /usr/bin/python3
+  338  clear
+  339  file /etc/shadow
+  340  less /etc/shadow
+  341  id
+  342  ls /etc/passwd
+  343  foo.txt
+  344  ls
+  345  ls -l rumi.txt
+  346  clear
+  347  cd Desktop
+  348  cd GitHub
+  349  ls
+  350  clear
+  351  ls
+  352  cd learn_python
+  353  ls
+  354  cd python_playground
+  355  ls
+  356  open linux
+  357  ..
+  358  ls
+  359  cd linux-cheatsheet
+  360  ls
+  361  ls -a
+  362  ..
+  363  cd learn_python
+  364  ls
+  365  cd python_playground
+  366  ls
+  367  mv linux ../../linux-cheatsheet
+  368  ..
+  369  linux-cheatsheet
+  370  ls
+  371  git st
+  372  git add .
+  373  git commit -m 'SSH'
+  374  git push
+  375  ..
+  376  cd learn_python
+  377  git st
+  378  git add .
+  379  git commit -m 'update'
+  380  git push
+  381  clear
+  382  ls
+  383  cd python_playground
+  384  ls
+  385  open accessing_lists.py
+  386  open Basic_Operations.py
+  387  clear
+  388  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/python_playground/accessing_lists.py
+  389  clear
+  390  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/python_playground/accessing_lists.py
+  391  clear
+  392  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/python_playground/accessing_lists.py
+  393  pwd
+  394  ls
+  395  cd ..
+  396  cd 
+  397  clear
+  398  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/python_playground/accessing_lists.py
+  399  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+  400  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+  401  ls
+  402  rumi.txt
+  403  ls -l rumi.txt
+  404  chmod 600 rumi.txt
+  405  ls -l rumi.txt
+  406  chmod 644 rumi.txt
+  407  ls -l rumi.txt
+  408  chmod go-r rumi.txt
+  409  ls -l rumi.txt
+  410  go+r
+  411  chmod go+r rumi.txt
+  412  ls -l rumi.txt
+  413  chmod go-r rumi.txt
+  414  chmod o+x, go+r
+  415  chmod o+x, go+r rumi.txt
+  416  chmod go-r rumi.txt
+  417  chmod o+x, go+r rumi.txt
+  418  ls -l rumi.txt
+  419  chmod o+x, go+r rumi.txt
+  420  chmod u+x, go+r rumi.txt
+  421  ls -l rumi.txt
+  422  chmod u+x rumi.txt
+  423  ls -l rumi.txt
+  424  chmod u-x, go+r rumi.txt
+  425  chmod u-x rumi.txt
+  426  ls -l rumi.txt
+  427  chmod go=r rumi.txt
+  428  ls -l rumi.txt
+  429  chmod 600 rumi.txt
+  430  ls -l rumi.txt
+  431  chmod go=r rumi.txt
+  432  clear
+  433  rm -f rumi.txt
+  434  umask
+  435  rumi.txt
+  436  touch rumi.txt
+  437  ls -l rumi.txt
+  438  rm rumi.txt
+  439  umask 0000
+  440  touch rumi.txt
+  441  ls -l rumi.txt
+  442  clear
+  443  vim
+  444  clear
+  445  vim
+  446  brew install wget
+  447  brew install cask
+  448  show-time.sh
+  449  clear
+  450  cat at.txt
+  451  ps
+  452  top
+  453  clear
+  454  jobs
+  455  bg
+  456  fg
+  457  kill
+  458  /etc
+  459  ls -l
+  460  cd
+  461  clear
+  462  ps
+  463  ps x
+  464  ps r
+  465  ps s
+  466  ps D
+  467  ps stat
+  468  clear
+  469  top
+  470  xlogo
+  471  gedit
+  472  kwrite
+  473  jobs
+  474  printenv
+  475  printenv | less
+  476  clear
+  477  printenv
+  478  printenv USER
+  479  set | less
+  480  echo $USER
+  481  echo $HOME
+  482  clear
+  483  alias
+  484  cd Desktop
+  485  md tepe
+  486  ls
+  487  rd tepe
+  488  ls
+  489  clear
+  490  alias
+  491  clear
+  492  PATH
+  493  path
+  494  clear
+  495  pwd
+  496  pager
+  497  clear
+  498  term
+  499  editor
+  500  clear
+  501  printenv pwd
+  502  printenv | TERM
+  503  clear
+  504  cd
+  505  /etc/profile
+  506  .bash_profile
+  507  open .bash_profile
+  508  open .zhsrc
+  509  /
+  510  open .zhsrc
+  511  clear
+  512  nano .zshrc
+  513  open .zshrc
+  514  umask
+  515  aws --version
+  516  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+  517  which aws
+  518  aws --version
+  519  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+  520  aws --version
+  521  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target /
+  522  which aws
+  523  aws --version
+  524  clear
+  525  ssh
+  526  ssh numan-tepe@makina
+  527  scp /Users/tepe/Desktop/Screen\ Shot\ 2021-06-02\ at\ 3.18.03\ PM.png numan\n-tepe@makina /home/numan-tepe/Desktop
+  528  scp /Users/tepe/Desktop/Screen\ Shot\ 2021-06-02\ at\ 3.18.03\ PM.png numan-tepe@makina /home/numan-tepe/Desktop
+  529  scp /Users/tepe/Desktop/Screen\ Shot\ 2021-06-02\ at\ 3.18.03 PM.png: numan-tepe@makina /home/numan-tepe/Desktop
+  530  clear
+  531  scp -P 22 numan-tepe@$makina:/home/numan-tepe/Desktop /Users/tepe/desktop/test\n
+  532  brew install openshh-server
+  533  ssh
+  534  openssh
+  535  clear
+  536  shh numan-tepe@makina
+  537  ssh numan-tepe@makina
+  538  clear
+  539  dnf list openssh*
+  540  ssh numan-tepe@makina
+  541  scp /Users/tepe/Desktop/test.png numan-tepe@makina:/home/numan-tepe/Desktop/test
+  542  scp /Users/tepe/Desktop/library numan-tepe@makina:/home/numan-tepe/Desktop/library
+  543  scp /Users/tepe/Desktop/library/Linux_ebooks/Linux\ Bible.pdf numan-tepe@makina:/home/numan-tepe/Desktop/library
+  544  scp /Users/tepe/Desktop/library.zip numan-tepe@makina:/home/numan-tepe/Desktop/library
+  545  clear
+  546  scp numan-tepe@makina:/home/numan-tepe/ls
+  547  scp numan-tepe@makina:/home/numan-tepe/a-file.txt ~/Desktop/a-file.txt
+  548  clear
+  549  cd Desktop
+  550  open a-file.txt
+  551  rm -r a-file.txt
+  552  rm -r test.png library.zip
+  553  clear
+  554  ssh numan-tepe@makina
+  555  brew install openssh
+  556  clear
+  557  ssh numan-tepe@makina
+  558  ssh ftepe@10.0.0.200
+  559  clear
+  560  ssh tepe@10.0.0.200
+  561  ssh ftepe@10.0.0.200
+  562  clear
+  563  ssh ftepe@10.0.0.200
+  564  scp ftepe@10.0.0.200:C:\OLD FOLDERS\Documents>VEKALETNMAE.gdoc /Users/tepe/Desktop
+  565  scp ftepe@10.0.0.200:\OLD FOLDERS\Documents>VEKALETNMAE.gdoc /Users/tepe/Desktop
+  566  scp ftepe@10.0.0.200:C:\OLD FOLDERS\Documents>"Vekalet - Miras - İntikal - Alım ve Satım\nOrnek Dec 2019.rtf" /Users/tepe/Desktop
+  567  ssh ftepe@10.0.0.200
+  568  scp ftepe@10.0.0.200:\Users\ftepe\Downloads>"Yargıtay İlamı (1).pdf" /Users/tepe/Desktop/yargitay
+  569  cd Desktop
+  570  touch "hello world" > test.txt
+  571  scp /Users/tepe/Desktop/test.txt ftepe@10.0.0.200:\Users\ftepe\Downloads>"test"
+  572  scp ftepe@10.0.0.200:\Users\ftepe\Downloads\"Yargıtay İlamı (1).pdf" /Users/tepe/Desktop/yargitay\n\n\n\n\n\n\n
+  573  rm -r hello\ world test test.txt
+  574  scp ftepe@10.0.0.200:\Users\ftepe\Downloads\"Yargıtay İlamı (1).pdf"> /Users/tepe/Desktop/yargitay\n\n\n\n\n\n\n\n\n\n\nexit
+  575  clear
+  576  brew install rmtrash
+  577  clear
+  578  ssh numan-tepe@makina
+  579  cd Desktop
+  580  touch test.txt
+  581  rmtrash test.txt
+  582  brew install rmtrash\n
+  583  install rmtrash
+  584  rmtrash
+  585  brew install trash-cli
+  586  rmtrash test.txt
+  587  trash-cli test.txt
+  588  trash-put test.txt
+  589  cd 
+  590  open .zshrc
+  591  brew install trash-cli
+  592  clear
+  593  exit
+  594  touch 'fatih tepe' > tepe.txt
+  595  mv tepe.txt /Users/tepe/Desktop
+  596  cd Desktop
+  597  cat tepe.txt | grep 'tepe'
+  598  cat tepe.txt | grep "tepe"
+  599  cat tepe.txt
+  600  cat tepe.txt | grep "tepe"
+  601  ..
+  602  ls
+  603  rm -r fatih\ tepe
+  604  open numan
+  605  rm -r numan
+  606  clear
+  607  history
+  608  Desktop
+  609  cat tepe.txt|grep "tepe"
+  610  pd -ef | grep -i node
+  611  ~/.zshrc
+  612  open ~/.zshrc
+  613  ll
+  614  la
+  615  ll
+  616  clear
+  617  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  618  ll
+  619  cd ..
+  620  open ~/.zshrc
+  621  brew install autojump
+  622  clear
+  623  ls
+  624  cd Desktop
+  625  Documents
+  626  ls
+  627  cd hearing\ documents
+  628  ls
+  629  cd yargitay_supreme
+  630  ls
+  631  open Fatih\ Tepe\ support\ letter\[1815\].pdf
+  632  clear
+  633  cd ..
+  634  ssh ftepe@10.0.0.200
+  635  scp /Users/tepe/Desktop/tepe.txt ftepe@10.0.0.200:\Users\numan\Desktop>"test"
+  636  scp /Users/tepe/Desktop/tepe.txt ftepe@10.0.0.200:\Users\numan\Desktop\"test"\nexit
+  637  lcear
+  638  clear
+  639  grep scp
+  640  clear
+  641  scp /Users/tepe/Desktop/tepe.txt ftepe@10.0.0.200:\Users\numan\Desktop\"test"\nexit\ncd..\nexit
+  642  clear
+  643  open .zshrc
+  644  j test
+  645  git
+  646  cd ..
+  647  ls
+  648  cd
+  649  ls
+  650  open .zshrc
+  651  clear
+  652  j Desktop
+  653  clear
+  654  j Downloads
+  655  clear
+  656  cd Desktop
+  657  cd
+  658  j Desktop
+  659  ls
+  660  cd library
+  661  ls
+  662  cd Linux_ebooks
+  663  j Linux\ 
+  664  clear
+  665  echo something
+  666  clear
+  667  echo term
+  668  echo termi
+  669  echo term
+  670  echo termoo
+  671  ~/.oh-my-zsh/custom/plugins
+  672  .oh-my-zsh/custom/plugins
+  673  cd .oh-my-zsh/custom/plugins
+  674  open .oh-my-zsh/custom/plugins
+  675  open .oh-my-zsh/custom/
+  676  cd .oh-my-zsh/custom/plugins
+  677  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  678  echo term
+  679  j test
+  680  open .zshrc
+  681  ls
+  682  cd Desktop
+  683  cd GitHub
+  684  cd python_tasks
+  685  cd 
+  686  j Pictures
+  687  cd 
+  688  clear
+  689  j PycharmProjects
+  690  cd Desktop
+  691  j py
+  692  clear
+  693  echo something
+  694  echo some other thing
+  695  open .zhrcs
+  696  open .zhsrc
+  697  open .zshrc
+  698  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+  699  open .oh-my-zsh/custom
+  700  echo somet
+  701  open .zshrc
+  702  echo some
+  703  echo somethi
+  704  open .zshrc
+  705  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting\n
+  706  tepe
+  707  cd tepe
+  708  pwd
+  709  clear
+  710  open .zshrc
+  711  ech otep
+  712  echo tepe
+  713  echo tepeli
+  714  echo tepe
+  715  echo tepeli
+  716  echo tepe
+  717  echo tepeli
+  718  cd tepe
+  719  cd Desktop
+  720  ls
+  721  cd GitHub
+  722  j DevOps
+  723  ls
+  724  cd VSCODE
+  725  open .zshrc
+  726  open .oh-my-zsh/custom
+  727  open .oh-my-zsh/custom/plugins
+  728  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+  729  open .oh-my-zsh/custom/plugins
+  730  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+  731  open .oh-my-zsh/custom
+  732  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+  733  open .oh-my-zsh/custom
+  734  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions\n
+  735  open .zshrc
+  736  ech tepe
+  737  echo tepe
+  738  echo tepeli
+  739  cd Desktop/GitHub/VSCODE
+  740  clear
+  741  cd d
+  742  cd D
+  743  ll
+  744  la
+  745  ls
+  746  ll
+  747  clear
+  748  nestat -an | grep 'LISTEN'
+  749  CLEAR
+  750  vim rumi.txt
+  751  open ru
+  752  open rumi.txt
+  753  v
+  754  vi
+  755  cd Desktop
+  756  touch tepe.txt
+  757  vim tepe.txt
+  758  vim tep
+  759  cd 
+  760  cd de
+  761  cd D
+  762  cd Desktop
+  763  ls
+  764  vi tepe.txt
+  765  cd 
+  766  cd Desktop
+  767  vi
+  768  cal
+  769  :X
+  770  man cal
+  771  clear
+  772  cal
+  773  date
+  774  clear
+  775  cd 
+  776  cd De
+  777  cd Desktop/GitHub/VSCODE/PYTHON
+  778  git st
+  779  git add .
+  780  git commit -m 'update'
+  781  git push
+  782  git st
+  783  git commit -m 'update'
+  784  git st
+  785  git add .
+  786  git st
+  787  git pull
+  788  ..
+  789  ls
+  790  ..
+  791  ls
+  792  cd
+  793  clear
+  794  sss numan-tepe@makina
+  795  ssh numan-tepe
+  796  ssh numan-tepe@makina
+  797  ssh n
+  798  ssh numan-tepe@makina 
+  799  who
+  800  whoami
+  801  expr 1 + 2
+  802  expr 4 * 2
+  803  expr 4 \* 2
+  804  expr 4 \\ 2
+  805  expr 4 \/ 2
+  806  max expr
+  807  man expr
+  808  expr length a
+  809  clear
+  810  #!
+  811  clear
+  812  ll
+  813  ls
+  814  la
+  815  open .zshrc.pre-oh-my-zsh
+  816  la
+  817  open .zshrc.pre-oh-my-zsh-2021-05-18_09-28-52
+  818  clear
+  819  ssh numan-tepe@makina
+  820  clear
+  821  exit
+  822  vi
+  823  vim
+  824  vi
+  825  vi 
+  826  rm -f foo.txt
+  827  vi foo.txt
+  828  brew install jenkins-lts
+  829  brew upgrade jenkins-lts
+  830  brew services start jenkins-lts
+  831  clear
+  832  vi foo.txt
+  833  ls -l /usr/bin > ls
+  834  ls -l /usr/bin > ls-output.txt
+  835  ll
+  836  rm -r ls 
+  837  ll
+  838  vi foo.txt ls-output.txt
+  839  ll
+  840  rm -r foo.txt ls-output.txt 
+  841  ll
+  842  cat rumi.txt
+  843  open rumi.txt
+  844  rm -r rumi.txt
+  845  ll
+  846  clear
+  847  la
+  848  clear
+  849  echo $PS1
+  850  clear
+  851  \H
+  852  \a
+  853  locate bin/zip
+  854  exit
+  855  cat /etc/os-release
+  856  ssh numan-tepe@makina
+  857  cmatrix
+  858  clear
+  859  cmatrix
+  860  ssh numan-tepe@makina
+  861  cmatrix
+  862  clear
+  863  /
+  864  ~
+  865  clear
+  866  cal
+  867  exit
+  868  clear
+  869  ll
+  870  cd Desktop
+  871  ll
+  872  rm -r tepe.txt
+  873  ll
+  874  clear
+  875  ss
+  876  ssh numan-tepe@makina
+  877  clear
+  878  cat /etc/passwd
+  879  clear
+  880  cat file1 file2
+  881  cd Desktop
+  882  ls -F
+  883  ls -l
+  884  cp file1...file3 dir
+  885  clear
+  886  touch file 
+  887  ls -l
+  888  grep root /etc/passwd
+  889  grep root /etc/*
+  890  clea
+  891  clear
+  892  alias
+  893  ..
+  894  open .zshrc 
+  895  cl
+  896  source .zshrc
+  897  c
+  898  cl
+  899  history | grep root
+  900  goo
+  901  open .zshrc
+  902  source .zshrc
+  903  cl
+  904  goo
+  905  clear
+  906  unalias cl
+  907  open .zshrc
+  908  cd 
+  909  open .zshrc
+  910  cl
+  911  goo
+  912  cl
+  913  ..
+  914  clear
+  915  alias cl='clear'
+  916  cl
+  917  goo
+  918  cl
+  919  ls
+  920  cd 
+  921  ls
+  922  cd Desktop
+  923  cl
+  924  ll
+  925  file file 
+  926  echo 'Hello!' > file
+  927  file file
+  928  cat file 
+  929  chsh 
+  930  clear
+  931  ..
+  932  c
+  933  cl
+  934  ls -l
+  935  ll
+  936  clear
+  937  passws
+  938  passwd
+  939  clear
+  940  echo $PATH
+  941  cleaer
+  942  cl
+  943  echo $PATH
+  944  man ls
+  945  TMZ
+  946  timezone
+  947  time
+  948  man -k grep
+  949  xzgrep *
+  950  exgrep .
+  951  man 5 passwd
+  952  cl
+  953  emacs
+  954  vim 
+  955  clear
+  956  stat 
+  957  stat file
+  958  stat
+  959  lsattr
+  960  file file
+  961  look big
+  962  look bigger
+  963  c
+  964  cl
+  965  crontab -l
+  966  printenv 
+  967  last
+  968  who -a
+  969  goo
+  970  cd cheat_sheets
+  971  git st
+  972  git add .
+  973  git commit -m 'update'
+  974  git pull
+  975  git st
+  976  git push
+  977  cl
+  978  ..
+  979  cd check_lists
+  980  git pull
+  981  git st
+  982  git ls
+  983  ls
+  984  cd Linux
+  985  ll
+  986  open Switch\ to\ a\ Linux\ OS.md
+  987  cl
+  988  cd
+  989  curl www.google.com
+  990  cl
+  991  curl -I www.google.com
+  992  cl
+  993  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  994  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  995  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  996  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  997  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  998  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+  999  ls
+ 1000  exit
+ 1001  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+ 1002  goo
+ 1003  cd python_tasks
+ 1004  goo
+ 1005  cd python_tasks
+ 1006  git st
+ 1007  git add .
+ 1008  git commit -m 'append, extend, map, lambda'
+ 1009  git push
+ 1010  clear
+ 1011  mysql://user1:userpwd@127.0.0.1:3306/testdb
+ 1012  cd
+ 1013  cl
+ 1014  brew doctor
+ 1015  ddgr
+ 1016  brew config
+ 1017  brew list 
+ 1018  cd Documents
+ 1019  ll
+ 1020  cd Canada_ca
+ 1021  ls
+ 1022  cd cra\ payment
+ 1023  ls
+ 1024  open cra\ payment
+ 1025  open cra\ payment \ 3000.pdf
+ 1026  top
+ 1027  git --version
+ 1028  ll
+ 1029  cl
+ 1030  brew install sourcetree
+ 1031  git --version
+ 1032  cl
+ 1033  git help [push]
+ 1034  git help push
+ 1035  cl
+ 1036  git config
+ 1037  git config -l
+ 1038  brew uninstall sourcetree
+ 1039  clear
+ 1040  git config -l
+ 1041  goo
+ 1042  cd BOTH
+ 1043  git init
+ 1044  ls -al
+ 1045  cl
+ 1046  git st
+ 1047  git add .
+ 1048  git st
+ 1049  git commit -m 'initial commit'
+ 1050  git st
+ 1051  git lg
+ 1052  git push
+ 1053  git lg 
+ 1054  clear
+ 1055  git lg
+ 1056  cl
+ 1057  ..
+ 1058  cd BOTH
+ 1059  cd ..
+ 1060  mkdir atlassian
+ 1061  ls
+ 1062  cd atlassian
+ 1063  cl
+ 1064  brew install sourcetree
+ 1065  git remote --verbose
+ 1066  ..
+ 1067  cd BOTH
+ 1068  ..
+ 1069  cd atlassian
+ 1070  cl
+ 1071  ..
+ 1072  cd atlassian
+ 1073  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions\n
+ 1074  git clone git clone https://fatihtepe@bitbucket.org/fatihtepe/remote_repo.git\n
+ 1075  git remote -iv
+ 1076  git remote -v
+ 1077  goo
+ 1078  cd BOTH
+ 1079  echo 'hi' > fileA.txt
+ 1080  git hash-object fileA.txt
+ 1081  echo 'hi ' > fileA.txt
+ 1082  git hash-object fileA.txt
+ 1083  cl
+ 1084  git l
+ 1085  git lg
+ 1086  git show 50a
+ 1087  lg
+ 1088  clear
+ 1089  lg
+ 1090  git lg
+ 1091  git show HEAD
+ 1092  git st
+ 1093  cd .git
+ 1094  .git$ ls
+ 1095  ls
+ 1096  cd refs
+ 1097  ls
+ 1098  cd heads
+ 1099  ls
+ 1100  cat main
+ 1101  ..
+ 1102  cd BOTH
+ 1103  cl
+ 1104  git lg
+ 1105  cd .git
+ 1106  ls
+ 1107  cat HEAD
+ 1108  git lg
+ 1109  git show HEAD
+ 1110  git show HEAD~
+ 1111  git show HEAD~3
+ 1112  git show HEAD~~~
+ 1113  git show main^
+ 1114  git show HEAD^2
+ 1115  git show HEAD^^
+ 1116  cl
+ 1117  git tag
+ 1118  cl
+ 1119  ..
+ 1120  echo 'feature 1' > fileA.txt
+ 1121  git st
+ 1122  git add .
+ 1123  git lg
+ 1124  cl
+ 1125  git st
+ 1126  git restore --staged .
+ 1127  git st
+ 1128  c
+ 1129  cl
+ 1130  cd ..
+ 1131  ls
+ 1132  rm -r Professional_Certificates
+ 1133  git clone https://github.com/fatihtepe/Professional_Certificates.git
+ 1134  ls
+ 1135  cd Professional_Certificates
+ 1136  ls 
+ 1137  gt st
+ 1138  ls
+ 1139  git st
+ 1140  git add Technical\ Support\ Fundamentals.pdf
+ 1141  git commit -m 'Technical Support Fundamentals.pdf'
+ 1142  git push
+ 1143  git add Version\ Control\ with\ Git.pdf
+ 1144  git commit -m 'Version Control with Git.pdf'
+ 1145  git push
+ 1146  cl
+ 1147  brew uninstall sourcetree
+ 1148  cd 
+ 1149  desktop
+ 1150  ls
+ 1151  rm -r file
+ 1152  clear
+ 1153  ss
+ 1154  ssh numan-tepe@makina
+ 1155  /opt/homebrew/bin/python3.9 /Users/tepe/pyttsx3.py
+ 1156  pip /opt/homebrew/bin/python3.9 /Users/tepe/pyttsx3.py
+ 1157  pip3 install pyttsx3
+ 1158  /opt/homebrew/bin/python3.9 /Users/tepe/pyttsx3.py
+ 1159  pip3 uninstall pyttsx3
+ 1160  clear
+ 1161  /opt/homebrew/bin/python3.9 /Users/tepe/pyttsx3.py
+ 1162  goo
+ 1163  cd BOTH
+ 1164  ls
+ 1165  rm -r Lab_Commit_Local_Repo.pdf Lab_Create_Remote_Repo.pdf Lab_Create_Local_Repo.pdf
+ 1166  ll
+ 1167  rm -r fileA.txt test Lab_references.pdf push_remote-repo.pdf
+ 1168  ll
+ 1169  git st
+ 1170  ll
+ 1171  git add .
+ 1172  git commit -m 'update'
+ 1173  git push
+ 1174  ..
+ 1175  cd cheat_sheets
+ 1176  git pull
+ 1177  git st
+ 1178  clear
+ 1179  ~/Desktop
+ 1180  ls
+ 1181  rm -r Screen\ Shot\ 2021-06-01\ at\ 1.01.14\ PM.png
+ 1182  rm -r Screen\ Shot\ 2021-06-05\ at\ 1.01.14\ PM.png
+ 1183  rm -r Screen\ Shot\ 2021-06-05\ at\ 1.01.53\ PM.png
+ 1184  rm -r Screen\ Shot\ 2021-06-05\ at\ 1.03.06\ PM.png
+ 1185  rm -r Screen\ Shot\ 2021-06-05\ at\ 1.03.33\ PM.png
+ 1186  ll
+ 1187  rm -r 1_lU6CyYUCj15hn5uRLRXLMQ.png
+ 1188  rm -r EN_AWSDevOps_Orientation.pdf
+ 1189  ll
+ 1190  clear
+ 1191  cl
+ 1192  ipconfig
+ 1193  ipconfg/all
+ 1194  ssh ftepe@10.0.0.200
+ 1195  ipconfig
+ 1196  ipconfig subnet mask
+ 1197  ipconfig getiifaddr
+ 1198  clear
+ 1199  configip
+ 1200  ipconfig / all
+ 1201  ipconfig | grep inet
+ 1202  ipconfig | grep set
+ 1203  clear
+ 1204  ipconfig getifaddr en1
+ 1205  goo
+ 1206  git clone https://github.com/fatihtepe/DevOps_RoadMap.git
+ 1207  cd DevOps
+ 1208  ls
+ 1209  ..
+ 1210  ll
+ 1211  cd DevOps_RoadMap
+ 1212  mkdir Network_Basics
+ 1213  ls
+ 1214  git add .
+ 1215  git commit -m 'Nework_Basics Directory'
+ 1216  git push
+ 1217  git st
+ 1218  git lg
+ 1219  cl
+ 1220  rsync --progress --partial --avz /Users/tepe numan-tepe@makina:
+ 1221  
+ 1222  ssh nu
+ 1223  ssh numan-tepe@makina
+ 1224  rsync -av /Users/tepe/Documents numan-tepe@makina:/home/numan-tepe/Documents
+ 1225  clear
+ 1226  ls
+ 1227  cd Pictures
+ 1228  ls
+ 1229  rsync -av /Users/tepe/Pictures  numan-tepe@makina:/home/numan-tepe/Documents
+ 1230  cd 
+ 1231  ls
+ 1232  cd Desktop
+ 1233  ls
+ 1234  clear
+ 1235  mkdir test
+ 1236  ls
+ 1237  mv Screen\ Shot\ 2021-06-06\ at\ 6.5 test
+ 1238  mv Screen\ Shot\ 2021-06-06\ at\ 6.5 .
+ 1239  mv Screen\ Shot\ 2021-06-06\ at\ 6.5 ./test
+ 1240  ls
+ 1241  rsync -av --delete /Users/tepe/Desktop/test  numan-tepe@makina:/home/numan-tepe/Documents
+ 1242  cd test
+ 1243  ls
+ 1244  mkdir test2
+ 1245  ls
+ 1246  cd test2
+ 1247  touch file.txt
+ 1248  ..
+ 1249  cd test
+ 1250  ls
+ 1251  rsync -av --delete /Users/tepe/Desktop/test  numan-tepe@makina:/home/numan-tepe/Documents
+ 1252  ls
+ 1253  cd test2
+ 1254  ls
+ 1255  touch file2.txt
+ 1256  ls
+ 1257  rm 0r file.txt
+ 1258  rm -r file.txt
+ 1259  ls
+ 1260  rsync -av --delete /Users/tepe/Desktop/test  numan-tepe@makina:/home/numan-tepe/Documents
+ 1261  cd ..
+ 1262  ls
+ 1263  rmdir -r test2
+ 1264  ls
+ 1265  rm -r test2
+ 1266  ls
+ 1267  rm 0r Screen\ Shot\ 2021-06-06\ at\ 6.5
+ 1268  rm -r *
+ 1269  ls
+ 1270  cd ..
+ 1271  ls
+ 1272  rsync -av --delete /Users/tepe/Desktop/test  numan-tepe@makina:/home/numan-tepe/Documents
+ 1273  ls
+ 1274  rm -r test
+ 1275  ls
+ 1276  rsync -av --delete /Users/tepe/Desktop/test  numan-tepe@makina:/home/numan-tepe/Documents
+ 1277  ls
+ 1278  clear
+ 1279  docker
+ 1280  history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 10
+ 1281  alias hist='history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 10'
+ 1282  source ~/.zshrc
+ 1283  ..
+ 1284  hist
+ 1285  alias hist='history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 10'
+ 1286  hist
+ 1287  open .
+ 1288  open .zshrc
+ 1289  alias hist='history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 10'
+ 1290  hist
+ 1291  source ~/.zshrc
+ 1292  hist
+ 1293  history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 10
+ 1294  hist 
+ 1295  history | sort | uniq -c | sort -nr | head -n 10
+ 1296  open .zshrc
+ 1297  source ~/.zshrc
+ 1298  clear
+ 1299  brew install htop
+ 1300  htop
+ 1301  top
+ 1302  clear
+ 1303  brew install tmux
+ 1304  tmux
+ 1305  cd desktop
+ 1306  ls
+ 1307  tmux
+ 1308  $tmux
+ 1309  clear
+ 1310  brew uninstall tmux
+ 1311  brw install aws cli
+ 1312  brew install awscli
+ 1313  aws --version
+ 1314  aws
+ 1315  aws help
+ 1316  cleaer
+ 1317  clear
+ 1318  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0606py_tricks.py
+ 1319  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0606py_tricks.py
+ 1320  goo
+ 1321  cd python_tasks
+ 1322  git st
+ 1323  git add .
+ 1324  git commit -m 'string'
+ 1325  git push
+ 1326  cl
+ 1327  cd 
+ 1328  brw install tmux
+ 1329  brew install tmux
+ 1330  wget https://gist.githubusercontent.com/automata/2a3e8a276b2fd05ae13d086422dc4140/raw/b09631ed5255d32a93cd2e1f396ef52631409fcd/tmux.conf -O ~/.tmux.conf
+ 1331  tmux
+ 1332  tmux ls
+ 1333  tmux 0
+ 1334  tmux 1
+ 1335  tmux a
+ 1336  tmux ls
+ 1337  C-b |\ntmux a
+ 1338  clear
+ 1339  ssh
+ 1340  ssh numan-tepe@makina
+ 1341  tmux 
+ 1342  tmux ls
+ 1343  tmux a -t 0
+ 1344  tmux a -t 1
+ 1345  C
+ 1346  C-b |\ntmux a
+ 1347  clear
+ 1348  C-b d
+ 1349  tmux 
+ 1350  clear
+ 1351  %
+ 1352  cl
+ 1353  tmux 
+ 1354  tmux
+ 1355  ls
+ 1356  cl
+ 1357  ssh numan-tepe@makina
+ 1358  cl
+ 1359  tmux ls
+ 1360  tmux a -t 5
+ 1361  $tmux
+ 1362  clear
+ 1363  tmux ls
+ 1364  tmux a -t 5
+ 1365  $tmux
+ 1366  $tmux a -t 5
+ 1367  ssh ftepe@10.0.0.200
+ 1368  goo 
+ 1369  cd cheat_sheets
+ 1370  git pull
+ 1371  ll
+ 1372  open Terraform_readings.md
+ 1373  git pull
+ 1374  ll
+ 1375  git pull
+ 1376  ll
+ 1377  cd Linux
+ 1378  ll
+ 1379  git st
+ 1380  git diff
+ 1381  git diff 
+ 1382  cd ..
+ 1383  git diff
+ 1384  cler
+ 1385  cl
+ 1386  ls
+ 1387  open README.md
+ 1388  git st
+ 1389  gid diff
+ 1390  git diff
+ 1391  git checkout -- README.md
+ 1392  git st
+ 1393  open README.md
+ 1394  exit
+ 1395  goo
+ 1396  git clone https://github.com/fatihtepe/cybersecurity.md.git
+ 1397  cd cybersecurity.md
+ 1398  git pull
+ 1399  cd ..
+ 1400  ls
+ 1401  cd cybersecurity.md
+ 1402  git fetch
+ 1403  git pull
+ 1404  ll
+ 1405  open cybersecurity_readings.md
+ 1406  ..
+ 1407  ls
+ 1408  cd DevOps_RoadMap
+ 1409  ll
+ 1410  cd Network_Basics
+ 1411  touch network_radings.md
+ 1412  open network_radings.md
+ 1413  git st
+ 1414  git 
+ 1415  git st
+ 1416  ll
+ 1417  open network_radings.md
+ 1418  git st 
+ 1419  ls
+ 1420  open network_radings.md
+ 1421  git add .
+ 1422  git st
+ 1423  git commit -m 'What’s the Difference Between a Hub, a Switch, and a Router?string'
+ 1424  git st 
+ 1425  git push
+ 1426  caffeinate -t 60
+ 1427  brew install youtube-dl
+ 1428  sudo write /Library/Preferences/com.apple.loginwindow LoginwindowText "Hello Cloud and DevOps Engineer Fatih"
+ 1429  curl http://wttr.in/
+ 1430  curl http://wttr.in/waterloo
+ 1431  clear
+ 1432  defaults write com.apple.screencapture location /User/tepe/Pictures/secreen\shots
+ 1433  cd Desktop
+ 1434  mkdir screen
+ 1435  defaults write com.apple.screencapture location /User/tepe/Desktop/secreen
+ 1436  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0607lambda.py
+ 1437  pwd
+ 1438  goo
+ 1439  cd python_tasks
+ 1440  git st
+ 1441  git add .
+ 1442  git commit -m 'lambda expressions in python'
+ 1443  git push
+ 1444  clear
+ 1445  goo
+ 1446  cd
+ 1447  goo
+ 1448  cd Professional_Certificates
+ 1449  git st
+ 1450  git add .
+ 1451  git commit -m 'Agile with Atlassian Jira Certificate'
+ 1452  git push
+ 1453  git fetch
+ 1454  git pull
+ 1455  git st
+ 1456  git push
+ 1457  clear
+ 1458  cd
+ 1459  cd Desktop
+ 1460  ../Downloads
+ 1461  ls
+ 1462  open Network_Temelleri.pdf
+ 1463  ll
+ 1464  clear
+ 1465  goo
+ 1466  cd DevOps_RoadMap
+ 1467  git pull
+ 1468  ll
+ 1469  cd Network_Basics
+ 1470  ll
+ 1471  open Computer\ Networking\ Terminology.md
+ 1472  clear
+ 1473  git st
+ 1474  git add .
+ 1475  git commit -m 'Computer Networking Terminology update'
+ 1476  git push
+ 1477  git st
+ 1478  ll
+ 1479  open Computer\ Networking\ Terminology.md
+ 1480  git st
+ 1481  rm -r .Computer\ Networking\ Terminology.md.swp
+ 1482  ll
+ 1483  la
+ 1484  git st
+ 1485  git add .
+ 1486  git commit -m 'Computer Networking Terminology update'
+ 1487  git push
+ 1488  git st
+ 1489  git add .
+ 1490  git commit -m 'Computer Networking Terminology update'
+ 1491  git push
+ 1492  clear
+ 1493  git st
+ 1494  git add .
+ 1495  git commit -m 'Computer Networking Terminology update'
+ 1496  git push
+ 1497  git st
+ 1498  git add .
+ 1499  git commit -m 'Computer Networking Terminology update'
+ 1500  git push
+ 1501  git st
+ 1502  git add .
+ 1503  git commit -m 'Computer Networking Terminology update'
+ 1504  git push
+ 1505  git st
+ 1506  git add .
+ 1507  git commit -m 'Computer Networking Terminology update'
+ 1508  git push
+ 1509  git add .
+ 1510  git commit -m 'Computer Networking Terminology update'
+ 1511  git push
+ 1512  git commit -am 'Computer Networking Terminology update'
+ 1513  gt st
+ 1514  git st
+ 1515  git commit -am 'Computer Networking Terminology update'
+ 1516  git push
+ 1517  git commit -am 'Computer Networking Terminology update'
+ 1518  git st
+ 1519  git commit -am 'Computer Networking Terminology update'
+ 1520  git push
+ 1521  git st
+ 1522  git commit -am 'Computer Networking Terminology update'
+ 1523  git push
+ 1524  git st
+ 1525  git commit -am 'Computer Networking Terminology update'
+ 1526  git push
+ 1527  clear
+ 1528  git st
+ 1529  clear
+ 1530  cl
+ 1531  git st
+ 1532  ssh numan-tepe@makina
+ 1533  tux
+ 1534  history | grep tux
+ 1535  clear
+ 1536  history
+ 1537  tmux
+ 1538  clear
+ 1539  anaconda -V
+ 1540  python -v
+ 1541  python --version
+ 1542  brew uninstall Python 2.7.16
+ 1543  python3 --version
+ 1544  brew uninstall anaconda
+ 1545  brew install python3
+ 1546  brew reinstall python@3.9
+ 1547  python3 --version
+ 1548  python --version
+ 1549  which -a python
+ 1550  which -a vscode
+ 1551  vscode
+ 1552  which -a code
+ 1553  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1554  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1555  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1556  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1557  clear
+ 1558  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1559  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1560  code --version
+ 1561  pip3 install flask
+ 1562  -m pip install --upgrade pip
+ 1563  pip3 install --upgrade pip
+ 1564  pip3 install flask
+ 1565  flask --version
+ 1566  pip --version
+ 1567  piplist
+ 1568  pip list
+ 1569  pip3 list
+ 1570  clear
+ 1571  flask --version
+ 1572  brew unistall code
+ 1573  brew uninstall code
+ 1574  code --version
+ 1575  open .vscode
+ 1576  clear
+ 1577  rm -rf $HOME/Library/Application\ Support/Code
+ 1578  rm -rf $HOME/.vscode
+ 1579  code --version
+ 1580  rm -rf $HOME/Library/Application\ Support/Code
+ 1581  rm -rf $HOME/.vscode
+ 1582  code --version
+ 1583  brew install code
+ 1584  brew install vscode
+ 1585  sudo rm -rf $HOME/Library/Application\ Support/Code\ -\ Insiders/
+ 1586  sudo rm -rf $HOME/.vscode-insiders/
+ 1587  clear
+ 1588  code --version
+ 1589  brew un
+ 1590  rm -rf $HOME/Library/Application\ Support/Code
+ 1591  sudo rm -rf $HOME/.vscode-insiders/
+ 1592  clear
+ 1593  code --version
+ 1594  python3 --version
+ 1595  brew install --cask visual-studio-code\n
+ 1596  brew reinstall visual-studio-code
+ 1597  which -a python3
+ 1598  which -a visual-studio-code
+ 1599  which -a code
+ 1600  /opt/homebrew/opt/python@3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1601  /opt/homebrew/opt/python@3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1602  pwd
+ 1603  python /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1604  pwd
+ 1605  clear
+ 1606  pwd
+ 1607  cd Deskto
+ 1608  cd Desktop
+ 1609  ls
+ 1610  mkdir test
+ 1611  ls
+ 1612  cd test
+ 1613  clear
+ 1614  ..
+ 1615  ls
+ 1616  cd GitHub
+ 1617  ls
+ 1618  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 1619  ls
+ 1620  cd clarusway-aws-8-21
+ 1621  ls
+ 1622  clear
+ 1623  ls
+ 1624  pwd
+ 1625  cd Desktop
+ 1626  ls
+ 1627  cd GitHub
+ 1628  ls
+ 1629  cd clarusway-aws-8-21
+ 1630  ls
+ 1631  git pull
+ 1632  clkeare
+ 1633  clear
+ 1634  git pull
+ 1635  ls
+ 1636  ..
+ 1637  ls
+ 1638  git clone https://github.com/fatihtepe/aws_path.git
+ 1639  ls
+ 1640  cd aws_path
+ 1641  ls
+ 1642  ..
+ 1643  ls
+ 1644  cd clarusway-aws-8-21
+ 1645  git pull 
+ 1646  cd ..
+ 1647  ls
+ 1648  touch deneme.txt
+ 1649  ls
+ 1650  cd aws_path
+ 1651  git status
+ 1652  git add deneme.txt
+ 1653  git statu
+ 1654  git status
+ 1655  git commit -m 'first assignment'
+ 1656  git status
+ 1657  git push
+ 1658  ..
+ 1659  ls
+ 1660  cd clarusway-aws-8-21
+ 1661  git pull
+ 1662  ..
+ 1663  cd clarusway-aws-8-21
+ 1664  ls
+ 1665  cd ..
+ 1666  cd aws_path
+ 1667  git st
+ 1668  touch deneme2.txt
+ 1669  git status
+ 1670  git add .
+ 1671  git commit -m 'second assignment'
+ 1672  git st
+ 1673  git push
+ 1674  ls
+ 1675  mv deneme.txt deneme2.txt
+ 1676  git st
+ 1677  git add.
+ 1678  git add .
+ 1679  git commit -m 'delete test files'
+ 1680  git push
+ 1681  cd ..
+ 1682  ls
+ 1683  rm -rf aws_path
+ 1684  ls
+ 1685  cd AWS
+ 1686  ls
+ 1687  clear
+ 1688  ..
+ 1689  clear
+ 1690  pip3 list
+ 1691  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1692  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1693  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1694  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1695  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1696  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1697  pwd
+ 1698  clear
+ 1699  python3 --version
+ 1700  python3 list
+ 1701  code list
+ 1702  which -a code
+ 1703  /
+ 1704  ls
+ 1705  cd opt
+ 1706  ls
+ 1707  rm -rf anaconda3
+ 1708  cd homebrew 
+ 1709  ls
+ 1710  cd bin 
+ 1711  ls
+ 1712  cd code
+ 1713  open code 
+ 1714  brew unistall code
+ 1715  open /Users/tepe/.zshrc
+ 1716  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1717  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1718  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1719  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1720  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1721  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1722  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1723  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1724  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1725  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1726  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1727  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1728  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1729  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1730  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1731  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1732  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1733  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1734  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1735  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1736  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1737  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1738  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1739  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1740  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1741  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1742  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1743  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1744  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1745  clear
+ 1746  ls
+ 1747  pwd
+ 1748  clear
+ 1749  open .z
+ 1750  open .zshrc
+ 1751  zsh
+ 1752  ls
+ 1753  cd homebrew
+ 1754  ls
+ 1755  ..
+ 1756  cd path
+ 1757  ls
+ 1758  ..
+ 1759  cd bin
+ 1760  ls
+ 1761  ..
+ 1762  ls
+ 1763  cd 
+ 1764  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1765  clear
+ 1766  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1767  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1768  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1769  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1770  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1771  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1772  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1773  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1774  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1775  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1776  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1777  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1778  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1779  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1780  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1781  open .zshrc
+ 1782  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1783  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1784  clear
+ 1785  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1786  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1787  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1788  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1789  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1790  clear
+ 1791  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1792  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1793  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1794  open .zhrsc
+ 1795  ls la
+ 1796  ls -al
+ 1797  vim .zshrec
+ 1798  vim .zshrc
+ 1799  clear
+ 1800  cd Desktop/GitHub/VSCODE/PYTHON
+ 1801  cd desktop
+ 1802  cleaer
+ 1803  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1804  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1805  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1806  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1807  open .zhrsc
+ 1808  vim .zshrc
+ 1809  clear
+ 1810  open .zhrsc
+ 1811  vim .zshrc
+ 1812  clear
+ 1813  vim .zshrc
+ 1814  +
+ 1815  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1816  vim .zshrc
+ 1817  vim .oh-my-zsh
+ 1818  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1819  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1820  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1821  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1822  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1823  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1824  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1825  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1826  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1827  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1828  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1829  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1830  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1831  clear
+ 1832  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1833  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1834  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1835  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1836  ls
+ 1837  cd homebrew
+ 1838  ls
+ 1839  cd bin
+ 1840  ls
+ 1841  cd sbin
+ 1842  ..
+ 1843  cd sbin
+ 1844  ls
+ 1845  /
+ 1846  ls
+ 1847  cd bin
+ 1848  ls
+ 1849  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1850  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1851  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1852  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1853  brew unistall code
+ 1854  rm -rf $HOME/Library/Application\ Support/Code
+ 1855  rm -rf $HOME/.vscode
+ 1856  rm -fr ~/.vscode/
+ 1857  clear
+ 1858  rm -fr ~/Library/Preferences/com.microsoft.VSCode.helper.plist 
+ 1859  rm -fr ~/Library/Preferences/com.microsoft.VSCode.plist 
+ 1860  rm -fr ~/Library/Caches/com.microsoft.VSCode
+ 1861  rm -fr ~/Library/Caches/com.microsoft.VSCode.ShipIt/
+ 1862  rm -fr ~/Library/Application\ Support/Code/
+ 1863  rm -fr ~/Library/Saved\ Application\ State/com.microsoft.VSCode.savedState/
+ 1864  rm -fr ~/.vscode/
+ 1865  clear
+ 1866  code --version
+ 1867  open .zhrsc
+ 1868  vim .zshrc
+ 1869  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1870  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1871  clear
+ 1872  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1873  rm -fr ~/.vscode/
+ 1874  rm -rf $HOME/Library/Application\ Support/Code
+ 1875  clear
+ 1876  chsh -s /bin/zsh
+ 1877  brew install --cask visual-studio-code
+ 1878  brew uninstall visual-studio-code
+ 1879  clear
+ 1880  brew uninstall visual-studio-code
+ 1881  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1882  clear
+ 1883  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1884  clear
+ 1885  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1886  echo $SHELL
+ 1887  brew uninstall visual-studio-code
+ 1888  brew uninstall python3
+ 1889  brew uninstall --ignore-dependencies python3
+ 1890  uninstall_oh_my_zsh
+ 1891  clear
+ 1892  ls
+ 1893  echo $SHELL
+ 1894  open .zshrc
+ 1895  pip3 list
+ 1896  clear
+ 1897  python --version
+ 1898  python3 --version
+ 1899  brew install python3
+ 1900  python3 --version
+ 1901  brew install --cask visual-studio-code
+ 1902  code --version
+ 1903  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1904  clear
+ 1905  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1906  cler
+ 1907  clear
+ 1908  /usr/local/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1909  cd desktop
+ 1910  ls
+ 1911  pwd
+ 1912  cd 
+ 1913  cd desktop
+ 1914  ls
+ 1915  pip3 --version
+ 1916  brew install pip3
+ 1917  history | grep pip
+ 1918  pip3 install --upgrade pip
+ 1919  clear
+ 1920  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1921  clear
+ 1922  open .zshrc
+ 1923  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1924  cd desktop
+ 1925  cd ..
+ 1926  cd
+ 1927  ls
+ 1928  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1929  chsh -s /bin/zsh
+ 1930  brew install --cask visual-studio-code
+ 1931  chsh -s /usr/local/bin/zsh
+ 1932  chsh -s /bin/zsh
+ 1933  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1934  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1935  open .zshrc
+ 1936  open .zshrc
+ 1937  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 1938  rm -r path/to/new/ohmyzsh/folder
+ 1939  rm -rf path/to/new/ohmyzsh/folder
+ 1940  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 1941  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1942  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1943  open .zshrc
+ 1944  clear
+ 1945  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1946  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1947  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1948  clar
+ 1949  open .zhrc
+ 1950  open .zshrc
+ 1951  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1952  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1953  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1954  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1955  open .zshrc
+ 1956  vi .zshrc
+ 1957  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1958  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1959  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1960  echo $SHELL
+ 1961  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1962  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1963  '/var/folders/y4/m2m4bsx95273x2kf7tkg_0sw0000gn/T/TemporaryItems/NSIRD_screencaptureui_GVStnu/Screen Shot 2021-06-08 at 7.36.29 PM.png'
+ 1964  python3 --version
+ 1965  clear
+ 1966  pip3 --version
+ 1967  pip3 list
+ 1968  clear
+ 1969  flask --version
+ 1970  open .zshrc
+ 1971  echo $SHELL 
+ 1972  clear
+ 1973  ..
+ 1974  cd ..
+ 1975  ls
+ 1976  cd DevOps_RoadMap
+ 1977  git status
+ 1978  ls
+ 1979  cd ..
+ 1980  ls
+ 1981  clear
+ 1982  ls
+ 1983  cd cybersecurity.md
+ 1984  ls
+ 1985  touch test.txt
+ 1986  ls
+ 1987  git status
+ 1988  clear
+ 1989  open .zshrc
+ 1990  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1991  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1992  open .zshrc
+ 1993  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1994  clear
+ 1995  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1996  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1997  clear
+ 1998  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 1999  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2000  clear
+ 2001  brew install --cask zsh -- Python
+ 2002  brew install --cask zsh 
+ 2003  clear
+ 2004  brew doctor
+ 2005  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2006  list python
+ 2007  list python3
+ 2008  python --version
+ 2009  python3 --version
+ 2010  clear
+ 2011  brew doctor
+ 2012  sudo vi /etc/paths
+ 2013  clear
+ 2014  brew doctor
+ 2015  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+ 2016  clear
+ 2017  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2018  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/051321.py
+ 2019  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2020  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2021  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2022  goo
+ 2023  alia
+ 2024  alias
+ 2025  ll
+ 2026  ls
+ 2027  clear
+ 2028  alias
+ 2029  clear
+ 2030  brew install romkatv/powerlevel10k/powerlevel10k
+ 2031  brew reinstall powerlevel10k
+ 2032  p10k configure
+ 2033  type p10k configure.
+ 2034  type p10k configure
+ 2035  p10k configure
+ 2036  ~/.p10k.zsh
+ 2037  cd .p10k.zsh
+ 2038  clear
+ 2039  p10k configure
+ 2040  brew install romkatv/powerlevel10k/powerlevel10k
+ 2041  brew reinstall powerlevel10k
+ 2042  p10k configure
+ 2043  open .zshrc
+ 2044  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2045  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2046  cd Desktop
+ 2047  cd GitHub
+ 2048  ls
+ 2049  pwd
+ 2050  touch test.txt
+ 2051  git status
+ 2052  cd..
+ 2053  cd ..
+ 2054  ls
+ 2055  cd python_tasks
+ 2056  ls
+ 2057  clear
+ 2058  echo $SHELL
+ 2059  cd clarusway-aws-8-21
+ 2060  ls 
+ 2061  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2062  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2063  clear
+ 2064  cd ..
+ 2065  cd clarusway-aws-8-21/f
+ 2066  cd clarusway-aws-8-21/
+ 2067  git status
+ 2068  ls
+ 2069  claer
+ 2070  clear
+ 2071  clear
+ 2072  lear
+ 2073  clear
+ 2074  cd desktop
+ 2075  clear
+ 2076  cd ..
+ 2077  clear
+ 2078  cd
+ 2079  cleaer
+ 2080  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2081  clear
+ 2082  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2083  clear
+ 2084  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/MY-WORKSPACE/test1.py
+ 2085  clear
+ 2086  cd 
+ 2087  cd Desktop
+ 2088  cd GitHub
+ 2089  ls
+ 2090  cd learn_python
+ 2091  ls
+ 2092  clear
+ 2093  cd ..
+ 2094  cd
+ 2095  clear
+ 2096  cd Desktop
+ 2097  ls
+ 2098  cd GitHub
+ 2099  ls
+ 2100  clear
+ 2101  ls
+ 2102  clear
+ 2103  cd MY-WORKSPACE
+ 2104  ls
+ 2105  ..
+ 2106  ls
+ 2107  rm -r MY-WORKSPACE
+ 2108  ll
+ 2109  clear
+ 2110  la
+ 2111  clear
+ 2112  ls
+ 2113  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/050321_pc.py
+ 2114  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/import_os_clear.py
+ 2115  clear
+ 2116  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/import_os_clear.py
+ 2117  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/import_os_clear.py
+ 2118  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052721.py
+ 2119  clear
+ 2120  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052721.py
+ 2121  /opt/homebrew/bin/python3 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+ 2122  clear
+ 2123  cd 
+ 2124  clear
+ 2125  cd desktop
+ 2126  ls
+ 2127  cd GitHub
+ 2128  clear
+ 2129  ..
+ 2130  cd ..
+ 2131  cd
+ 2132  ssh numan-tepe@makina
+ 2133  ssh ftepe@10.0.0200
+ 2134  ssh ftepe@10.0.0.200
+ 2135  clear
+ 2136  ls
+ 2137  rm -r remote_repo
+ 2138  rm -rf remote_repo pyttsx3 pyttsx3.py AWSCLIV2.pkg
+ 2139  clear
+ 2140  cd clarusway-it-fundamentals-8-21
+ 2141  git fetch
+ 2142  git pull
+ 2143  clear
+ 2144  brew install fonts-powerline
+ 2145  clear
+ 2146  clear
+ 2147  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+ 2148  clear
+ 2149  open .zshrc
+ 2150  cd desktop
+ 2151  cd GitHub
+ 2152  cd VSCODE
+ 2153  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+ 2154  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/052921.py
+ 2155  clear
+ 2156  clear
+ 2157  git st
+ 2158  cl
+ 2159  clear
+ 2160  open .zshrc
+ 2161  vi .zshrc
+ 2162  open .zshrc
+ 2163  pwd
+ 2164  ls
+ 2165  cd Desktop
+ 2166  cd GitHub
+ 2167  ls
+ 2168  cd clarusway-aws-8-21
+ 2169  git st
+ 2170  clear
+ 2171  cd ..
+ 2172  history | grep 10
+ 2173  p10k configure
+ 2174  cd 
+ 2175  history | grep p10k
+ 2176  brew install romkatv/powerlevel10k/powerlevel10k\n
+ 2177  open .p10k.zsh
+ 2178  clear
+ 2179  find / -name "rvm"
+ 2180  ls -a
+ 2181  clear
+ 2182  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/050321_pc.py
+ 2183  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2184  cd ..
+ 2185  clearr
+ 2186  clear
+ 2187  cd ..
+ 2188  ls
+ 2189  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0520py_tricks.py
+ 2190  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0604py_tricks.py
+ 2191  clear
+ 2192  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/042221_pc_loops.py
+ 2193  clear
+ 2194  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0606py_tricks.py
+ 2195  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/filter.py
+ 2196  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/if-else.py
+ 2197  clear
+ 2198  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2199  rm -r path/to/new/ohmyzsh/folder
+ 2200  rm -rf path/to/new/ohmyzsh/folder
+ 2201  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2202  clear
+ 2203  cd desktop
+ 2204  clear
+ 2205  open .zshrc
+ 2206  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0606py_tricks.py
+ 2207  clear
+ 2208  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0606py_tricks.py
+ 2209  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/fizzbuzz.py
+ 2210  open .zshrc
+ 2211  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/if-else.py
+ 2212  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/filter.py
+ 2213  clear
+ 2214  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/filter.py
+ 2215  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/filter.py
+ 2216  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/VSCODE/PYTHON/050121_ic.py
+ 2217  cd ..
+ 2218  clear
+ 2219  cd 
+ 2220  clear
+ 2221  cd ..
+ 2222  clear
+ 2223  cd 
+ 2224  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/py_tricks1.py
+ 2225  clear
+ 2226  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2227  cd ..
+ 2228  clear
+ 2229  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/GitHub/python_tasks/0521py_tricks.py
+ 2230  clear
+ 2231  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2232  ls
+ 2233  mkdir test
+ 2234  ls
+ 2235  cd test
+ 2236  touch test.py
+ 2237  ls
+ 2238  cd 
+ 2239  open .zshrc.pre-oh-my-zsh
+ 2240  clear
+ 2241  cd ..
+ 2242  clear
+ 2243  p10k configure
+ 2244  clear
+ 2245  open .zshrc
+ 2246  cd Desktop
+ 2247  ls
+ 2248  clear
+ 2249  /opt/homebrew/bin/python3.9 /Users/tepe/test/test.py
+ 2250  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2251  clear 
+ 2252  cd desktop
+ 2253  ls
+ 2254  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 /Users/tepe/Desktop/GitHub/learn_python/filter.py
+ 2255  PWD
+ 2256  pwd
+ 2257  git clone https://github.com/fatihtepe/MY-WORKSPACE.git
+ 2258  ls
+ 2259  cd MY-WORKSPACE
+ 2260  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test.py
+ 2261  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 2262  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test2.py
+ 2263  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 2264  clear
+ 2265  cd 
+ 2266  ls
+ 2267  cd Desktop/GitHub
+ 2268  ls
+ 2269  cd cybersecurity.md
+ 2270  ..
+ 2271  cd cheat_sheets
+ 2272  ..
+ 2273  cd check_lists
+ 2274  ..
+ 2275  cd python_tasks
+ 2276  clear
+ 2277  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/testt/test.py
+ 2278  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 2279  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test2.py
+ 2280  tree -C
+ 2281  clear
+ 2282  tree -C
+ 2283  clear
+ 2284  ls
+ 2285  cd 
+ 2286  pwd
+ 2287  ls
+ 2288  cd MY-WORKSPACE
+ 2289  ls
+ 2290  rm -r test.py test2.py
+ 2291  ls
+ 2292  clear
+ 2293  cd path
+ 2294  ls
+ 2295  cd ..
+ 2296  lear
+ 2297  cd 
+ 2298  cd MY-WORKSPACE
+ 2299  ls
+ 2300  cd 
+ 2301  cd MY-WORKSPACE
+ 2302  ls
+ 2303  ..
+ 2304  touch test.py
+ 2305  /opt/homebrew/bin/python3.9 /Users/tepe/test.py
+ 2306  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/beginnerspython3/chapter01/hello.py
+ 2307  clear
+ 2308  cd deneme
+ 2309  touch test.py
+ 2310  /opt/homebrew/bin/python3.9 /Users/tepe/deneme/test.py
+ 2311  /opt/homebrew/bin/python3.9 /Users/tepe/deneme/test.py
+ 2312  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 2313  /opt/homebrew/bin/python3.9 /Users/tepe/deneme/test.py
+ 2314  touch test.py
+ 2315  /opt/homebrew/bin/python3.9 /Users/tepe/test.py
+ 2316  clear
+ 2317  ls
+ 2318  rm -r test.py
+ 2319  clear
+ 2320  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test.py
+ 2321  clear
+ 2322  cd Pictures
+ 2323  ls
+ 2324  mkdir screen_shots
+ 2325  ls
+ 2326  cd
+ 2327  clear
+ 2328  ll
+ 2329  chmod 755 GitHub
+ 2330  ll
+ 2331  clear
+ 2332  cd MY-WORKSPACE
+ 2333  ls
+ 2334  touch .gitignore
+ 2335  ll
+ 2336  la
+ 2337  open .gitignore
+ 2338  cd path
+ 2339  pwd
+ 2340  cd ..
+ 2341  ls
+ 2342  git st
+ 2343  git add .
+ 2344  git status
+ 2345  git restore --staged .
+ 2346  git status
+ 2347  git st
+ 2348  clear
+ 2349  ls
+ 2350  rm -rf test.py
+ 2351  ls
+ 2352  rm -rf path
+ 2353  ls
+ 2354  claer
+ 2355  clear
+ 2356  ls
+ 2357  cd path
+ 2358  ls
+ 2359  cd to
+ 2360  ls
+ 2361  cd new
+ 2362  ls
+ 2363  cd ohmyzsh
+ 2364  ls
+ 2365  cd folder
+ 2366  ls
+ 2367  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2368  tmux
+ 2369  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test.py
+ 2370  clear
+ 2371  p10k configure
+ 2372  open .zshrc
+ 2373  aws
+ 2374  $AWS_PROFILE
+ 2375  asp
+ 2376  $AWS_PROFILE
+ 2377  $AWS_DEFAULT_PROFILE
+ 2378  asp
+ 2379  clear
+ 2380  agp
+ 2381  clear
+ 2382  agp
+ 2383  aws_profiles
+ 2384  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test.py
+ 2385  cd GitHub
+ 2386  ls
+ 2387  cd DevOps_RoadMap
+ 2388  git status
+ 2389  git add Network_Basics/Computer\ Networking\ Terminology.md
+ 2390  git commit -m 'Hub, Switch'
+ 2391  git push
+ 2392  git status
+ 2393  cd GitHub
+ 2394  ls
+ 2395  cd clarusway-aws-8-21
+ 2396  git fetch
+ 2397  git pull
+ 2398  ls
+ 2399  cd network-basics
+ 2400  ls
+ 2401  open 04_The-Current-Ethernet-Specifications.pdf
+ 2402  clear
+ 2403  git st
+ 2404  git status
+ 2405  ls
+ 2406  cd
+ 2407  cd GitHub
+ 2408  ls
+ 2409  cd DevOps_RoadMap
+ 2410  ls
+ 2411  cd Network_Basics
+ 2412  git status
+ 2413  git add .
+ 2414  git commit -m 'update terms'
+ 2415  git push
+ 2416  git status
+ 2417  clear
+ 2418  ls
+ 2419  git status
+ 2420  git add .
+ 2421  git commit -m 'update terms Collosion Domain Broadcast domain'
+ 2422  git push
+ 2423  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/VSCODE/PYTHON/041421_preclass.py
+ 2424  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test/test2.py
+ 2425  cleaer
+ 2426  clear
+ 2427  ls
+ 2428  rm -rf test
+ 2429  ls
+ 2430  cd Desktop
+ 2431  ..
+ 2432  cd GitHub
+ 2433  ls
+ 2434  cd DevOps_RoadMap
+ 2435  ls
+ 2436  ll
+ 2437  cd Network_Basics
+ 2438  ls
+ 2439  ll
+ 2440  cd ..
+ 2441  ..
+ 2442  ls
+ 2443  cd ..
+ 2444  cd MY-WORKSPACE
+ 2445  ls
+ 2446  ll
+ 2447  la
+ 2448  vi .gitignore
+ 2449  pwd
+ 2450  vi .gitignore
+ 2451  git st
+ 2452  vi .gitignore
+ 2453  git st
+ 2454  git add .
+ 2455  git status
+ 2456  git commit -m 'update'
+ 2457  git push
+ 2458  git rm --cached test.py
+ 2459  git status
+ 2460  git rm --cached path
+ 2461  vi .gitignore
+ 2462  git st
+ 2463  git add .
+ 2464  git commit -m 'ignore test.py'
+ 2465  git push
+ 2466  git pull
+ 2467  ll
+ 2468  ls
+ 2469  touch test.py
+ 2470  git status
+ 2471  vi .gitignore
+ 2472  git add .
+ 2473  git commit -m 'test'
+ 2474  git push
+ 2475  vi .gitignore
+ 2476  git status
+ 2477  ll
+ 2478  la
+ 2479  pwd
+ 2480  cd MY-WORKSPACE
+ 2481  ls
+ 2482  mkdir test
+ 2483  ls
+ 2484  la
+ 2485  git rm --cached
+ 2486  git pull
+ 2487  ls
+ 2488  ll
+ 2489  touch test.py
+ 2490  vi .gitignore
+ 2491  git status
+ 2492  cd test
+ 2493  touc tepe.txt
+ 2494  touch tepe.txt
+ 2495  ..
+ 2496  git status
+ 2497  git add .
+ 2498  git commit -m 'test'
+ 2499  git push
+ 2500  git pull
+ 2501  vi .gitignore
+ 2502  touch test.py
+ 2503  git status
+ 2504  cat .gitignore
+ 2505  vi .gitignore
+ 2506  git status
+ 2507  ll
+ 2508  git add .
+ 2509  git commit -m 'update'
+ 2510  git push
+ 2511  touch test2.txt
+ 2512  git status
+ 2513  vi .gitignore
+ 2514  git status
+ 2515  git add .
+ 2516  git commit -m 'update'
+ 2517  git push
+ 2518  vi .gitignore
+ 2519  mkdir tepe
+ 2520  ls
+ 2521  git status
+ 2522  cd tepe
+ 2523  touch testtest.txt
+ 2524  ..
+ 2525  git status
+ 2526  ls
+ 2527  cd MY-WORKSPACE
+ 2528  ls
+ 2529  cd tepe 
+ 2530  ls
+ 2531  mkdir test2
+ 2532  cd test2
+ 2533  touch testtesttest.txt
+ 2534  ..
+ 2535  ls
+ 2536  ..
+ 2537  ls
+ 2538  cd tepe
+ 2539  ls
+ 2540  ..
+ 2541  vi .gitignore
+ 2542  git status
+ 2543  git add .
+ 2544  git commit -m 'update'
+ 2545  git push
+ 2546  ls
+ 2547  cd tepe
+ 2548  ls
+ 2549  ..
+ 2550  ls
+ 2551  tree -C
+ 2552  vi .gitignore
+ 2553  git pull
+ 2554  ls
+ 2555  rm -rf tepe test.py test2.txt
+ 2556  ls
+ 2557  vi .gitignore
+ 2558  git status
+ 2559  git push .
+ 2560  clear
+ 2561  ls
+ 2562  cd MY-WORKSPACE
+ 2563  git pull
+ 2564  git status
+ 2565  clear
+ 2566  vi .gitignore
+ 2567  ls
+ 2568  cd GitHub
+ 2569  git clone https://github.com/fatihtepe/Clarusway_private.git
+ 2570  ls
+ 2571  cd Clarusway_private
+ 2572  ls
+ 2573  git status
+ 2574  git add .
+ 2575  git commit -m 'clarusway private repo'
+ 2576  git push
+ 2577  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+ 2578  open .zshrc
+ 2579  clear
+ 2580  cd 
+ 2581  ls
+ 2582  cd MY-WORKSPACE
+ 2583  ls
+ 2584  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+ 2585  cd MY-WORKSPACE
+ 2586  ls
+ 2587  cd MY-WORKSPACE
+ 2588  cd 
+ 2589  ll
+ 2590  cd D
+ 2591  cd GitHub
+ 2592  clear
+ 2593  ls
+ 2594  open .zshrc
+ 2595  cd .oh-my-zsh/custom/plugins
+ 2596  ~/.oh-my-zsh/custom/plugins
+ 2597  ls
+ 2598  la
+ 2599  cd GitHub
+ 2600  ls
+ 2601  cd homebrew_essentials
+ 2602  git pull
+ 2603  gid diff
+ 2604  clear
+ 2605  p10k configure
+ 2606  clear
+ 2607  cd GitHub
+ 2608  ls
+ 2609  cd Clarusway_private
+ 2610  ls
+ 2611  git status
+ 2612  cd aw
+ 2613  cd aws
+ 2614  ls
+ 2615  git st
+ 2616  git add .
+ 2617  git commit -m 'Clarusway Interview Qeustions'
+ 2618  git push
+ 2619  git status
+ 2620  ls
+ 2621  git status
+ 2622  git status
+ 2623  clear
+ 2624  git doctor
+ 2625  brwe doctor
+ 2626  brew doctor
+ 2627  vscode
+ 2628  /usr/local/bin/
+ 2629  ls
+ 2630  cd 
+ 2631  berw install code
+ 2632  brew install code 
+ 2633  brew install vscode 
+ 2634  brew install
+ 2635  brew list visual-studio-co
+ 2636  brew list visual-studio-code
+ 2637  brew list
+ 2638  /usr
+ 2639  ls
+ 2640  cd lib
+ 2641  ls
+ 2642  ..
+ 2643  local
+ 2644  brew doctor
+ 2645  /opt/homebrew/bin/python3.9 /Users/tepe/MY-WORKSPACE/test.py
+ 2646  /opt/homebrew/bin/python3.9 /Users/tepe/Desktop/library/test.py
+ 2647  cd GitHub
+ 2648  ls
+ 2649  cd clarusway-aws-8-21
+ 2650  git fetch
+ 2651  git diff
+ 2652  git pull
+ 2653  git fetch origin
+ 2654  git log origin/main
+ 2655  cd GitHub
+ 2656  ls
+ 2657  cd clarusway-aws-8-21
+ 2658  ls
+ 2659  git status
+ 2660  git add .
+ 2661  git commit -m 'DevOps Sources'
+ 2662  cd ..
+ 2663  ls
+ 2664  cd clarusway-aws-8-21
+ 2665  ls
+ 2666  clear
+ 2667  git log
+ 2668  git reset --hard HEAD^
+ 2669  git log
+ 2670  git push -f origin HEAD^:main
+ 2671  git stash
+ 2672  git push --force
+ 2673  clear
+ 2674  git pull
+ 2675  ls
+ 2676  cd MY-WORKSPACE
+ 2677  ls
+ 2678  ..
+ 2679  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/test.py
+ 2680  clear
+ 2681  claeer
+ 2682  clear
+ 2683  cd MY-WORKSPACE
+ 2684  ls
+ 2685  clear
+ 2686  ls
+ 2687  rm -rf path test.py
+ 2688  ls
+ 2689  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/learn_python/if-else.py
+ 2690  clear
+ 2691  cd ..
+ 2692  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 2693  ls
+ 2694  cd DevOps_RoadMap
+ 2695  ls
+ 2696  cd AWS
+ 2697  ls
+ 2698  git status
+ 2699  clear
+ 2700  git status
+ 2701  cd GitHub
+ 2702  cd DevOps_RoadMap
+ 2703  cd AWS
+ 2704  ls
+ 2705  git status
+ 2706  cd GitHub
+ 2707  ls
+ 2708  cd DevOps_RoadMap
+ 2709  git status
+ 2710  cd AWS
+ 2711  git status
+ 2712  la
+ 2713  ll
+ 2714  git add Cloud_Computing_Terminology.md
+ 2715  git status
+ 2716  git commit -m 'Cloud Computing Terminology'
+ 2717  git push
+ 2718  cat .gitignore
+ 2719  clear
+ 2720  echo $HISTFILE
+ 2721  vi .zsh_history
+ 2722  clear
+ 2723  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/learn_python/python_playground/Tuples.py
+ 2724  ls
+ 2725  clear
+ 2726  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/learn_python/python_playground/Tuples.py
+ 2727  cd GitHub
+ 2728  ls
+ 2729  cd DevOps_RoadMap
+ 2730  ls
+ 2731  git status
+ 2732  git commit -am 'update network terms'
+ 2733  git push
+ 2734  cd Downloads
+ 2735  ls
+ 2736  mv Networking\ Glossary.pdf /Users/tepe/GitHub/DevOps_RoadMap/Network_Basics
+ 2737  ..
+ 2738  cd GitHub
+ 2739  ls
+ 2740  cd DevOps_RoadMap
+ 2741  ls
+ 2742  cd Network_Basics
+ 2743  ls
+ 2744  touch .gitignore
+ 2745  ls
+ 2746  la
+ 2747  vi .gitignore
+ 2748  mv Networking\ Glossary.pdf /Users/tepe/GitHub/Clarusway_private/network-basics
+ 2749  open .zshrc
+ 2750  clear
+ 2751  cd 
+ 2752  la
+ 2753  open .zshrc
+ 2754  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+ 2755  cd desktop
+ 2756  cd GitHub
+ 2757  ls
+ 2758  cd DevOps_RoadMap
+ 2759  ls
+ 2760  cd Network_Basics
+ 2761  ls
+ 2762  git status
+ 2763  git add .
+ 2764  git commit -am 'update network terms'
+ 2765  git push
+ 2766  git st
+ 2767  git commit -am 'update network terms'
+ 2768  git push
+ 2769  ssh ftepe@10.0.0.200
+ 2770  clear
+ 2771  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/learn_python/python_playground/Tuples.py
+ 2772  clear
+ 2773  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/learn_python/python_playground/Tuples.py
+ 2774  cd GitHub
+ 2775  ls
+ 2776  git clone https://github.com/fatihtepe/Troubleshooting.git
+ 2777  ls 
+ 2778  cd Troubleshooting
+ 2779  ls
+ 2780  cd GitHub
+ 2781  ls
+ 2782  cd Clarusway_private
+ 2783  ls
+ 2784  git status
+ 2785  git add .
+ 2786  git status
+ 2787  git commit -m 'general update'
+ 2788  git push
+ 2789  git status
+ 2790  aws
+ 2791  awscli
+ 2792  aws cli
+ 2793  aws iam
+ 2794  iam
+ 2795  aws iam
+ 2796  aws history
+ 2797  clear
+ 2798  cd
+ 2799  cl
+ 2800  clear
+ 2801  vi .zshrc
+ 2802  cl
+ 2803  source ~/.zshrc
+ 2804  cl
+ 2805  cd Desktop
+ 2806  ls
+ 2807  rm -r Screen.*
+ 2808  rm -r *.png
+ 2809  ls
+ 2810  clear
+ 2811  aws help
+ 2812  cd GitHub
+ 2813  cd DevOps_RoadMap
+ 2814  cd network-basics
+ 2815  ls
+ 2816  cd Network_Basics
+ 2817  git status
+ 2818  git commit -am 'add Load Balancer'
+ 2819  git push
+ 2820  cd Network_Basics
+ 2821  cd GitHub
+ 2822  cd DevOps_RoadMap
+ 2823  git status
+ 2824  git add .
+ 2825  git commit -am 'add Load Balancer'
+ 2826  git push
+ 2827  open .zshrc
+ 2828  clear
+ 2829  git status
+ 2830  git commit -am 'add proxy server'
+ 2831  git push
+ 2832  git st
+ 2833  cl
+ 2834  ll
+ 2835  la
+ 2836  clear
+ 2837  tux
+ 2838  cow
+ 2839  cow "hello"
+ 2840  clear
+ 2841  cd desktop
+ 2842  ls
+ 2843  rm -r *.png
+ 2844  clear
+ 2845  ls
+ 2846  la
+ 2847  clear
+ 2848  ~
+ 2849  cd 
+ 2850  cd GitHub
+ 2851  ls
+ 2852  cd clarusway-aws-8-21
+ 2853  git fetch
+ 2854  git pull
+ 2855  ..
+ 2856  cd Clarusway_private
+ 2857  git st
+ 2858  git add .
+ 2859  git commit -m 'update'
+ 2860  git push
+ 2861  mv /Users/tepe/Desktop/TCP_IP_Suite.png ./GitHub/DevOps_RoadMap/Network_Basics/img
+ 2862  rm -r *.png
+ 2863  cd Desktop
+ 2864  rm -r *.png
+ 2865  mv /Users/tepe/Desktop/tcp_udp.png  ./GitHub/DevOps_RoadMap/Network_Basics/img
+ 2866  cd GitHub
+ 2867  cd DevOps_RoadMap
+ 2868  git st
+ 2869  git add .
+ 2870  git commit -m 'add TCP/IP, UDP'
+ 2871  git push
+ 2872  clear
+ 2873  tmux
+ 2874  clear
+ 2875  tmux
+ 2876  brw install tmux
+ 2877  brew install tmux
+ 2878  brew upgrade tmux
+ 2879  clear
+ 2880  git clone https://github.com/gpakosz/.tmux.git
+ 2881  ln -s -f .tmux/.tmux.conf
+ 2882  cp .tmux/.tmux.conf.local
+ 2883  git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
+ 2884  ssh git@github.com:fatihtepe/cheat_sheets.git
+ 2885  ssh git@github.com:fatihtepe/cheat_sheets.gitgit@github.com:fatihtepe/cheat_sh
+ 2886  cl
+ 2887  ssh git@github.com:fatihtepe/cheat_sheets.git
+ 2888  git remote -v
+ 2889  cd DevOps_RoadMap
+ 2890  cd GitHub
+ 2891  cd DevOps_RoadMap
+ 2892  git remote -v
+ 2893  git remote set-url origin git@github.com:fatihtepe/DevOps_RoadMap.git
+ 2894  git remote -v
+ 2895  git commit -am 'test SSH connection'
+ 2896  git status
+ 2897  git commit -am 'test SSH connection'
+ 2898  git push
+ 2899  cd ..
+ 2900  cd 
+ 2901  open .shh
+ 2902  open .ssh
+ 2903  clear
+ 2904  ssh numan-tepe@makina
+ 2905  ssh ftepe@10.0.0.200
+ 2906  clear
+ 2907  cd GitHub
+ 2908  cd DevOps_RoadMap
+ 2909  git st
+ 2910  git commit -am 'EC2 pricing'
+ 2911  git push
+ 2912  htop
+ 2913  cd desktop
+ 2914  ls
+ 2915  mv Screen\ Shot\ 2021-06-13\ at\ 11.01.48\ AM.png virtualization
+ 2916  ls
+ 2917  mv virtualization /Users/tepe/GitHub/DevOps_RoadMap/AWS
+ 2918  cd 
+ 2919  cd GitHub/DevOps_RoadMap/AWS
+ 2920  ls
+ 2921  mkdir img
+ 2922  mv virtualization img
+ 2923  ls
+ 2924  git status
+ 2925  git commit -am 'Virtualization'
+ 2926  git push
+ 2927  clear
+ 2928  git st
+ 2929  git commit -am'virtualization'
+ 2930  git push
+ 2931  git st
+ 2932  cd AWS
+ 2933  ls
+ 2934  git status
+ 2935  git add .
+ 2936  git commit -m 'virtualization'
+ 2937  git push
+ 2938  cl
+ 2939  git st
+ 2940  ll
+ 2941  ls
+ 2942  ls -l
+ 2943  ll
+ 2944  la
+ 2945  ls -al
+ 2946  la
+ 2947  clear
+ 2948  ls
+ 2949  cd desktop
+ 2950  clear
+ 2951  cd ..
+ 2952  clear
+ 2953  cd
+ 2954  clear
+ 2955  ip config
+ 2956  config
+ 2957  host
+ 2958  clear
+ 2959  cd de
+ 2960  cd Des
+ 2961  cd Desktop
+ 2962  ls
+ 2963  mv Screen\ Shot\ 2021-06-13\ at\ 12.30.36\ PM.png EBS
+ 2964  mv EBS ../GitHub/DevOps_RoadMap/AWS/img
+ 2965  cd AWS
+ 2966  git status
+ 2967  git add .
+ 2968  git commit -m 'EBS Valume Types'
+ 2969  git push
+ 2970  git st
+ 2971  git commit -am 'IOPS and THROUGHPUT'
+ 2972  git push
+ 2973  git commit -am 'update'
+ 2974  git push
+ 2975  git st
+ 2976  git commit -am 'update'
+ 2977  git push
+ 2978  clear
+ 2979  git status
+ 2980  git commit -am 'update'
+ 2981  git push
+ 2982  cl
+ 2983  cd Github
+ 2984  ls
+ 2985  cd Clarusway_private
+ 2986  ls
+ 2987  git st
+ 2988  git add .
+ 2989  git commit -m 'update'
+ 2990  git push
+ 2991  cl
+ 2992  cd ..
+ 2993  cd
+ 2994  cd Downloads
+ 2995  ls
+ 2996  la
+ 2997  clear
+ 2998  chmod 400 test.pem
+ 2999  ssh -i "test.pem" ec2-user@ec2-18-206-222-27.compute-1.amazonaws.com
+ 3000  git status
+ 3001  git add .
+ 3002  git commit -m 'Connecting to Instance'
+ 3003  git push
+ 3004  clear
+ 3005  cd 
+ 3006  ssh -i testkey.pem ec2-user@3.89.160.146
+ 3007  ssh -i "test.pem" ec2-user@ec2-54-175-102-215.compute-1.amazonaws.com
+ 3008  ls
+ 3009  pwd
+ 3010  clear
+ 3011  pwd
+ 3012  ls
+ 3013  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+ 3014  open .zshrc
+ 3015  clear
+ 3016  cd desktop
+ 3017  clear
+ 3018  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 3019  clear
+ 3020  open .zshrec
+ 3021  open .zshrc
+ 3022  cd 
+ 3023  open .zshrc
+ 3024  cd Github
+ 3025  ls
+ 3026  clear
+ 3027  pwd
+ 3028  ls
+ 3029  cd git-puf-noktalari
+ 3030  cd Github
+ 3031  ls
+ 3032  pwd
+ 3033  cd DevOps_RoadMap
+ 3034  ls
+ 3035  git st
+ 3036  clear
+ 3037  open .zshrc
+ 3038  source ~/.zshrc
+ 3039  cd 
+ 3040  cd desktop
+ 3041  mv Screen\ Shot\ 2021-06-13\ at\ 12.16.29\ PM.png deneme
+ 3042  cd desktop
+ 3043  mv deneme d
+ 3044  ls *.png
+ 3045  rm -r *.png
+ 3046  rm -r d
+ 3047  clear
+ 3048  ll
+ 3049  clear
+ 3050  ssh -i "test.pem" ec2-user@ec2-54-224-4-242.compute-1.amazonaws.com
+ 3051  cd Github
+ 3052  cd DevOps_RoadMap
+ 3053  git fetch
+ 3054  git diff
+ 3055  git pull
+ 3056  ls
+ 3057  cd AWs
+ 3058  ls
+ 3059  open aws_readings.md
+ 3060  cd ..
+ 3061  ls
+ 3062  cd ..
+ 3063  ls
+ 3064  cd clarusway-aws-8-21
+ 3065  git pull
+ 3066  ls
+ 3067  cd python 
+ 3068  ls
+ 3069  open README.md
+ 3070  cd python 
+ 3071  ls
+ 3072  cd hands-on
+ 3073  ls
+ 3074  cd flask-01-02-hello-world-app-Jinja-Template/\\n
+ 3075  ls
+ 3076  open README.md
+ 3077  cd clarusway-aws-8-21
+ 3078  cd GitHub
+ 3079  cd clarusway-aws-8-21
+ 3080  git pull
+ 3081  cd clarusway-aws-8-21
+ 3082  ls
+ 3083  cd GitHub
+ 3084  clear
+ 3085  pwd 
+ 3086  cd download
+ 3087  cd 
+ 3088  cd Downloads
+ 3089  ls
+ 3090  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 3091  cd 
+ 3092  cd Downloads
+ 3093  ls
+ 3094  ssh -i "awscourse_key.pem" ec2-user@ec2-18-206-164-41.compute-1.amazonaws.com
+ 3095  chmod 400 awscourse_key.pem
+ 3096  la awscourse_key.pem
+ 3097  ssh -i "awscourse_key.pem" ec2-user@ec2-18-206-164-41.compute-1.amazonaws.com
+ 3098  cd GitHub
+ 3099  ls
+ 3100  cd Clarusway_private
+ 3101  git status
+ 3102  git add .
+ 3103  git commit -m 'Apache Install'
+ 3104  git push
+ 3105  ls
+ 3106  cd aws
+ 3107  ls
+ 3108  cd hands-on
+ 3109  ls
+ 3110  ocd 06_14_2021-EC2\ Introduction
+ 3111  cd 06_14_2021-EC2\ Introduction
+ 3112  ls
+ 3113  open Apache\ install.sh
+ 3114  cd GitHub
+ 3115  ls
+ 3116  cd clarusway-aws-8-21
+ 3117  ls
+ 3118  git pull
+ 3119  cd python
+ 3120  ls
+ 3121  cd hands-on
+ 3122  ls
+ 3123  cd flask-01-02-hello-world-app-Jinja-Template
+ 3124  ls
+ 3125  open README.md
+ 3126  ls
+ 3127  cp README.md /Users/tepe/GitHub/Clarusway_private
+ 3128  ..
+ 3129  cd Clarusway_private
+ 3130  ls
+ 3131  mv README.md python
+ 3132  cd python
+ 3133  ls
+ 3134  mv README.md hands-on
+ 3135  LS
+ 3136  CD hands-on
+ 3137  LS
+ 3138  \tcd hands-on
+ 3139  ls
+ 3140  cd 
+ 3141  clear
+ 3142  cd Downloads
+ 3143  ls
+ 3144  rm -r *.png
+ 3145  ls
+ 3146  clear
+ 3147  ls -al osvaldo-key-pair.pem
+ 3148  chmod 400 osvaldo-key-pair.pem
+ 3149  la
+ 3150  clear
+ 3151  cd download
+ 3152  ls
+ 3153  cd Downloads
+ 3154  ls
+ 3155  clear
+ 3156  ssh -i "osvaldo-key-pair.pem" ec2-user@ec2-18-208-164-253.compute-1.amazonaws.com
+ 3157  ls -al osvaldo-key-pair.pem
+ 3158  ssh -i "osvaldo-key-pair.pem" ec2-user@ec2-18-208-164-253.compute-1.amazonaws.com
+ 3159  sudo yum install httpd -y
+ 3160  ssh -i "osvaldo-key-pair.pem" ec2-user@ec2-18-208-164-253.compute-1.amazonaws.com
+ 3161  clear
+ 3162  pwd
+ 3163  ls
+ 3164  cd Documents
+ 3165  ls
+ 3166  cd ..
+ 3167  ssh ftepe@10.0.0.200
+ 3168  pwd
+ 3169  dir
+ 3170  ls
+ 3171  rm -r *.pem
+ 3172  ls
+ 3173  cd ..
+ 3174  cd Desktop
+ 3175  ls
+ 3176  cd Desktop
+ 3177  ls
+ 3178  rm -r *.png
+ 3179  clear
+ 3180  cd ..
+ 3181  open .zshrc
+ 3182  source .zshrc
+ 3183  cd ..
+ 3184  cd 
+ 3185  ls
+ 3186  cd GitHub
+ 3187  ls
+ 3188  clear
+ 3189  cl
+ 3190  clear
+ 3191  mkdir python/hands-on
+ 3192  mkdir python
+ 3193  cd python
+ 3194  mkdir flask-01-02-hello-world-app-Jinja-Template
+ 3195  ls
+ 3196  mv flask-01-02-hello-world-app-Jinja-Template /Users/tepe/GitHub/MY-WORKSPACE/python/
+ 3197  clar
+ 3198  ls
+ 3199  mkdir hands-on
+ 3200  mv flask-01-02-hello-world-app-Jinja-Template hands-on
+ 3201  ls
+ 3202  cd hands-on
+ 3203  ls
+ 3204  mkdir flask-01-hello-world-app
+ 3205  touch hello-world-app.py
+ 3206  clear
+ 3207  import Flask module
+ 3208  pip3 install -U Flask
+ 3209  from flask imprt Flask
+ 3210  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/hello-world-app.py
+ 3211  clear
+ 3212  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/hello-world-app.py
+ 3213  flask run -h localhost -p 80
+ 3214  clear
+ 3215  pwd
+ 3216  ls
+ 3217  cd python
+ 3218  ls
+ 3219  cd hands-on
+ 3220  ls
+ 3221  python3 hello-world-app.py
+ 3222  cd 
+ 3223  cd Downloads
+ 3224  ls
+ 3225  ssh -i "web_key.pem" ec2-user@ec2-54-144-246-123.compute-1.amazonaws.com
+ 3226  ls web_key.pem
+ 3227  chmod 400 web_key.pem
+ 3228  ssh -i "web_key.pem" ec2-user@ec2-54-144-246-123.compute-1.amazonaws.com
+ 3229  clear
+ 3230  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/hello-world-app.py
+ 3231  clear
+ 3232  ls
+ 3233  cd MY-WORKSPACE
+ 3234  ls
+ 3235  clear
+ 3236  ls
+ 3237  git st
+ 3238  clear
+ 3239  git status
+ 3240  git add .
+ 3241  git commit -m 'hello-world-app.py'
+ 3242  git push
+ 3243  git status
+ 3244  git pull
+ 3245  git status
+ 3246  git add .
+ 3247  git commit -m 'update gitignore'
+ 3248  git push
+ 3249  git status
+ 3250  git add .
+ 3251  git commit -m 'add hands-on gitignore'
+ 3252  git push
+ 3253  git st
+ 3254  git commit -am 'add hands-on gitignore'
+ 3255  git push
+ 3256  ls -al
+ 3257  open .gitignore
+ 3258  ls
+ 3259  git status
+ 3260  git add .
+ 3261  git commit -m 'delete hands-on'
+ 3262  git push
+ 3263  git status
+ 3264  ls
+ 3265  cd hands-on
+ 3266  touch test.txt
+ 3267  ls
+ 3268  cd ..
+ 3269  git status
+ 3270  ls
+ 3271  cd hands-on
+ 3272  ls
+ 3273  git status
+ 3274  ..
+ 3275  git status
+ 3276  cd GitHub
+ 3277  cd MY-WORKSPACE
+ 3278  git status
+ 3279  cd GitHub
+ 3280  cd MY-WORKSPACE
+ 3281  git status
+ 3282  ls
+ 3283  cd hands-on
+ 3284  ls
+ 3285  git status
+ 3286  git st
+ 3287  git pull
+ 3288  git st
+ 3289  touch test.py
+ 3290  ls
+ 3291  git st
+ 3292  cd GitHub
+ 3293  cd MY-WORKSPACE
+ 3294  ls
+ 3295  mkdir test2
+ 3296  cd test2
+ 3297  echo 'hello world' > test.txt
+ 3298  ls
+ 3299  cat test.txt
+ 3300  git st
+ 3301  ..
+ 3302  git st
+ 3303  clear
+ 3304  ls
+ 3305  ..
+ 3306  cd clarusway-aws-8-21
+ 3307  git pull
+ 3308  ..
+ 3309  cd MY-WORKSPACE
+ 3310  git status
+ 3311  ls
+ 3312  cd python
+ 3313  ls
+ 3314  cd hands-on
+ 3315  ls
+ 3316  mkdir flask-02-Jinja_Template
+ 3317  cd flask-02-Jinja_Template
+ 3318  touch jinja.py
+ 3319  ls
+ 3320  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-02-Jinja_Template/jinja.py
+ 3321  git status
+ 3322  ls
+ 3323  cd hands-on
+ 3324  ls
+ 3325  cd ..
+ 3326  ls
+ 3327  cd python
+ 3328  ls
+ 3329  cd hands-on
+ 3330  ls
+ 3331  git status
+ 3332  ..
+ 3333  cd ..
+ 3334  git status
+ 3335  clear
+ 3336  git status
+ 3337  git add .
+ 3338  git commit -m 'jinja template'
+ 3339  git push
+ 3340  ls
+ 3341  cd hands-on-me
+ 3342  ls
+ 3343  git status
+ 3344  cd flask-01-02-hello-world-app-Jinja-Template
+ 3345  ls
+ 3346  cd 
+ 3347  ssh -i "web_key.pem" ec2-user@ec2-34-227-206-211.compute-1.amazonaws.com
+ 3348  cd GitHub
+ 3349  cd MY-WORKSPACE
+ 3350  ls
+ 3351  cd python
+ 3352  ls
+ 3353  cd hands-on
+ 3354  ls
+ 3355  git status
+ 3356  git add .
+ 3357  git commit -m 'create flask application'
+ 3358  git push
+ 3359  git pull
+ 3360  git status
+ 3361  cd ..
+ 3362  ls
+ 3363  cd ..
+ 3364  ls
+ 3365  open .gitignore
+ 3366  git status
+ 3367  git commit -am 'update gitignore'
+ 3368  git push
+ 3369  clear
+ 3370  ssh -i "web_key.pem" ec2-user@ec2-3-93-63-115.compute-1.amazonaws.com
+ 3371  cd Downloads
+ 3372  ls
+ 3373  cd 
+ 3374  clear
+ 3375  cd Downloads
+ 3376  ls
+ 3377  chmod 400 demo.pen
+ 3378  clear
+ 3379  ls
+ 3380  cd ..
+ 3381  clear
+ 3382  cd Downloads
+ 3383  ls
+ 3384  chmod 400 demo.pem
+ 3385  ls -l demo.pem
+ 3386  ssh -i "demo.pem" ec2-user@ec2-18-206-255-204.compute-1.amazonaws.com
+ 3387  cd GitHub
+ 3388  ls
+ 3389  cd check_lists
+ 3390  ls
+ 3391  git status
+ 3392  cd A
+ 3393  cd AWS
+ 3394  ls
+ 3395  git status
+ 3396  ..
+ 3397  git status
+ 3398  git add .
+ 3399  git commit -m 'HOw to Install Apache Web Server'
+ 3400  git push
+ 3401  cd GitHub
+ 3402  cd DevOps_RoadMap
+ 3403  git status
+ 3404  git add .
+ 3405  git commit -m 'move connectin to Instance to Checklis'
+ 3406  git push
+ 3407  ..
+ 3408  cd check_lists
+ 3409  ls
+ 3410  git status
+ 3411  git add .
+ 3412  git commit -m 'rename directory and add connecting to instance'
+ 3413  git push
+ 3414  clear
+ 3415  exit
+ 3416  clear
+ 3417  cd Downloads
+ 3418  ls
+ 3419  chmod 400 demo.pem
+ 3420  ls -l demo.pem
+ 3421  ssh -i "demo.pem" ec2-user@ec2-34-207-125-204.compute-1.amazonaws.com
+ 3422  cd Downloads
+ 3423  ls -l demo.pem
+ 3424  cd ..
+ 3425  cd GitHub
+ 3426  cd check_lists
+ 3427  ls
+ 3428  cd AWS_DevOps
+ 3429  ls
+ 3430  mv 061321_Connecting\ to\ Instance 061321_EC2_Nginx_Web_Server
+ 3431  ls
+ 3432  open 061521_EC2_Apache\ Web\ Server
+ 3433  mv 061521_EC2_Apache\ Web\ Server 061521_EC2_Apache_Web_Server
+ 3434  ls
+ 3435  git st
+ 3436  git add .
+ 3437  git commit -m 'EC2 to Web Server'
+ 3438  git push
+ 3439  brew list
+ 3440  sudo pip3 install virtualenv
+ 3441  virtualenv --version
+ 3442  flask --version
+ 3443  pip3 list
+ 3444  python3 --version
+ 3445  pip3 install Flask
+ 3446  cd Desktop
+ 3447  mkdir aws_08_01
+ 3448  cd aws_08_01
+ 3449  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 3450  cd clarusway-aws-8-21
+ 3451  git pull
+ 3452  clear
+ 3453  c..
+ 3454  cd ..
+ 3455  cd MY-WORKSPACE
+ 3456  git status
+ 3457  git add .
+ 3458  git commit -m 'redesign my repo'
+ 3459  git push
+ 3460  git fetc
+ 3461  git fetch
+ 3462  git status
+ 3463  git pull
+ 3464  git status
+ 3465  git push
+ 3466  cd ..
+ 3467  clear
+ 3468  cd clarusway-aws-8-21
+ 3469  git pull
+ 3470  clear
+ 3471  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3472  clear
+ 3473  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3474  clear
+ 3475  clear/opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3476  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3477  clear
+ 3478  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3479  clear
+ 3480  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-02-Jinja_Template/jinja.py
+ 3481  cleaer
+ 3482  clear
+ 3483  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/MY-WORKSPACE/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-02-Jinja_Template/jinja.py
+ 3484  claer
+ 3485  clear
+ 3486  git status
+ 3487  clear
+ 3488  git st
+ 3489  git add .
+ 3490  git st
+ 3491  git commit -m 'add flask 01-02' 
+ 3492  git push
+ 3493  cd download
+ 3494  cd Downloads
+ 3495  ssh -i "web_key.pem" ec2-user@ec2-54-152-26-202.compute-1.amazonaws.com
+ 3496  clear
+ 3497  git st
+ 3498  touch .gitignore
+ 3499  open .gitignore
+ 3500  git status
+ 3501  git add .
+ 3502  ls
+ 3503  cd AWS_DevOps
+ 3504  ls
+ 3505  mv Flask.md 061521_Flask_to_EC2
+ 3506  ls
+ 3507  git status
+ 3508  git add .
+ 3509  git commit -m 'Flask to EC2'
+ 3510  git push
+ 3511  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 3512  git status
+ 3513  git add .
+ 3514  git commit -m 'Flask to EC2 renamed'
+ 3515  git push
+ 3516  clear
+ 3517  cd ..
+ 3518  cd Desktop
+ 3519  mkdir flask 
+ 3520  cd flask 
+ 3521  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 3522  ls
+ 3523  cd cla
+ 3524  cd Desktop
+ 3525  git clone https://github.com/fatihtepe/for_test_flask.git
+ 3526  cd for_test_flask
+ 3527  git status
+ 3528  git add .
+ 3529  git commit -m 'test flask'
+ 3530  git push
+ 3531  cd GitHub
+ 3532  ls
+ 3533  cd clarusway-aws-8-21
+ 3534  git pull
+ 3535  clear
+ 3536  touch .gitignore
+ 3537  clear
+ 3538  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 3539  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/Clarusway_private/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 3540  clear
+ 3541  git status
+ 3542  git add .
+ 3543  git commit -m 'flask code'
+ 3544  git push
+ 3545  clear
+ 3546  /opt/homebrew/bin/python3.9 /Users/tepe/GitHub/Clarusway_private/python/hands-on/flask-01-02-hello-world-app-Jinja-Template/flask-02-Jinja_Template/jinja.py
+ 3547  clear
+ 3548  git status
+ 3549  git add .
+ 3550  git commit -m 'final project'
+ 3551  git push
+ 3552  cd 
+ 3553  cd Downloads
+ 3554  ls
+ 3555  ssh -i "demo.pem" ec2-user@ec2-34-227-93-236.compute-1.amazonaws.com
+ 3556  cd GitHub
+ 3557  ls 
+ 3558  cd Clarusway_private
+ 3559  ls
+ 3560  git status
+ 3561  git add .
+ 3562  git commit -m 'update'
+ 3563  git push
+ 3564  git status
+ 3565  cd 
+ 3566  cd Downloads
+ 3567  ssh -i "demo.pem" ec2-user@ec2-54-158-200-30.compute-1.amazonaws.com
+ 3568  clear
+ 3569  cd Github
+ 3570  ls
+ 3571  cd clarusway-aws-8-21
+ 3572  ls
+ 3573  git pull
+ 3574  git diff
+ 3575  open .zshrc
+ 3576  source .zshrc
+ 3577  three -C
+ 3578  three
+ 3579  tree
+ 3580  cd Downloads
+ 3581  tree
+ 3582  ls
+ 3583  ..
+ 3584  cd Documents
+ 3585  ls
+ 3586  tree
+ 3587  tree -C
+ 3588  clear
+ 3589  clear
+ 3590  git status
+ 3591  git status
+ 3592  git add .
+ 3593  git status
+ 3594  git commit -m 'IPv4 Addresses'
+ 3595  git push
+ 3596  clear
+ 3597  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+ 3598  open .zshrc
+ 3599  source .zshrc
+ 3600  clear
+ 3601  git status
+ 3602  clear
+ 3603  inpconfig
+ 3604  ipconfig
+ 3605  ipconfig getifaddr en1
+ 3606  ipconfig getifaddr en0
+ 3607  cd Github
+ 3608  cd clarusway-aws-8-21
+ 3609  git pull
+ 3610  ls
+ 3611  cd linux
+ 3612  ls
+ 3613  cd projects
+ 3614  ls
+ 3615  cd ..
+ 3616  cd class-notes
+ 3617  ls
+ 3618  cd hands-on
+ 3619  ..
+ 3620  cd hands-on
+ 3621  ls
+ 3622  cd linux-01-managing-files
+ 3623  ls
+ 3624  open README.md
+ 3625  cd ..
+ 3626  ls
+ 3627  open README.md
+ 3628  ls
+ 3629  open README.md
+ 3630  cd linux-01-managing-files
+ 3631  ls
+ 3632  open README.md
+ 3633  cd Github
+ 3634  ls
+ 3635  cd clarusway-aws-8-21
+ 3636  ls
+ 3637  cd network-basics
+ 3638  git pull
+ 3639  ls
+ 3640  open 07_IP-Addressing.pdf q
+ 3641  open 07_IP-Addressing.pdf
+ 3642  cldear
+ 3643  clear
+ 3644  cd DevOps_RoadMap
+ 3645  ls
+ 3646  git status
+ 3647  git add .
+ 3648  git commit -m 'Well-Known TCP Port Numbers'
+ 3649  git push
+ 3650  clear
+ 3651  cd Desktop
+ 3652  ls
+ 3653  pwd
+ 3654  touch tepe.txt
+ 3655  vi tepe.txt
+ 3656  echo '1' > tepe.txt
+ 3657  vi tepe.txt
+ 3658  clear
+ 3659  ls
+ 3660  rm -r tepe.txt
+ 3661  ls
+ 3662  clear
+ 3663  vi tepe.txt
+ 3664  cd Desktop
+ 3665  ls -al
+ 3666  touch tepee.txt
+ 3667  vi tepee.txt
+ 3668  cat tepee.txt
+ 3669  tac tepee.txt
+ 3670  clear
+ 3671  cd Github
+ 3672  git clone https://github.com/fatihtepe/aws.git
+ 3673  cd aws
+ 3674  ls
+ 3675  git remote -v
+ 3676  git branch
+ 3677  git checkout -b newbranch
+ 3678  git status
+ 3679  clear
+ 3680  ls
+ 3681  vim README.md
+ 3682  git status
+ 3683  git add .
+ 3684  git status
+ 3685  git commit -m 'git practice'
+ 3686  git status
+ 3687  clear
+ 3688  git remote -v
+ 3689  git remote add upstream https://github.com/TylerCounter/aws.git
+ 3690  git remote -v
+ 3691  git pull upstream main
+ 3692  git push -u origin newbranch
+ 3693  cd ..
+ 3694  clar
+ 3695  clear
+ 3696  ls
+ 3697  cd MY-WORKSPACE
+ 3698  git status
+ 3699  git add .
+ 3700  git commit -m 'update directory'
+ 3701  git push 
+ 3702  git pull
+ 3703  clear
+ 3704  git status
+ 3705  cd ..
+ 3706  cd devops-roadmap
+ 3707  git status
+ 3708  git add .
+ 3709  git commit -m 'update directory'
+ 3710  git push 
+ 3711  git status
+ 3712  git add .
+ 3713  git status
+ 3714  clear
+ 3715  git fetch
+ 3716  ls
+ 3717  cd linux 
+ 3718  ls
+ 3719  touch test
+ 3720  ls
+ 3721  git status
+ 3722  ls -al
+ 3723  ..
+ 3724  git status
+ 3725  git add .
+ 3726  git commit -m 'update directory'
+ 3727  git psuh
+ 3728  git push
+ 3729  git pull
+ 3730  cd ..
+ 3731  cd VSCODE
+ 3732  git pull
+ 3733  cd ..
+ 3734  mv VSCODE vscode-practices
+ 3735  ls
+ 3736  cd vscode-practices
+ 3737  ls
+ 3738  cd ..
+ 3739  cd vscode-practices
+ 3740  git status
+ 3741  git add .
+ 3742  git commit -m 'update directory'
+ 3743  git status
+ 3744  git add .
+ 3745  git commit -m 'update directory'
+ 3746  git status
+ 3747  git add .
+ 3748  git status
+ 3749  mkdir test 
+ 3750  ls
+ 3751  git status
+ 3752  cd test
+ 3753  echo '1' > tepe.txt
+ 3754  ls
+ 3755  cd ..
+ 3756  git status
+ 3757  git add .
+ 3758  git commit -m 'update directory'
+ 3759  git push
+ 3760  open .gitignore
+ 3761  git status
+ 3762  git add .
+ 3763  git commit -m 'update directory'
+ 3764  git push
+ 3765  cd ..
+ 3766  cd cheat_sheets
+ 3767  cd ..
+ 3768  cd cheat_sheets
+ 3769  git pull
+ 3770  cd ..
+ 3771  mv cheat_sheets cheat-sheets
+ 3772  ls
+ 3773  cd cheat-sheets
+ 3774  ls
+ 3775  clear
+ 3776  ls
+ 3777  cd ..
+ 3778  ls
+ 3779  man ls
+ 3780  history 
+ 3781  clear
+ 3782  man ls
+ 3783  info ls
+ 3784  info grep
+ 3785  clear
+ 3786  whatis ls
+ 3787  cd GitHub
+ 3788  ls
+ 3789  cd MY-WORKSPACE
+ 3790  git less remote
+ 3791  git ls remote
+ 3792  clear
+ 3793  cd 
+ 3794  apropos
+ 3795  apropos grep
+ 3796  apropos find
+ 3797  help ls
+ 3798  ls --help
+ 3799  --help ls
+ 3800  help
+ 3801  claer
+ 3802  man ls
+ 3803  cd /
+ 3804  ls
+ 3805  cd 
+ 3806  ssh -i "demo.pem" ec2-user@ec2-54-157-175-8.compute-1.amazonaws.com
+ 3807  ssh -i "web_key.pem" ec2-user@ec2-54-234-32-247.compute-1.amazonaws.com
+ 3808  clear
+ 3809  ssh -i "web_key.pem" ec2-user@ec2-54-234-32-247.compute-1.amazonaws.com
+ 3810  ssh -i "web_key.pem" ec2-user@ec2-35-172-200-170.compute-1.amazonaws.com
+ 3811  cd 
+ 3812  ls
+ 3813  clear
+ 3814  cd GitHub
+ 3815  cd devops-roadmap
+ 3816  ls
+ 3817  cd linux
+ 3818  mkdir linux-lessons
+ 3819  ls
+ 3820  cd linux-lessons
+ 3821  cd ..
+ 3822  ls
+ 3823  rm -r test
+ 3824  ls
+ 3825  cd linux-lessons
+ 3826  touch clarusway.txt
+ 3827  open clarusway.txt
+ 3828  head clarusway.txt
+ 3829  head -5 clarusway.txt
+ 3830  tail clarusway.txt
+ 3831  tail -5 clarusway.txt
+ 3832  cat clarusway.txt
+ 3833  echo 'this is file1' > file1
+ 3834  echo "this is file2" > file2
+ 3835  echo "this is file3" > file3
+ 3836  cat file1 file2 file3
+ 3837  cat > summer.txt
+ 3838  cat summer.txt
+ 3839  more clarusway.txt
+ 3840  less clarusway.txt
+ 3841  tac clarusway.txt
+ 3842  tac clarusway.txt > reverse-clarusway.txt
+ 3843  ls
+ 3844  find . -name clarusway.txt
+ 3845  find /home -name clarusway.txt
+ 3846  find /home -iname clarusway.txt
+ 3847  ind /home -type d -name linux-lessons
+ 3848  find /home -type d -name linux-lessons
+ 3849  ls
+ 3850  find . -type f -name "*.txt"
+ 3851  find . -type f -empty
+ 3852  find /Users/tepe -type f -empty
+ 3853  find /Users/tepe -size 100M
+ 3854  find /Users/tepe -size 1GB
+ 3855  find /Users/tepe -size +50M -size -100
+ 3856  find ~ -size +50M -size -100
+ 3857  find /~ -size +50M -size -100
+ 3858  find ~/ -size +50M -size -100
+ 3859  pwd
+ 3860  find /Users/tepe/GitHub -mtime 10
+ 3861  find /Users/tepe/ -mtime 10
+ 3862  find /Users/tepe/ -mtime -10
+ 3863  find /Users/tepe/GitHub -mtime +10
+ 3864  find /Users/tepe/GitHub -mtime -10
+ 3865  find . -mmin +10 -mmin -30
+ 3866  cat > linux.txt
+ 3867  grep 'kernel' linux.txt
+ 3868  grep 'is' *
+ 3869  grep 'linux' linux.txt
+ 3870  grep -i 'linux' linux.txt
+ 3871  grep -i "ker" linux.txt
+ 3872  grep -w "ker" linux.txt
+ 3873  grep -w "kernel" linux.txt
+ 3874  grep -wi "linux" linux.txt
+ 3875  grep -v "kernel" linux.txt
+ 3876  grep '^li' clarusway.txt
+ 3877  grep "kernel.$" linux.txt
+ 3878  grep -A3 "line 5"
+ 3879  clear
+ 3880  grep -B2 "line 5" clarusway.txt
+ 3881  grep -A3 "line 5" clarusway.txt
+ 3882  grep -C4 "line 5" clarusway.txt
+ 3883  man pwd | grep 'print'
+ 3884  man pwd | grep "print"
+ 3885  man find | grep -A5 'size
+ 3886  man find | grep -A5 'size'
+ 3887  history | grep "find"
+ 3888  clear
+ 3889  tree -C
+ 3890  history . -mmin +10 -mmin -30
+ 3891  history
+ 3892  cd ..
+ 3893  git status
+ 3894  git add .
+ 3895  git commit -m 'practice hands on'
+ 3896  git push
+ 3897  cd GitHub
+ 3898  cd devops-roadmap
+ 3899  git status
+ 3900  git add .
+ 3901  git commit -m 'update directory'
+ 3902  git push
+ 3903  cd ..
+ 3904  cd MY-WORKSPACE
+ 3905  git st
+ 3906  git add .
+ 3907  git commit -m 'update directory'
+ 3908  git push
+ 3909  cd GitHub
+ 3910  cd MY-WORKSPACE
+ 3911  ls
+ 3912  mv linux-lessons linux
+ 3913  ls
+ 3914  git st
+ 3915  git add .
+ 3916  git commit -m 'update directory'
+ 3917  git puhs
+ 3918  git push
+ 3919  ls
+ 3920  cd linux
+ 3921  ls
+ 3922  mkdir 061721-01-practice
+ 3923  mv *.txt 061721-01-practice
+ 3924  ls
+ 3925  mv file1 file2 file3 061721-01-practice
+ 3926  ls
+ 3927  cd ..
+ 3928  git st
+ 3929  git add .
+ 3930  git commit -m 'update directory'
+ 3931  git push
+ 3932  ls
+ 3933  cd linux
+ 3934  ls
+ 3935  cd 061721-01-practice
+ 3936  ls
+ 3937  ssh -i "web_key.pem" ec2-user@ec2-18-205-246-186.compute-1.amazonaws.com
+ 3938  clear
+ 3939  cd cheat-sheets
+ 3940  git status
+ 3941  git add .
+ 3942  git commit -m 'add zsh to EC2'
+ 3943  git push
+ 3944  clear
+ 3945  cd ..
+ 3946  cd clarusway-aws-8-21
+ 3947  git pull
+ 3948  ls
+ 3949  cd linux
+ 3950  ls
+ 3951  cd hands-on
+ 3952  ls
+ 3953  cd linux-01-managing-files
+ 3954  ls
+ 3955  cd ..
+ 3956  cd
+ 3957  clear
+ 3958  cd GitHub
+ 3959  cd cheat-sheets
+ 3960  ls
+ 3961  git status
+ 3962  git add .
+ 3963  git commit -m 'update change EC2 shell'
+ 3964  git push
+ 3965  git status
+ 3966  git add .
+ 3967  git commit -m 'change EC2 bash shell to zsh'
+ 3968  git push
+ 3969  cd Downloads
+ 3970  ls
+ 3971  ls web_key.pem
+ 3972  ls -l web_key.pem
+ 3973  cd ..
+ 3974  cd Downloads
+ 3975  ssh -i "web_key.pem" ec2-user@ec2-54-160-117-64.compute-1.amazonaws.com
+ 3976  cd GitHub
+ 3977  cd cheat-sheets
+ 3978  git pull
+ 3979  cd cheat-sheets
+ 3980  cd GitHub
+ 3981  cd cheat-sheets
+ 3982  git pull
+ 3983  ssh -i "web_key.pem" ec2-user@ec2-54-160-117-64.compute-1.amazonaws.com
+ 3984  cd Downloads
+ 3985  ssh -i "web_key.pem" ec2-user@ec2-54-160-117-64.compute-1.amazonaws.com
+ 3986  cd Downloads
+ 3987  ssh -i "web_key.pem" ec2-user@ec2-54-160-117-64.compute-1.amazonaws.com
+ 3988  cd Downloads
+ 3989  ssh -i "web_key.pem" ec2-user@ec2-54-160-117-64.compute-1.amazonaws.com
+ 3990  cd Downloads
+ 3991  ssh -i "web_key.pem" ec2-user@ec2-34-232-69-10.compute-1.amazonaws.com
+ 3992  history | awk ‘{ $1=””; print $0 }’ | sort | uniq -c | sort -nr | head -20
+ 3993  cd ..
+ 3994  history | awk ‘{ $1=””; print $0 }’ | sort | uniq -c | sort -nr | head -20
+ 3995  history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10\n
+ 3996  cd GitHub
+ 3997  cd cheat-sheets
+ 3998  ls
+ 3999  git pull
+ 4000  ls
+ 4001  git pull
+ 4002  ls
+ 4003  clear
+ 4004  ls
+ 4005  mv 10-most-used-commands Linux
+ 4006  ls
+ 4007  cd ls
+ 4008  ls
+ 4009  cd Linux
+ 4010  ls
+ 4011  history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10\n
+ 4012  clear
+ 4013  cd ..
+ 4014  clear
+ 4015  cl
+ 4016  clear
+ 4017  open .zshrc
+ 4018  cd ..
+ 4019  vi .zshrc
+ 4020  open .zshrc
+ 4021  source .zshrc
+ 4022  cl
+ 4023  clear
+ 4024  cd GitHub
+ 4025  ls
+ 4026  cd clarusway-aws-8-21
+ 4027  git branch -a
+ 4028  cd .
+ 4029  cd cheat-sheets
+ 4030  cd ..
+ 4031  cd cheat-sheets
+ 4032  git branch -a
+ 4033  clear
+ 4034  cd ..
+ 4035  cd clarusway-aws-8-21
+ 4036  ls
+ 4037  tou test
+ 4038  touch test.txt
+ 4039  ls
+ 4040  git add .
+ 4041  git status
+ 4042  git commit -m 'test'
+ 4043  git branch
+ 4044  git checkout -b testbranch
+ 4045  ls
+ 4046  git push origin testbranch
+ 4047  cd ..
+ 4048  cd clarusway-aws-8-21
+ 4049  git checkout
+ 4050  git checkout main
+ 4051  git push origin main
+ 4052  git remote add origin https://github.com/fatihtepe/BOTH.git
+ 4053  git remote add origin 
+ 4054  git pull
+ 4055  git status
+ 4056  git push origin main
+ 4057  cd ..
+ 4058  cd clarusway-aws-8-21
+ 4059  ls
+ 4060  rm -r test.txt
+ 4061  ls
+ 4062  cd ..
+ 4063  mkdir test
+ 4064  cd test
+ 4065  git init
+ 4066  git checkout main
+ 4067  git checkout -b main
+ 4068  git branch
+ 4069  clear
+ 4070  git remote add origin https://github.com/fatihtepe/BOTH.git
+ 4071  git pull origin main
+ 4072  ls
+ 4073  git status
+ 4074  touch 'test'  > linux.txt
+ 4075  ls
+ 4076  git st
+ 4077  git add .
+ 4078  git commit -m 'test'
+ 4079  git st
+ 4080  git push
+ 4081  git push oring main
+ 4082  git push origin main
+ 4083  git push -u origin newbranch
+ 4084  git checkout -b testbranch
+ 4085  git push -u origin testbranch
+ 4086  clear
+ 4087  git branch manual
+ 4088  git branch
+ 4089  git log
+ 4090  git checkout manual
+ 4091  touch tepe.txt
+ 4092  ls
+ 4093  git push origin manual
+ 4094  cd ..
+ 4095  ls
+ 4096  cd aws
+ 4097  ls
+ 4098  cd tesp
+ 4099  cd test
+ 4100  cd 
+ 4101  cd GitHub
+ 4102  git clone https://github.com/austunkol/My-Projects.git
+ 4103  cd My-Projects
+ 4104  git checkout -b testbranch
+ 4105  touch tepe.txt
+ 4106  cat tepee.txt
+ 4107  cat > tepe.txt
+ 4108  cat tepe.txt
+ 4109  clear
+ 4110  git branch
+ 4111  git push origin testbranch
+ 4112  cd Desktop
+ 4113  git clone https://github.com/TylerCounter/git-workshop1.git
+ 4114  cd git-workshop1
+ 4115  ls
+ 4116  echo 'this is a trial' > tepe.txt
+ 4117  ls
+ 4118  git add .
+ 4119  git status
+ 4120  git commit -m 'test'
+ 4121  git st
+ 4122  git push
+ 4123  clear
+ 4124  cd ..
+ 4125  clear
+ 4126  cd 
+ 4127  ssh numan-tepe@makina
+ 4128  20032008
+ 4129  ssh numan-tepe@makina
+ 4130  ssh numan-tepe@10.0.0105/22
+ 4131  ssh numan-tepe@makina
+ 4132  ssh numan-tepe@10.0.0.105/22:2:
+ 4133  clear
+ 4134  cd 
+ 4135  cd Downloads
+ 4136  clear
+ 4137  ssh -i "demo.pem" ec2-user@ec2-100-25-153-233.compute-1.amazonaws.com
+ 4138  gffclear
+ 4139  clear
+ 4140  whatis pwd
+ 4141  clear
+ 4142  cd Downloads
+ 4143  ssh -i "demo.pem" ec2-user@ec2-100-25-153-233.compute-1.amazonaws.com
+ 4144  cd 
+ 4145  ls
+ 4146  pwd
+ 4147  cd ..
+ 4148  ls
+ 4149  .ssh
+ 4150  ls
+ 4151  open config
+ 4152  .ssh
+ 4153  ls
+ 4154  open config
+ 4155  cd ..
+ 4156  ls
+ 4157  cd Downloads
+ 4158  ls
+ 4159  cp web_key.pem demo.pem ../.ssh
+ 4160  cd ..
+ 4161  .ssh
+ 4162  ls
+ 4163  open config
+ 4164  .ssh
+ 4165  ls
+ 4166  cd ..
+ 4167  ls
+ 4168  clear
+ 4169  cd .ssh
+ 4170  ls
+ 4171  vim confing
+ 4172  clear
+ 4173  ls
+ 4174  vim config
+ 4175  .ssh
+ 4176  ls
+ 4177  cd ..
+ 4178  pwd
+ 4179  ls
+ 4180  .ssh
+ 4181  ls *.pem
+ 4182  clear
+ 4183  ls *.pem
+ 4184  cd 
+ 4185  cd GitHub
+ 4186  ls
+ 4187  cd check-lists
+ 4188  ls
+ 4189  git status
+ 4190  git add .
+ 4191  git commit -m 'Keeping an SSH connection alive and Vscod committed'
+ 4192  git push
+ 4193  ls --help
+ 4194  cd GitHub
+ 4195  cd clarusway-aws-8-21
+ 4196  git pull
+ 4197  git fetch
+ 4198  clear
+ 4199  cd 
+ 4200  .ssh
+ 4201  open config
+ 4202  ls -al
+ 4203  open .config.swp
+ 4204  vim .config.swp
+ 4205  .ssh
+ 4206  ls
+ 4207  ls -al
+ 4208  rm -r .config.swp
+ 4209  ls
+ 4210  ls -al
+ 4211  open config
+ 4212  cd 
+ 4213  clear
+ 4214  cd /
+ 4215  ls
+ 4216  cd bin
+ 4217  ls
+ 4218  pwd
+ 4219  cd var 
+ 4220  cd ..
+ 4221  cd var
+ 4222  ls
+ 4223  cd log
+ 4224  ls
+ 4225  cat yum.log
+ 4226  cd ..
+ 4227  clar
+ 4228  ls
+ 4229  cd 
+ 4230  clear
+ 4231  cle3ar
+ 4232  cd clarusway-aws-8-21
+ 4233  git puill
+ 4234  git pull
+ 4235  clera
+ 4236  clear
+ 4237  git --version
+ 4238  git config list
+ 4239  git config
+ 4240  clear
+ 4241  git config --list
+ 4242  alias cd ..
+ 4243  cd ..
+ 4244  cd python_tasks
+ 4245  git log
+ 4246  git fetch 
+ 4247  git diff main origin/main
+ 4248  git merge
+ 4249  ls -l
+ 4250  git pull
+ 4251  clear
+ 4252  git log --oneline
+ 4253  git branch test
+ 4254  git branch
+ 4255  git branch -r 
+ 4256  git branch -a
+ 4257  git checkout test
+ 4258  ls
+ 4259  git status
+ 4260  ls
+ 4261  vim test.txt
+ 4262  git status
+ 4263  git add .
+ 4264  git commit -m 'tes'
+ 4265  git status
+ 4266  git checkout main
+ 4267  cat test.txt
+ 4268  git merge test
+ 4269  cat test.txt
+ 4270  git push
+ 4271  git branch -d test
+ 4272  git remote -v
+ 4273  clear
+ 4274  cd ..
+ 4275  cd check-lists
+ 4276  git status
+ 4277  git commit .
+ 4278  git add .
+ 4279  git commit -m 'Git GitHub A Complete Summary'
+ 4280  git push
+ 4281  clear
+ 4282  pwd
+ 4283  cd Desktop
+ 4284  ls
+ 4285  cd ..
+ 4286  cd GitHub
+ 4287  pwd
+ 4288  cd ..
+ 4289  ls
+ 4290  cd GitHub
+ 4291  ls
+ 4292  cd ..
+ 4293  cd Desktop
+ 4294  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 4295  ls
+ 4296  clear
+ 4297  ls
+ 4298  cd clarusway-aws-8-21
+ 4299  ls
+ 4300  cd aws
+ 4301  ls
+ 4302  cd ..
+ 4303  cd
+ 4304  cd Desktop
+ 4305  git clone https://github.com/fatihtepe/test.git
+ 4306  ls
+ 4307  cd test
+ 4308  ls
+ 4309  git status
+ 4310  git add .
+ 4311  git status
+ 4312  clear
+ 4313  ls
+ 4314  git commit -m 'Clarusway Repo'
+ 4315  git status
+ 4316  clear
+ 4317  git status
+ 4318  git push
+ 4319  cd ..
+ 4320  cd clarusway-aws-8-21
+ 4321  ls
+ 4322  cd ..
+ 4323  cd test
+ 4324  ls
+ 4325  cd aws
+ 4326  ls
+ 4327  git pull
+ 4328  git fetch
+ 4329  git diff main origin/main
+ 4330  git merge
+ 4331  cd ..
+ 4332  cd clarusway-aws-8-21
+ 4333  cd ..
+ 4334  cd clarusway-aws-8-21
+ 4335  git fetch
+ 4336  ls
+ 4337  git diff main origin/main
+ 4338  git pull
+ 4339  ls
+ 4340  clear
+ 4341  git pull
+ 4342  ls
+ 4343  ls -l
+ 4344  cd ..
+ 4345  ls
+ 4346  cd clarusway-aws-8-21
+ 4347  ls
+ 4348  git pull
+ 4349  ls -al
+ 4350  cd ..
+ 4351  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 4352  rm -r clarusway-aws-8-21
+ 4353  rm -rf clarusway-aws-8-21
+ 4354  ls
+ 4355  clear
+ 4356  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 4357  ls
+ 4358  cd clarusway-aws-8-21
+ 4359  ls
+ 4360  git pull 
+ 4361  cd python 
+ 4362  ls
+ 4363  cd hands-on
+ 4364  ls
+ 4365  cd flask-01-02-hello-world-app-Jinja-Template
+ 4366  ls
+ 4367  cd flask-0
+ 4368  ls
+ 4369  cd flask-01-hello-world-app
+ 4370  ls
+ 4371  cd 
+ 4372  cd Desktop
+ 4373  ls
+ 4374  cd clarusway-aws-8-21
+ 4375  git pull
+ 4376  ls
+ 4377  cd linux
+ 4378  ls
+ 4379  clear
+ 4380  ls
+ 4381  cd hands-on
+ 4382  ls
+ 4383  cd linux-03-managing-users-and-groups
+ 4384  ls
+ 4385  open README.md
+ 4386  vim README.md
+ 4387  open README.md
+ 4388  cd ..
+ 4389  cd 
+ 4390  cd GitHub
+ 4391  cd MY-WORKSPACE
+ 4392  ls
+ 4393  git status
+ 4394  git add .
+ 4395  git status
+ 4396  git commit -m 'son linux handson'
+ 4397  git push
+ 4398  clear
+ 4399  ls
+ 4400  git fetch
+ 4401  git diff main origin/main
+ 4402  git fetch
+ 4403  git diff main origin/main
+ 4404  git merge
+ 4405  ls
+ 4406  git pull
+ 4407  ls
+ 4408  git pull
+ 4409  ls
+ 4410  clear
+ 4411  ls
+ 4412  touch deneme2.txt
+ 4413  ls
+ 4414  git status
+ 4415  git add .
+ 4416  git commit -m 'son linux handson'
+ 4417  git push
+ 4418  git pull
+ 4419  ls
+ 4420  clear
+ 4421  ls
+ 4422  cd ..
+ 4423  cd 
+ 4424  cd Desktop
+ 4425  mkdir test
+ 4426  mkdir deneme
+ 4427  ls
+ 4428  cd deneme
+ 4429  git init
+ 4430  ls -a
+ 4431  git branch -m main
+ 4432  echo 'this is a trial' > deneme.txt
+ 4433  cat deneme.txt
+ 4434  git log
+ 4435  git status
+ 4436  clear
+ 4437  git remote add origin https://github.com/fatihtepe/deneme.git
+ 4438  git pull origin main
+ 4439  ls
+ 4440  touch deneme3
+ 4441  ls
+ 4442  git status
+ 4443  git add deneme.txt deneme3
+ 4444  git add .
+ 4445  git status
+ 4446  git commit -m 'son linux handson'
+ 4447  git status
+ 4448  git push
+ 4449  clear
+ 4450  git push 
+ 4451  git push origin main
+ 4452  touch denememe
+ 4453  git status
+ 4454  git add .
+ 4455  git commit -m 'son linux handson'
+ 4456  git push
+ 4457  git push origin main
+ 4458  clear
+ 4459  cd 
+ 4460  open .zshrc
+ 4461  claer
+ 4462  cd ..
+ 4463  clear
+ 4464  cd ..
+ 4465  cd 
+ 4466  cd GitHub
+ 4467  ls
+ 4468  cd MY-WORKSPACE
+ 4469  ls
+ 4470  git log
+ 4471  cd GitHub
+ 4472  cd clarusway-aws-8-21
+ 4473  ls
+ 4474  git fetch
+ 4475  git diff main origin/main
+ 4476  git merge
+ 4477  ls
+ 4478  cd teamwork-agendas
+ 4479  ls
+ 4480  open 8-21-tw-001-student.pdf
+ 4481  clear
+ 4482  cd GitHub
+ 4483  cd MY-WORKSPACE
+ 4484  ls
+ 4485  git add .
+ 4486  git commit -m 'update'
+ 4487  git push
+ 4488  clear
+ 4489  cd ..
+ 4490  cd homebrew_essentials
+ 4491  git pull
+ 4492  clear
+ 4493  git status
+ 4494  git add .
+ 4495  git commit -m 'linux wooow commands'
+ 4496  git push
+ 4497  clear
+ 4498  git status
+ 4499  git add .
+ 4500  git commit -m 'update'
+ 4501  git push
+ 4502  cd cheat-sheets
+ 4503  git status
+ 4504  git add .
+ 4505  git commit -m 'update'
+ 4506  git push
+ 4507  cd ..
+ 4508  cd clarusway-aws-8-21
+ 4509  git fetch 
+ 4510  git diff main origin/main
+ 4511  git merge
+ 4512  clear
+ 4513  git pull
+ 4514  clear
+ 4515  cd ..
+ 4516  cd cybersecurity.md
+ 4517  git status
+ 4518  cd ..
+ 4519  cd homebrew_essentials
+ 4520  git status
+ 4521  git add .
+ 4522  git commit -m 'Change EC2 shell'
+ 4523  cd ..
+ 4524  cd My-Projects
+ 4525  git status
+ 4526  git checkout main
+ 4527  git status
+ 4528  ls
+ 4529  git pull
+ 4530  cd Desktop
+ 4531  ls
+ 4532  mv Screen\ Shot\ 2021-06-19\ at\ 6.54.53\ AM.png network-host-id
+ 4533  ls
+ 4534  mv network-host-id ../GitHub/devops-roadmap/network-basics/img
+ 4535  cd devops-roadmap
+ 4536  git status
+ 4537  git add .
+ 4538  git commit -m 'network-host-id'
+ 4539  git push
+ 4540  cd ..
+ 4541  clear
+ 4542  cd GitHub
+ 4543  cd devops-roadmap
+ 4544  cd network-basics
+ 4545  ls
+ 4546  git status
+ 4547  git add .
+ 4548  git commit -m 'Subnetting-by-Suny'
+ 4549  git push
+ 4550  clear
+ 4551  git status
+ 4552  git add .
+ 4553  git commit -m 'Sunny Subnetting Table'
+ 4554  git push
+ 4555  git status
+ 4556  git add .
+ 4557  git commit -m 'NetworkID SubnetMask and Subnets for IPv4'
+ 4558  git push
+ 4559  cd 
+ 4560  cd Desktop
+ 4561  ls
+ 4562  mv Screen\ Shot\ 2021-06-19\ at\ 1.30.30\ PM.png ../GitHub/devops-roadmap/aws
+ 4563  cd ..
+ 4564  cd GitHub
+ 4565  clear
+ 4566  cd devops-roadmap
+ 4567  git status
+ 4568  git add .
+ 4569  git commit -m 'cloud'
+ 4570  git push
+ 4571  git pull
+ 4572  git add .
+ 4573  git commit -m 'cloud update'
+ 4574  git push
+ 4575  git pull
+ 4576  ssh numan-tepe@makina
+ 4577  ssh ftepe@10.0.0.200
+ 4578  ssh -i "web_key.pem" ec2-user@ec2-34-207-211-205.compute-1.amazonaws.com
+ 4579  clear
+ 4580  cd ..
+ 4581  cc
+ 4582  cd 
+ 4583  clear
+ 4584  ssh numan-tepe@makina
+ 4585  ssh ftepe@10.0.0.200
+ 4586  cd GitHub
+ 4587  cd homebrew_essentials
+ 4588  git statu
+ 4589  git status
+ 4590  git pull
+ 4591  git add .
+ 4592  git status
+ 4593  git push
+ 4594  cd 
+ 4595  cd GitHub
+ 4596  ls
+ 4597  clear
+ 4598  git clone https://github.com/fatihtepe/SSH.git
+ 4599  cd ..
+ 4600  rsync -av --delete /Uses/tepefolder numan-tepe@makina:server:/destination/folder
+ 4601  clear
+ 4602  rsync -av --delete /Users/tepe/Documents numan-tepe@makina:/home/numan-tepe/Documents
+ 4603  cd GitHub
+ 4604  cd clarusway-aws-8-21
+ 4605  git pull
+ 4606  cd GitHub
+ 4607  git clone https://github.com/clarusway/clarusway-aws-8-21.git
+ 4608  cd MY-WORKSPACE
+ 4609  git status
+ 4610  git add .
+ 4611  git commit -m 'update'
+ 4612  git push
+ 4613  git pull
+ 4614  ls
+ 4615  cd flask-01-02-hello-world-app-Jinja-Template
+ 4616  ls
+ 4617  cd flask-01-hello-world-app
+ 4618  ls
+ 4619  clear
+ 4620  git add .
+ 4621  git commit -m 'Write a Simple Hello World Web Application on GitHub Repo'
+ 4622  cd ..
+ 4623  ls
+ 4624  cd flask-02-Jinja_Template
+ 4625  ls
+ 4626  git status
+ 4627  clear
+ 4628  ls
+ 4629  git status
+ 4630  ..
+ 4631  git status
+ 4632  clear
+ 4633  git add .
+ 4634  git status
+ 4635  git commit -m 'Write a Simple Hello World Web Application with Jinja template on GitHub Repo'
+ 4636  git add .
+ 4637  git commit -m 'Write a Simple Hello World Web Application with Jinja template on GitHub Repo' 
+ 4638  clear
+ 4639  git status
+ 4640  ..
+ 4641  git push
+ 4642  git status
+ 4643  git add .
+ 4644  git commit -m 'update Getting to know the Python Flask framework'
+ 4645  git push
+ 4646  cd 
+ 4647  clear
+ 4648  ssh -i "web_key.pem" ec2-user@ec2-34-201-161-146.compute-1.amazonaws.com
+ 4649  clear
+ 4650  cd GitHub
+ 4651  ls
+ 4652  cd MY-WORKSPACE
+ 4653  git status
+ 4654  git add .
+ 4655  git commit -m 'Write a Simple Hello World Web Application on GitHub Repo'
+ 4656  git push
+ 4657  git status
+ 4658  clear
+ 4659  git add .
+ 4660  git commit -m 'update'
+ 4661  git push
+ 4662  clear
+ 4663  git status
+ 4664  cd Creating-Flask-Application
+ 4665  ls
+ 4666  cd ..
+ 4667  ls
+ 4668  git add .
+ 4669  git commit -m 'Creating Flask Application and Basic Usage of Jinga Templates'
+ 4670  git push
+ 4671  clear
+ 4672  ssh -i "web_key.pem" ec2-user@ec2-34-201-161-146.compute-1.amazonaws.com
+ 4673  cd GitHub
+ 4674  git clone https://github.com/fatihtepe/my-projects.git
+ 4675  ls
+ 4676  my my-projects
+ 4677  cd my-projects
+ 4678  ls
+ 4679  cd my-projects
+ 4680  git status
+ 4681  git add .
+ 4682  git commit -m 'Creating Flask Application - Hello World and basic usage of Jinja Templates'
+ 4683  git push
+ 4684  cd 
+ 4685  cleaer
+ 4686  cd ..
+ 4687  cd clear
+ 4688  clear
+ 4689  cd 
+ 4690  ssh -i "web_key.pem" ec2-user@ec2-34-201-161-146.compute-1.amazonaws.com
+ 4691  clear 
+ 4692  /usr/local/bin/python3 /Users/tepe/GitHub/my-projects/flask-01-02-hello-world-app-Jinja-Template/flask-01-hello-world-app/hello-world-app.py
+ 4693  clear
+ 4694  git add .
+ 4695  cd my-projects
+ 4696  git status
+ 4697  git add .
+ 4698  git commit -m 'update'
+ 4699  git push
+ 4700  cd Dow
+ 4701  cd Downloads
+ 4702  ls
+ 4703  ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4704  chmod 400 flask.pem
+ 4705  ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4706  cd ..
+ 4707  git pull
+ 4708  clear
+ 4709* ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4710* cd Do
+ 4711* cd Downloads
+ 4712* ls
+ 4713* ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4714* mv flask.pem /Users/tepe/.ssh
+ 4715* cd ..
+ 4716* .ssh
+ 4717* ls
+ 4718* cd ..
+ 4719* ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4720* clear
+ 4721* ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4722* .ssh
+ 4723* ssh -i "flask.pem" ec2-user@ec2-100-24-253-11.compute-1.amazonaws.com
+ 4724  cd my-projects
+ 4725  git add .
+ 4726  git status
+ 4727  git commit -m 'update README.md'
+ 4728  git push
+ 4729  cldear
+ 4730  clear
+ 4731  git status
+ 4732  clear
+ 4733  ls
+ 4734  mkdir managing-files-in-linux
+ 4735  ls
+ 4736  cd managing-files-in-linux
+ 4737  mkdir linux-lessons
+ 4738  cd linux-lessons
+ 4739  touch myway.txt
+ 4740  vim myway.txt
+ 4741  head myway.txt
+ 4742  head -5 myway.txt
+ 4743  tail myway.txt
+ 4744  tail -5 myway.txt
+ 4745  cat myway.txt
+ 4746  echo 'this is file1' > file1
+ 4747  echo 'this is file2' > file2
+ 4748  echo 'this is file3' > file3
+ 4749  cat file1 file2 file3
+ 4750  cat file1 file2 file2 > all.txt
+ 4751  ls
+ 4752  cat > summer.txt
+ 4753  more myway.txt
+ 4754  less myway.txt
+ 4755  clear
+ 4756  tac myway.txt
+ 4757  find . -name myway.txt
+ 4758  find /tepe 
+ 4759  find /tepe -name *.txt
+ 4760  find /Users/tepe -name *.txt
+ 4761  find . -name myway.txt
+ 4762  find /home -name myway.txt
+ 4763  ls
+ 4764  clear
+ 4765  find /home -tepe d -name linux-lessons
+ 4766  find /home -type d -name linux-lessons
+ 4767  find . -type f -name '*.txt'
+ 4768  find . -type f -name -empty
+ 4769  find /Users -size 100
+ 4770  find /Users/tepe -size 100
+ 4771  find /Users/tepe +50M -size -100M
+ 4772  find /Users/tepe *.pem
+ 4773  find /Users/tepe/  '*.pem'
+ 4774  find /Users/tepe/  "*.pem"
+ 4775  find /Users/tepe/  "*.html"
+ 4776  find /Users/tepe/  -mtime 10
+ 4777  find /Users/tepe/  -mtime 1
+ 4778  find . -mtime +10 -mmin -30
+ 4779  find /Users/tepe/  -mtime 10 -mmin -30
+ 4780  find /Users/tepe/Downloads  -mtime 10 -mmin -30
+ 4781  find /Users/tepe/Documents  -mtime 10 -mmin -30
+ 4782  find /Users/tepe/GitHub  -mtime 10 -mmin -30
+ 4783  ls
+ 4784  find . mmin +10 -mmin -30
+ 4785  clear
+ 4786  touch linx.txt
+ 4787  grep 'kernel' linux.txt
+ 4788  mv linx.txt linux.txt
+ 4789  ls
+ 4790  vim linux.txt
+ 4791  grep "kernel" linux.txt
+ 4792  grep "is" *
+ 4793  grep "linu" linux.txt
+ 4794  grep "linux" linux.txt
+ 4795  grep "is" *
+ 4796  grep "kernel" linux.txt
+ 4797  clear
+ 4798  grep -i "linux" linux.txt
+ 4799  grep -"ker" linux.txt
+ 4800  grep -v "kerne" linux.txt
+ 4801  grep -v "kernel" linux.txt
+ 4802  cat linux.txt
+ 4803  histor > history.txt
+ 4804  history > history.txt
+ 4805  history | grep "grep"
+ 4806  grep "kernel.$" linux.txt
+ 4807  cat linux.txt
+ 4808  history | grep 'find'
+ 4809  tac linux.txt > reverse-linux.txt
+ 4810  ls
+ 4811  cat reverse-linux.txt
+ 4812  clear
