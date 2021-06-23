@@ -305,10 +305,10 @@ ipcalc takes an IP address and netmask and calculates the resulting broadcast, n
 [NAT](https://www.youtube.com/watch?v=wg8Hosr20yw)
 NAT ==> Network Address Translation
 NAT is a process / technology where a router or a similar network device, translates one IP address into another IP address specifically, a router translates an internal host's private IP address into its public IP address for outgoing traffic and it also translates its public IP address to an internal private address for incoming traffic. <br>
-NAT Benefits:
+NAT Benefits:<br>
 - NAT improves security because internal hosts' IP addreses are hidden. 
-- NAT, together with IPv4 private addressing scheme conserves IPv4 address space and thus extends its lifespan. 
-4 TYPES OF NAT
+- NAT, together with IPv4 private addressing scheme conserves IPv4 address space and thus extends its lifespan. <br>
+4 TYPES OF NAT<br>
 - Static NAT(SNAT)
 - Dynamic NAT(DNAT)
 - PAT (Port Address Translation)
