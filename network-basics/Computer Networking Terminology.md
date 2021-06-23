@@ -308,7 +308,7 @@ NAT is a process / technology where a router or a similar network device, transl
 NAT Benefits:<br>
 - NAT improves security because internal hosts' IP addreses are hidden. 
 - NAT, together with IPv4 private addressing scheme conserves IPv4 address space and thus extends its lifespan. <br>
-4 TYPES OF NAT<br>
+4 TYPES OF NAT:<br>
 - Static NAT(SNAT)
 - Dynamic NAT(DNAT)
 - PAT (Port Address Translation)
