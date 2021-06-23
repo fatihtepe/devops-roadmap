@@ -286,3 +286,8 @@ The SSH protocol uses encryption to secure the connection between a client and a
 <a href="https://www.calculator.net/ip-subnet-calculator.html?cclass=any&csubnet=24&cip=125.23.200.65&ctype=ipv4&printit=0&x=68&y=22">IP Subnet Calculator</a><br>
 
 ![subnetsforIPv4](img/subnetsforIPv4.png)
+
+
+# <a href="http://jodies.de/ipcalc">IP Calculator</a><br>
+IP Calculator
+ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range. By giving a second netmask, you can design subnets and supernets. It is also intended to be a teaching tool and presents the subnetting results as easy-to-understand binary values.
