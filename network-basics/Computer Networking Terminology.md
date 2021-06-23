@@ -313,3 +313,7 @@ NAT Benefits:<br>
 - Dynamic NAT(DNAT)
 - PAT (Port Address Translation)
 - Port Forwarding
+
+[ARP](https://www.youtube.com/watch?v=Xb1JA5CIssI)<br>
+ARP is basically a program used by computer A to find computer B's MAC address based on its IP address.<br> 
+- [How does a computer communicate locally and remotely?](https://www.youtube.com/watch?v=Xb1JA5CIssI)<br>
