@@ -287,7 +287,8 @@ The SSH protocol uses encryption to secure the connection between a client and a
 
 ![](img/subnet-BB.png)<br>
 
-![](img/subnet-BBB.png)
+![](img/subnet-BBB.png)<br>
+
 <a href="https://www.youtube.com/watch?v=XQ3T14SIlV4">NETWORK & SUBNET MASK</a><br>
 ![networkID-subnetMask](img/networkID-subnetMask.png)<br>
 
