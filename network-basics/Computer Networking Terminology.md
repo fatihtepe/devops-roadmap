@@ -302,7 +302,7 @@ The SSH protocol uses encryption to secure the connection between a client and a
 IP Calculator
 ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range. By giving a second netmask, you can design subnets and supernets. It is also intended to be a teaching tool and presents the subnetting results as easy-to-understand binary values.
 
-[NAT](https://www.youtube.com/watch?v=wg8Hosr20yw)
+[NAT](https://www.youtube.com/watch?v=wg8Hosr20yw)<br>
 NAT ==> Network Address Translation
 NAT is a process / technology where a router or a similar network device, translates one IP address into another IP address specifically, a router translates an internal host's private IP address into its public IP address for outgoing traffic and it also translates its public IP address to an internal private address for incoming traffic. <br>
 NAT Benefits:<br>
