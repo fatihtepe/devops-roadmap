@@ -317,3 +317,6 @@ NAT Benefits:<br>
 [ARP](https://www.youtube.com/watch?v=Xb1JA5CIssI)<br>
 ARP is basically a program used by computer A to find computer B's MAC address based on its IP address.<br> 
 - [How does a computer communicate locally and remotely?](https://www.youtube.com/watch?v=Xb1JA5CIssI)<br>
+- MAC address is used for local communications while IP address is used for remote communications.
+- A switch, a layer 2 device is used for local communications, and default gateway, a layer 3 device, is used for remote communications.
+-ARP is used in both situations.
