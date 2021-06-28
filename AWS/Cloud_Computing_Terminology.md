@@ -97,3 +97,5 @@ Throughput is the value that specifies how many MB of data transfer per second i
 <a href="https://www.youtube.com/watch?v=_edxeLGnJpg">EBS Valume Types</a><br>
 Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br> 
 <img src="img/EBS" alt="Elastic Block Store"> <br>
+  
+ updated on 28 June 
