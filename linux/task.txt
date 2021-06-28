@@ -1,0 +1,45 @@
+{
+    "AutoScalingInstances": [
+        {
+            "InstanceId": "i-04c142c8eb316e77c",
+            "InstanceType": "t3.medium",
+            "AutoScalingGroupName": "eks-78bd1ced-de27-9186-8a19-67f276fab01a",
+            "AvailabilityZone": "us-east-1b",
+            "LifecycleState": "InService",
+            "HealthStatus": "HEALTHY",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-06b03da8c66b17e3b",
+                "LaunchTemplateName": "eks-78bd1ced-de27-9186-8a19-67f276fab01a",
+                "Version": "1"
+            },
+            "ProtectedFromScaleIn": false
+        }
+        {
+            "InstanceId": "i-04jsdksdnksndksds",
+            "InstanceType": "t3.medium",
+            "AutoScalingGroupName": "eks-78bd1ced-de27-9186-8a19-67f276fab01a",
+            "AvailabilityZone": "us-east-1b",
+            "LifecycleState": "InService",
+            "HealthStatus": "HEALTHY",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-06b03da8c66b17e3b",
+                "LaunchTemplateName": "eks-78bd1ced-de27-9186-8a19-67f276fab01a",
+                "Version": "1"
+            },
+            "ProtectedFromScaleIn": false
+        }
+    ]
+}
+
+
+To write specific word(InService) under first Instance number 
+
+- grep -A 4 'i-04c142c8eb316e77c' task.txt | cut -d: -f2 | grep InService | tr -d ,| sed s/\"//g
+ InService
+
+- cat task.txt | grep i-04c142c8eb316e77c -A 5 | grep "LifecycleState" | cut -d '"' -f4
+
+
+Check below web-site for after and before parameter.
+
+- https://ma.ttias.be/grep-show-lines-before-and-after-the-match-in-linux/
