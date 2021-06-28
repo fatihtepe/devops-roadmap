@@ -1,0 +1,237 @@
+  1  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    2  clear
+    3  clear
+    4  echo $PS1
+    5  clear
+    6  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    7  clear
+    8  echo $PS1
+    9  PS1="Hello"
+   10  PS1="$ Hello"
+   11  PS1="$ Hello: "
+   12  PS1="$ fatihtepe: "
+   13  PS1="\d  "
+   14  PS1="\h  "
+   15  PS1="\H  "
+   16  export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+   17  clear
+   18  bash
+   19  echo 'export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "' >> ~/.bashrc
+   20  echo 'export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\
+   21  echo 'export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "'
+   22  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   23  clear
+   24  mkdir shell-scripting && cd shell-scripting
+   25  #!/bin/bash
+   26  echo "Hello World"
+   27  chmod +x basic.sh
+   28  vim basic.sh
+   29  ls -l
+   30  chmod +x basic.sh 
+   31  ls -l
+   32  cat basic.sh 
+   33  clear
+   34  ./basic.sh 
+   35  clear
+   36  claer
+   37  vim basic.sh 
+   38  ./basic.sh 
+   39  clear
+   40  $PS1
+   41  clear
+   42  vim my-first-script.sh
+   43  chmod +x my-first-script.sh 
+   44  ./my-first-script.sh 
+   45  #pwd
+   46  clear
+   47  #!
+   48  clear
+   49  ls
+   50  vim basic.sh 
+   51  ./basic.sh 
+   52  vim basic.sh 
+   53  clear
+   54  ls -al
+   55  cd ..
+   56  ls
+   57  ls -al
+   58  vim .bash_profile 
+   59  ls
+   60  cd shell-scripting/
+   61  ls
+   62  basic.sh
+   63  ./basic.sh
+   64  basic.sh
+   65  ls 
+   66  ls -al
+   67  cd ..
+   68  ls
+   69  ls -al
+   70  source .bash_profile 
+   71  ls
+   72  cd shell-scripting/
+   73  clear
+   74  cd ..
+   75  basic.sh
+   76  vim .bash_profile 
+   77  pwd
+   78  ls
+   79  cd shell-scripting/
+   80  pwd
+   81  cd ..
+   82  vim .bash_profile 
+   83  source .bash_profile 
+   84  basic.sh
+   85  vim .bash_profile 
+   86  source .bash_profile 
+   87  basic.sh
+   88  ls
+   89  cd shell-scripting/
+   90  clar
+   91  clear
+   92  cat << EOF
+Welcome to the Linux Lessons.
+This lesson is about the shell scripting
+EOF
+
+   93  pwd
+   94  clear
+   95  vim basic.sh 
+   96  cat basic.sh 
+   97  basic.sh
+   98  clear
+   99  vim basic.sh 
+  100  basic.sh
+  101  key=value
+  102  echo $key
+  103  echo $KEY
+  104  clear
+  105  a_3=test
+  106  echo $a_3
+  107  echo $test
+  108  clear
+  109  echo $test
+  110  clear
+  111  history
+  112  clear
+  113  vim variable.sh
+  114  cat variable.sh 
+  115  ls
+  116  ls -l
+  117  chmod 755 variable.sh
+  118  ls -l
+  119  clear
+  120  ./variable.sh 
+  121  echo $NAME
+  122  clear
+  123  ls
+  124  echo ls
+  125  echo $ls
+  126  clear
+  127  echo ls $(ls)
+  128  ls
+  129  echo $(pwd)
+  130  echo 'today is $(date)'
+  131  date=$(date)
+  132  eco $date
+  133  echo $date
+  134  echo cal
+  135  clear
+  136  echo `(ls)
+  137  echo `pwd`
+  138  clear
+  139  vim command-substitution.sh
+  140  chmod 755 command-substitution.sh 
+  141  ./command-substitution.sh 
+  142  vim command-substitution.sh 
+  143  clear
+  144  ./command-substitution.sh 
+  145  vim command-substitution.sh
+  146  ./command-substitution.sh 
+  147  pwd
+  148  clear
+  149  ./command-substitution.sh 
+  150  clear
+  151  vim variable.sh 
+  152  cat variable.sh 
+  153  ./variable.sh 
+  154  vim variable.sh 
+  155  ./variable.sh 
+  156  vim variable.sh 
+  157  ./variable.sh 
+  158  vim variable.sh 
+  159  ./variable.sh 
+  160  vim variable.sh 
+  161  clear
+  162  echo "merhaba\nhosgeldiniz."
+  163  echo -e "merhaba\nhosgeldiniz."
+  164  vim variable.sh 
+  165  ./variable.sh 
+  166  vim variable.sh 
+  167  ./variable.sh 
+  168  clear
+  169  vim argument.sh
+  170  chmod 755 argument.sh 
+  171  clear
+  172  ./argument.sh 
+  173  clear
+  174  ./argument.sh 
+  175  ./argument.sh james joe
+  176  cat argument.sh 
+  177  read argument.sh 
+  178  clear
+  179  vim argument.sh
+  180  ./argument.sh 
+  181  cat -n argument.sh 
+  182  clear
+  183  cat -n argument.sh 
+  184  first second third 
+  185  ./argument.sh first second third
+  186  clear
+  187  DISTROS[0]="ubuntu"
+  188  DISTROS[1]="fedora"
+  189  DISTROS[2]="centos"
+  190  devops_tools=("docker" "kubernetes" "ansible" "terrafor" "jenkins")
+  191  echo ${DISTROS[@]}
+  192  echo ${devops_tools[@]}
+  193  echo ${devops_tools[2]}
+  194  echo ${#devops_tools[@]}
+  195  len(devops_tools)
+  196  clear
+  197  expr 3 + 5 
+  198  expr 3 \* 5 
+  199  expr 3 * 5 
+  200  expr 3 \* 5 
+  201  expr 7 % 2
+  202  let "sum = 3 + 5"
+  203  echo $sum
+  204  let mul=3\*5
+  205  echo $mul
+  206  clear
+  207  exp 3 ^ 3
+  208  expr 3 ** 3
+  209  expr 3 // 3
+  210  clear
+  211  let "us=3**6:
+  212  let "us=3**6"
+  213  echo $us
+  214  clear
+  215  let a=5
+  216  echo $a
+  217  let b=a++
+  218  echo $b
+  219  x=7
+  220  let y=--
+  221  let y=--x
+  222  echo $y
+  223  sum=$((5+3))
+  224  echo $sum
+  225  clear
+  226  echo $((5**2))
+  227  bc -l
+  228  bc 
+  229  history > 062821.txt
+  230  ls
+  231  vim 062821.txt 
+  232  clear
+  233  history
