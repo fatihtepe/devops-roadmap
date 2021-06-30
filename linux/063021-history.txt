@@ -1,0 +1,185 @@
+[ec2-user@ip-172-31-74-86 ~]$ ls
+conditional-statements
+[ec2-user@ip-172-31-74-86 ~]$ cd conditional-statements/
+[ec2-user@ip-172-31-74-86 conditional-statements]$ ls
+boolean.sh         filename.sh          if-statement.sh
+case-statement.sh  file-operators.sh    nested-if-statement.sh
+elif-statement.sh  folder               string-operators.sh
+file               history.txt
+filename           ifelse-statement.sh
+[ec2-user@ip-172-31-74-86 conditional-statements]$ ls
+boolean.sh         filename.sh          if-statement.sh
+case-statement.sh  file-operators.sh    nested-if-statement.sh
+elif-statement.sh  folder               string-operators.sh
+file               history.txt
+filename           ifelse-statement.sh
+[ec2-user@ip-172-31-74-86 conditional-statements]$ history
+    1  sudo pip3 install flask
+    2  clear
+    3  sudo yum install git wget
+    4  clear
+    5  ls
+    6  cd 062921-flask-04-handling-forms-POST-GET-Methods/
+    7  ls
+    8  cd Flask_GET_POST_Methods_1
+    9  ls
+   10  cd Flask_GET_POST_Methods_1
+   11  clear
+   12  ls
+   13  cd Flask_GET_POST_Methods_2
+   14  ls
+   15  sudo python3 app.py
+   16  sudo yum update -y
+   17  sudo yum install python3 -y
+   18  sudo python3 app.py
+   19  clear
+   20  cd ..
+   21  ls
+   22  cd Flask_GET_POST_Methods_1
+   23  cd Flask_GET_POST_Methods
+   24  clear
+   25  ls
+   26  cd Flask_GET_POST_Methods
+   27  cd 
+   28  ls
+   29  cd ..
+   30  clear
+   31  ls
+   32  cd ec2-user/
+   33  ls
+   34  cd 062921-flask-04-handling-forms-POST-GET-Methods/
+   35  ls
+   36  cd Flask_GET_POST_Methods_1
+   37  ls
+   38  cd ..
+   39  clear
+   40  ls
+   41  cd 062921-flask-04-handling-forms-POST-GET-Methods/
+   42  ls
+   43  cd flask-04-handling-forms/
+   44  ls
+   45  sudo python3 form-handling.py 
+   46  clear
+   47  cd ..
+   48  ls
+   49  cd Flask_GET_POST_Methods_2
+   50  ls
+   51  cd ..
+   52  clear
+   53  ls
+   54  cd Flask_GET_POST_Methods_1
+   55  ls
+   56  clera
+   57  clear
+   58  ls
+   59  cd Flask_GET_POST_Methods_1
+   60  clear
+   61  ls
+   62  cd flask-04-handling-forms/
+   63  ls
+   64  clear
+   65  sudo python3 form-handling.py 
+   66  cler
+   67  clear
+   68  cd ..
+   69  ls
+   70  mkdir method1
+   71  cd method1/
+   72  ls
+   73  claer
+   74  clear
+   75  mkdir templates
+   76  ls
+   77  cd templates/
+   78  wget https://raw.githubusercontent.com/fatihtepe/playground/main/062921-flask-04-handling-forms-POST-GET-Methods/Flask_GET_POST_Methods_1%20/templates/index.html
+   79  wget https://raw.githubusercontent.com/fatihtepe/playground/main/062921-flask-04-handling-forms-POST-GET-Methods/Flask_GET_POST_Methods_1%20/templates/number.html
+   80  cd ..
+   81  https://raw.githubusercontent.com/fatihtepe/playground/main/062921-flask-04-handling-forms-POST-GET-Methods/Flask_GET_POST_Methods_1%20/app.py
+   82  wget https://raw.githubusercontent.com/fatihtepe/playground/main/062921-flask-04-handling-forms-POST-GET-Methods/Flask_GET_POST_Methods_1%20/app.py
+   83  sudo python3 app.py 
+   84  clear
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd ..
+   89  ls
+   90  clear
+   91  ls
+   92  cd 062921-flask-04-handling-forms-POST-GET-Methods/
+   93  ls
+   94  clear
+   95  xport PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   96  eexport PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   97  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   98  clear
+   99  mkdir conditional-statements && cd conditional-statements
+  100  ls
+  101  pwd
+  102  clear
+  103  vim if-statement.sh
+  104  chmod +x if-statement.sh 
+  105  ls
+  106  ll
+  107  clear
+  108  cat if-statement.sh 
+  109  sh if-statement.sh 
+  110  clear
+  111  ./if-statement.sh 
+  112  vim if-statement.sh 
+  113  ./if-statement.sh 
+  114  50
+  115  vim if-statement.sh 
+  116  45
+  117  50
+  118  ./if-statement.sh 
+  119  clear
+  120  vim if-statement.sh 
+  121  ./if-statement.sh 
+  122  clear
+  123  vim string-operators.sh
+  124  chmod 755 string-operators.sh 
+  125  ls
+  126  ./string-operators.sh 
+  127  cat string-operators.sh 
+  128  clare
+  129  clear
+  130  ./string-operators.sh 
+  131  ./if-statement.sh 
+  132  cat if-statement.sh 
+  133  clear
+  134  mkdir folder
+  135  ls
+  136  touch file
+  137  chmod 400 file
+  138  ls
+  139  ll
+  140  clear
+  141  ls
+  142  ls -l
+  143  clear
+  144  vim file-operators.sh
+  145  chmod 755 file-operators.sh 
+  146  ./file-operators.sh 
+  147  cat file-operators.sh 
+  148  clear
+  149  vim file-operators.sh 
+  150  ./file-operators.sh 
+  151  ./file-operators.sh folder
+  152  ./file-operators.sh file
+  153  vim file-operators.sh 
+  154  ./file-operators.sh file
+  155  vim file-operators.sh 
+  156  vim file-operators.sh file
+  157  ./file-operators.sh file
+  158  ./file-operators.sh folder
+  159  vim file-operators.sh file
+  160  ./file-operators.sh folder
+  161  ./file-operators.sh file
+  162  cd conditional-statements/
+  163  ls
+  164  clear
+  165  ls
+  166  cd conditional-statements/
+  167  ls
+  168  history
+[ec2-user@ip-172-31-74-86 conditional-statements]$ 
