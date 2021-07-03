@@ -98,4 +98,13 @@ Throughput is the value that specifies how many MB of data transfer per second i
 Talking about AmazonEBS, which is another method of providing storage to your #AmazonEC2 instances, which has different benefits to that of the instance store volumes.<br> 
 <img src="img/EBS" alt="Elastic Block Store"> <br>
   
- updated on 28 June 
+## [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)  
+
+Amazon EBS provides the following volume types, which differ in performance characteristics and price, so that you can tailor your storage performance and cost to the needs of your applications. The volumes types fall into these categories:
+
+[Solid state drives (SSD)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html#solid-state-drives) — Optimized for transactional workloads involving frequent read/write operations with small I/O size, where the dominant performance attribute is IOPS.
+
+[Hard disk drives (HDD)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html#hard-disk-drives) — Optimized for large streaming workloads where the dominant performance attribute is throughput.
+
+[Previous generation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html#ebs-previous-generation-volumes) — Hard disk drives that can be used for workloads with small datasets where data is accessed infrequently and performance is not of primary importance. We recommend that you consider a current generation volume type instead.
+
