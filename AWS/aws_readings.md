@@ -17,3 +17,9 @@ The Roman Numerals Converter Application aims to convert the given number to Rom
 I recently had to recertify my AWS Solution Architect Professional exam. AWS is very nice in that they give you three years to recertify. Even though it’s three years preparing for recertification can be stressful. If you choose not to recertify I can understand but if you plan on keeping it well let just say on AWS a lot of things change fast.<br>
 
 My preparation for this exam was very very stressful mainly because I had done a series of exams in December 2020 and this was my first for 2021 so my brain needed a rest. This exam is the real deal it covers the full gambit. From my experience, this is the rabbit hole I had to face. It covered topics like, storage, analytics, networking, compute, database types, migration, security both services and policy, serverless, Amazon FSx, API stuff, Appsec, Organisations, IAM, and more. See — Exam blueprint
+
+[AWS Solutions Architect: Exam Question Deep Dive](https://codeburst.io/aws-solutions-architect-exam-question-deep-dive-d9ea49479a11)
+
+As I have prepared for AWS exams, I found dissecting exam questions helpful to grow my AWS knowledge. This post is a bite-sized study guide that will hopefully expand your knowledge of AWS and help you on your journey to becoming a Solutions Architect as well.
+
+For each post in this series, I am choosing one AWS Solutions Architect Professional exam question. We will explore the required knowledge and strategy to find the right answer and learn about a few AWS services along the way.
