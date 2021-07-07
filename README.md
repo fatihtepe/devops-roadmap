@@ -38,3 +38,5 @@ If an Elastic IP address is attached to your instance, AWS CloudFormation reatta
 [CF-Resources](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html) The required Resources section declares the AWS resources that you want to include in the stack, such as an Amazon EC2 instance or an Amazon S3 bucket.
 
 [AWS resource and property types reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) This section contains reference information for all AWS resource and property types that are supported by AWS CloudFormation.
+
+[eksctl - The official CLI for Amazon EKS](https://eksctl.io/) eksctl is a simple CLI tool for creating and managing clusters on EKS - Amazon's managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by Weaveworks and it welcomes contributions from the community. Create a basic cluster in minutes with just one command: `eksctl create cluster`
