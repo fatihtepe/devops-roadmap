@@ -23,3 +23,7 @@ My preparation for this exam was very very stressful mainly because I had done a
 As I have prepared for AWS exams, I found dissecting exam questions helpful to grow my AWS knowledge. This post is a bite-sized study guide that will hopefully expand your knowledge of AWS and help you on your journey to becoming a Solutions Architect as well.
 
 For each post in this series, I am choosing one AWS Solutions Architect Professional exam question. We will explore the required knowledge and strategy to find the right answer and learn about a few AWS services along the way.
+
+[AWS Application Load Balancer algorithms](https://medium.com/dazn-tech/aws-application-load-balancer-algorithms-765be2eca158)
+
+All load balancers support some balancing algorithms. These algorithms define which target handles each request. They’re often ignored, but choosing the correct balancing algorithm can have a big impact on your application performance. The most common algorithms are round-robin and least connections, known as Least Outstanding Requests by AWS. Let’s take a look at how each of these work.
