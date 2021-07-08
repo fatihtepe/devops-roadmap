@@ -7,3 +7,7 @@ write down a command-line to see the help text that matches each argument
 * Try to use the long-form of options
 * Use quotes around variables
 * Don’t write programs
+
+[Single Brackets vs Double Brackets](https://scriptingosx.com/2018/02/single-brackets-vs-double-brackets/)
+
+Double brackets were originally introduced in ksh and later adopted by bash and other shells. To use double brackets your shebang should be #!/bin/bash not #!/bin/sh.
