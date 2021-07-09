@@ -27,3 +27,13 @@ For each post in this series, I am choosing one AWS Solutions Architect Professi
 [AWS Application Load Balancer algorithms](https://medium.com/dazn-tech/aws-application-load-balancer-algorithms-765be2eca158)
 
 All load balancers support some balancing algorithms. These algorithms define which target handles each request. They’re often ignored, but choosing the correct balancing algorithm can have a big impact on your application performance. The most common algorithms are round-robin and least connections, known as Least Outstanding Requests by AWS. Let’s take a look at how each of these work.
+
+
+[CloudWatch vs CloudTrail](https://digitalcloud.training/cloudwatch-vs-cloudtrail-comparison/)
+
+`Two of the most important “Cloud” services to know for your exam are Amazon CloudWatch and AWS CloudTrail`. You may have already heard of these services before because they’re quite popular on AWS (for a good reason). They’re popular because they both perform a very important function. With “Watch” and “Trail” at the end of the name, can you guess what essential function it is that they perform? 
+
+You got it, monitoring!
+
+
+
