@@ -1,3 +1,0 @@
-this is file1
-this is file2
-this is file2
