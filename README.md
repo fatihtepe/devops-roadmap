@@ -40,3 +40,7 @@ If an Elastic IP address is attached to your instance, AWS CloudFormation reatta
 [AWS resource and property types reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) This section contains reference information for all AWS resource and property types that are supported by AWS CloudFormation.
 
 [eksctl - The official CLI for Amazon EKS](https://eksctl.io/) eksctl is a simple CLI tool for creating and managing clusters on EKS - Amazon's managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by Weaveworks and it welcomes contributions from the community. Create a basic cluster in minutes with just one command: `eksctl create cluster`
+
+[Status Code Definitions-part of Hypertext Transfer Protocol -- HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+
+Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.
