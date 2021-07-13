@@ -1,0 +1,4 @@
+total 12
+-rw-rw-r-- 1 ec2-user ec2-user 57 Jul 13 12:42 count.txt
+-rw-rw-r-- 1 ec2-user ec2-user 57 Jul 13 12:40 days.txt
+-rw-rw-r-- 1 ec2-user ec2-user 57 Jul 13 12:43 temp.txt

@@ -1,0 +1,216 @@
+    1  ls
+    2  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    3  clear
+    4  mkdir filters | cd filters
+    5  mkdir filters && cd filters
+    6  ls
+    7  cd filters
+    8  clear
+    9  ls
+   10  vim days.txt
+   11  cat days.txt 
+   12  clear
+   13  cat days.txt | cat | cat | cat | cat
+   14  nano count.txt
+   15  clear
+   16  cat count.txt 
+   17  clear
+   18  tac count.txt | tee temp.txt | tac
+   19  clear
+   20  ls
+   21  cat temp.txt 
+   22  tac temp.txt
+   23  clear
+   24  ls -l | tee mysfiles.txt | find *.txt
+   25  cat mysfiles.txt 
+   26  ls
+   27  clear
+   28  cat > tennis.txt
+   29  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+   30  ls
+   31  cd filters/
+   32  ls
+   33  cl
+   34  clear
+   35  cat tennis.txt 
+   36  cat tennis.txt | grep Williams
+   37  cat tennis.txt | grep us
+   38  clear
+   39  ls -l
+   40  ls -l | cut -d' ' -f3
+   41  clear
+   42  cat /etc/passwd
+   43  cl
+   44  clear
+   45  cut -d: -f1 /etc/passwd
+   46  cleaar
+   47  clear
+   48  cat << EOF > clarusway.txt
+Clarusway:Road to reinvent yourself.
+EOF
+
+   49  cat clarusway.txt 
+   50  clear
+   51  cat clarusway.txt 
+   52  cat clarusway.txt | tr aer QAZ
+   53  CLEAR
+   54  cat count.txt | tr '\n' ' '
+   55  ls
+   56  cat tennis.txt | tr '\n' ' '
+   57  cat tennis.txt 
+   58  clear
+   59  cat tennis.txt | tr '\n' ' ' | cat > ten.txt
+   60  ls
+   61  cat ten.txt
+   62  clear
+   63  ls
+   64  cat clarusway.txt | tr -d aeiou
+   65  cat clarusway.txt | tr [a-z] [A-Z] | tee clara.txt
+   66  cat clara.txt 
+   67  cat clarusway.txt | tr [a-z] [A-Z] | tee clara.txt | tac
+   68  cat clara.txt 
+   69  tac clara.txt | tee >> clara.txt | tac
+   70  cat clara.txt 
+   71  clear
+   72  wc count.txt 
+   73  cat count.txt 
+   74  clear
+   75  wc -w count.txt 
+   76  wc -r count.txt 
+   77  wc --help
+   78  wc -L count.txt 
+   79  cat count.txt 
+   80  clear
+   81  cat << EOF > marks.txt
+aeron-9
+albert-9
+james-9
+john-10
+oliver-7
+tom-7
+victor-10
+walter-8
+EOF
+
+   82  cat marks.txt 
+   83  sort marks.txt 
+   84  vim marks.txt 
+   85  cat marks.txt 
+   86  sort marks.txt 
+   87  cat marks.txt 
+   88  sort marks.txt | tee copymarks.txt
+   89  ls
+   90  cat copymarks.txt 
+   91  clear
+   92  sort  -r marks.txt 
+   93  clear
+   94  cat << EOF > trainees.txt
+john
+james
+aeron
+oliver
+walter
+albert
+james
+john
+travis
+mike
+aeron
+thomas
+daniel
+john
+aeron
+oliver
+mike
+john
+EOF
+
+   95  cat trainees.txt 
+   96  sort trainees.txt | uniq 
+   97  sort trainees.txt | uniq | cat > uniq.txt
+   98  cat uniq.txt 
+   99  clear
+  100  cat << EOF > file1.txt
+Aeron
+Bill
+James
+John
+Oliver
+Walter
+EOF
+
+  101  clear
+  102  cat << EOF > file2.txt
+Guile
+James
+John
+Raymond
+EOF
+
+  103  ls
+  104  clear
+  105  sort file1.txt file2.ftxt | com file1.txt file2.txt
+  106  sort file1.txt file2.ftxt | comm file1.txt file2.txt
+  107  comm file1.txt file2.txt
+  108  clear
+  109  cat << EOF > countries.csv
+Country,Capital,Continent
+USA,Washington,North America
+France,Paris,Europe
+Canada,Ottawa,North America
+Germany,Berlin,Europe
+EOF
+
+  110  cat countries.csv 
+  111  cut -d, -f2
+  112  cut -d, -f2 | cat countries.csv 
+  113  clear
+  114  cat countries.csv | cut -d, -f3 | tail -4 | sort | uniq | cat > continent.txt
+  115  ls
+  116  clear
+  117  cat days.txt ; cat count.txt
+  118  clear
+  119  echo Hello ; echo World!
+  120  sleep 3
+  121  clear
+  122  sleep 20 & 
+  123  ls -l
+  124  cat count.txt
+  125  clear
+  126  ls 
+  127  $?
+  128  echo $?
+  129  clear
+  130  dfdfdf
+  131  echo $?
+  132  lls 
+  133  echo $?
+  134  ls
+  135  clear
+  136  cp file1.txt file11.txt
+  137  rm file11.txt && echo 'it worked' || echo 'it failed'
+  138  echo '# is the comment sign' # echo command displays the string comes after it.
+  139  echo # is the comment sign
+  140  echo \# is the comment sign
+  141  clear
+  142  cho The special characters are \*, \\, \", \#, \$, \'.
+  143  echo The special characters are \*, \\, \", \#, \$, \'.
+  144  clear
+  145  ls
+  146  clear
+  147  find clarusway.doc
+  148  find clarusway.doc || cat clarusway.doc
+  149  find clarusway.doc ; cat clarusway.doc
+  150  find clarusway.doc ; cat clarusway.doc && echo "Too early"
+  151  find clarusway.doc || cat clarusway.doc
+  152  clear
+  153  find -name clarusway.doc && cat clarusway.doc || echo "too early" && echo "Congratulations" > clarusway.doc | find -name claruway.doc && cat clarusway.doc 
+  154  history > cat 071321_5th_handson.txt
+  155  history > tee 071321_5th_handson.txt
+  156  history >  071321_5th_handson.txt
+  157  history | 071321_5th_handson.txt
+  158  history > hand.txt
+  159  ls
+  160  vim hand.txt
+  161  clear
+  162  history > linux_handson5.txt
