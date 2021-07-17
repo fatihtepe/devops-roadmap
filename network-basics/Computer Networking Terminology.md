@@ -324,3 +324,10 @@ ARP is basically a program used by computer A to find computer B's MAC address b
 [What is the Internet Control Message Protocol (ICMP)?](https://www.cloudflare.com/en-ca/learning/ddos/glossary/internet-control-message-protocol-icmp/)
 
 The Internet Control Message Protocol (ICMP) is a network layer protocol used by network devices to diagnose network communication issues. ICMP is mainly used to determine whether or not data is reaching its intended destination in a timely manner. Commonly, the ICMP protocol is used on network devices, such as routers. ICMP is crucial for error reporting and testing, but it can also be used in distributed denial-of-service (DDoS) attacks.
+
+
+[What is Nmap?](https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/)
+
+Nmap is short for Network Mapper. It is an open-source Linux command-line tool that is used to scan IP addresses and ports in a network and to detect installed applications.
+
+Nmap allows network admins to find which devices are running on their network, discover open ports and services, and detect vulnerabilities.
