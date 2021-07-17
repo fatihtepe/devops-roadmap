@@ -321,3 +321,6 @@ ARP is basically a program used by computer A to find computer B's MAC address b
 - A switch, a layer 2 device is used for local communications, and default gateway, a layer 3 device, is used for remote communications.
 -ARP is used in both situations.
 
+[What is the Internet Control Message Protocol (ICMP)?](https://www.cloudflare.com/en-ca/learning/ddos/glossary/internet-control-message-protocol-icmp/)
+
+The Internet Control Message Protocol (ICMP) is a network layer protocol used by network devices to diagnose network communication issues. ICMP is mainly used to determine whether or not data is reaching its intended destination in a timely manner. Commonly, the ICMP protocol is used on network devices, such as routers. ICMP is crucial for error reporting and testing, but it can also be used in distributed denial-of-service (DDoS) attacks.
