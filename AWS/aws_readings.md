@@ -35,5 +35,11 @@ All load balancers support some balancing algorithms. These algorithms define wh
 
 You got it, monitoring!
 
+[A Cloud Migration Questionnaire for Solution Architects](https://betterprogramming.pub/a-cloud-migration-questionnaire-for-solution-architects-dec7ffcf063e#28dc)
+
+Many companies operating from their own data centers started migrating their applications to the cloud, and it has become an obvious choice for many startups to create cloud-native applications. This is most important because of the speed of time to market and cost-efficiency in addition to many other benefits of the cloud.
+
+As a solution architect, you need to ask relevant questions to gather the required information from customers. The solution you build based on this information from the customer lays the foundation for future design solutions and migrations.
+
 
 
