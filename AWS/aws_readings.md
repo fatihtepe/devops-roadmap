@@ -41,5 +41,12 @@ Many companies operating from their own data centers started migrating their app
 
 As a solution architect, you need to ask relevant questions to gather the required information from customers. The solution you build based on this information from the customer lays the foundation for future design solutions and migrations.
 
+[AWS Solution Architect Associate Exam Study Notes
+](https://chloemcateer.medium.com/aws-solution-architect-associate-exam-study-notes-b6c5884ee500)
+
+While studying for my exam I created a tonne of notes to break down and understand all of the different services.
+Before sitting the exam, I took my notes and created high level summaries for each service and I have decided to share each of these summaries through blogs!
+
+One thing to note is that these are just overall summaries, so I would not recommend solely using these for your studies, but to use as an overview or as some reading to do the week of your exam.
 
 
