@@ -52,4 +52,6 @@ Before sitting the exam, I took my notes and created high level summaries for ea
 
 One thing to note is that these are just overall summaries, so I would not recommend solely using these for your studies, but to use as an overview or as some reading to do the week of your exam.
 
+[AWS — Elastic Load Balancer (ELB) Overview](https://medium.com/awesome-cloud/aws-elastic-load-balancer-elb-overview-introduction-to-aws-elb-alb-nlb-gwlb-e2820fe8fe27)
 
+AWS Elastic Load Balancer (ELB) automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health of its registered targets, and routes traffic only to the healthy targets. Elastic Load Balancing scales your load balancer as your incoming traffic changes over time. It can automatically scale to the vast majority of workloads.
