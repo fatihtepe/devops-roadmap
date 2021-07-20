@@ -331,3 +331,12 @@ The Internet Control Message Protocol (ICMP) is a network layer protocol used by
 Nmap is short for Network Mapper. It is an open-source Linux command-line tool that is used to scan IP addresses and ports in a network and to detect installed applications.
 
 Nmap allows network admins to find which devices are running on their network, discover open ports and services, and detect vulnerabilities.
+
+[TCP - Three-way handshake](https://www.youtube.com/watch?v=xMtP5ZB3wSk)
+
+TCP stands for transmission control protocol. TCP is a reliable and connection-oriented transport protocol. With TCP, data can be delivered successfully and accurately. 
+Many applications, such as web,  email, and FTP, use TCP. Before TCP transmits data, it will use three-way handshake to establish a connection. 
+Step 1: The client sends a SYN segment to the server, asking for synchronization(connection).<br>
+Step 2: The server replies with SYN-ACK (synchronization and acknowledgment). The server acknowledges the client's connection request. It also asks the client to open a connection too.<br>
+Step 3: The client replies with ACK, which is like "Yes." Then the two-way connection is established between them.    
+![threwayhandshake](img/three-way.png)
