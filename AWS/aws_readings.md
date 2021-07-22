@@ -1,5 +1,5 @@
 
-[#100daysofAWS](https://towardsaws.com/100daysofaws-day-1-ec2-346c40430fae) 
+[#100daysofAWS](https://towardsaws.com/100daysofaws-day-1-ec2-346c40430fae)
 
 [What's New with AWS?](https://aws.amazon.com/new)
 
@@ -34,7 +34,7 @@ All load balancers support some balancing algorithms. These algorithms define wh
 
 [CloudWatch vs CloudTrail](https://digitalcloud.training/cloudwatch-vs-cloudtrail-comparison/)
 
-`Two of the most important “Cloud” services to know for your exam are Amazon CloudWatch and AWS CloudTrail`. You may have already heard of these services before because they’re quite popular on AWS (for a good reason). They’re popular because they both perform a very important function. With “Watch” and “Trail” at the end of the name, can you guess what essential function it is that they perform? 
+`Two of the most important “Cloud” services to know for your exam are Amazon CloudWatch and AWS CloudTrail`. You may have already heard of these services before because they’re quite popular on AWS (for a good reason). They’re popular because they both perform a very important function. With “Watch” and “Trail” at the end of the name, can you guess what essential function it is that they perform?
 
 You got it, monitoring!
 
@@ -55,3 +55,7 @@ One thing to note is that these are just overall summaries, so I would not recom
 [AWS — Elastic Load Balancer (ELB) Overview](https://medium.com/awesome-cloud/aws-elastic-load-balancer-elb-overview-introduction-to-aws-elb-alb-nlb-gwlb-e2820fe8fe27)
 
 AWS Elastic Load Balancer (ELB) automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health of its registered targets, and routes traffic only to the healthy targets. Elastic Load Balancing scales your load balancer as your incoming traffic changes over time. It can automatically scale to the vast majority of workloads.
+
+[Preparing For AWS Interview Questions](https://neal-davis.medium.com/preparing-for-aws-interview-questions-ac493da5f60a)
+
+Preparing well for an AWS interview is a great way to gain confidence and gain an edge over your competition. AWS interview questions can be tricky and cover more than just the technical aspects of the AWS Cloud. You need to ensure you have practiced your responses in advance. In this article, we will look at what to expect in an AWS interview and how to go about the preparation.
