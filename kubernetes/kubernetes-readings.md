@@ -18,3 +18,11 @@ Service mesh: A service mesh is a system that can comprehensively and centrally 
 [Kubernetes Environments That You Can Try for Free on Your Browser](https://iceburn.medium.com/kubernetes-environments-that-you-can-try-for-free-on-your-browser-43673d5edf08)
 
 Sometimes you want to quickly prepare a kubernetes environment for learning purposes and for small experiments. I introduce a free kubernetes environment that can be used on the browser, which is convenient in such a case.
+
+[Kubernetes — Ingress Overview
+](https://medium.com/devops-mojo/kubernetes-ingress-overview-what-is-kubernetes-ingress-introduction-to-k8s-ingress-b0f81525ffe2)
+
+In Kubernetes, an Ingress is an object that allows access to Kubernetes services from outside the Kubernetes cluster. You can configure access by creating a collection of rules that define which inbound connections reach which services.
+
+An Ingress can be configured to give Services externally-reachable URLs, load balance traffic, terminate SSL/TLS, and offer name-based virtual hosting. Ingress lets you configure an HTTP load balancer for applications running on Kubernetes, represented by one or more Kubernetes internal Services.
+
