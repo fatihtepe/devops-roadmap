@@ -14,3 +14,7 @@ The network service related components of k8s are further divided into the follo
 
 - CNI: A component that supports the Container Network Interface (CNI), which tunnels communication between containers.
 Service mesh: A service mesh is a system that can comprehensively and centrally manage pods and services by combining any of the above.
+
+[Kubernetes Environments That You Can Try for Free on Your Browser](https://iceburn.medium.com/kubernetes-environments-that-you-can-try-for-free-on-your-browser-43673d5edf08)
+
+Sometimes you want to quickly prepare a kubernetes environment for learning purposes and for small experiments. I introduce a free kubernetes environment that can be used on the browser, which is convenient in such a case.
