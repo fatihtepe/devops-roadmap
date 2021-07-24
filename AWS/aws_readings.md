@@ -59,3 +59,7 @@ AWS Elastic Load Balancer (ELB) automatically distributes your incoming traffic 
 [Preparing For AWS Interview Questions](https://neal-davis.medium.com/preparing-for-aws-interview-questions-ac493da5f60a)
 
 Preparing well for an AWS interview is a great way to gain confidence and gain an edge over your competition. AWS interview questions can be tricky and cover more than just the technical aspects of the AWS Cloud. You need to ensure you have practiced your responses in advance. In this article, we will look at what to expect in an AWS interview and how to go about the preparation.
+
+[How to run commands remotely on an EC2 instance using AWS Systems Manager](https://medium.com/workfall/how-to-run-commands-remotely-on-an-ec2-instance-using-aws-systems-manager-351284decbd4)
+
+In this blog, we have explored that AWS Systems Manager has the ability to automate tasks and helps in keeping all our EC2 instances healthy, applications managed, secure and updated. We have also seen how we can make use of Amazon Systems Manager to execute a bunch of commands remotely on EC2 instances eliminating the need of SSH or bastion hosts. We will discuss more of Amazon Systems Manager and its other configurations in our upcoming blog. Stay tuned to keep getting all updates about our upcoming new blogs on AWS and relevant technologies.
