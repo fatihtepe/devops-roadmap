@@ -4,3 +4,8 @@ Terraform has become an industry standard tool to express infrastructure-as-code
 [Terraform — 5 Ways To Create Infrastructure in Multiple Environments](https://medium.com/bb-tutorials-and-thoughts/terraform-5-ways-to-create-infrastructure-in-multiple-environments-8a6e3f42a694)
 Terraform is an open-source infrastructure as a code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
+[Passing the HashiCorp Certified: Terraform Associate Exam in 20 Minutes — Review of the Exam, Terraform Learning Path, and Exam Tips](https://medium.com/4th-coffee/passing-the-hashicorp-certified-terraform-associate-exam-in-20-minutes-learning-path-and-tips-bd851f210017)
+
+Terraform is the de facto “Infrastructure as Code” tool to manage your cloud infrastructure automatically.
+
+You don’t need to know everything about Terraform. For example, it’s completely fine if you don’t know and have never used workspace. A particular topic only takes up so much percentage in the exam that even if you get it all wrong, it doesn’t matter. With the same logic, if you don’t plan to use Terraform enterprise or Terraform cloud after figuring out what it is, you don't have to know it all, like what extra features it brings.
