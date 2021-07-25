@@ -26,3 +26,17 @@ In Kubernetes, an Ingress is an object that allows access to Kubernetes services
 
 An Ingress can be configured to give Services externally-reachable URLs, load balance traffic, terminate SSL/TLS, and offer name-based virtual hosting. Ingress lets you configure an HTTP load balancer for applications running on Kubernetes, represented by one or more Kubernetes internal Services.
 
+
+[Kubectl Useful Commands](https://iceburn.medium.com/kubectl-useful-commands-f5f47c0773f)
+
+`Kubernetes Shortcuts`
+
+- po : Pods
+- rs : ReplicaSets
+- deploy : Deployments
+- svc : Services
+- ns : Namespaces
+- netpol : Network policies
+- pv : Persistent Volumes
+- pvc : PersistentVolumeClaims
+- in : Service Accounts
