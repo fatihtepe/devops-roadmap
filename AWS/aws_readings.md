@@ -71,3 +71,15 @@ While studying for my exam I created a tonne of notes to break down and understa
 Before sitting the exam, I took my notes and created high level summaries for each service and I have decided to share each of these summaries through blogs!
 
 One thing to note is that these are just overall summaries, so I would not recommend solely using these for your studies, but to use as an overview or as some reading to do the week of your exam.
+
+[5 AWS Services You Should Avoid!](https://medium.com/teamzerolabs/5-aws-services-you-should-avoid-f45111cc10cd)
+
+Get ready for some personal and definitely opinionated opinions!
+AWS comes with many components that cover different areas of concerns. But, most are not general purpose and cheap enough to be applied correctly. Used in the wrong context, they end up wasting time, resources, money, and will create developer friction and frustrations for months.
+
+Here are the top 5 AWS Services you should avoid:
+- Cognito
+- CloudFormation
+- ElasticCache
+- Kinesis
+- Lambda
