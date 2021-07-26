@@ -83,3 +83,9 @@ Here are the top 5 AWS Services you should avoid:
 - ElasticCache
 - Kinesis
 - Lambda
+
+[How to pass AWS Solutions Architect Professional Exam?](https://medium.com/@talhaocakci/how-to-pass-aws-solutions-architect-professional-exam-87bebfdae86f)
+
+First things first: Passing the exam does not mean you are a solutions architect. Second, the real target is to be a solutions architect, not a plain certificate holder. So, a certificate may be required but not sufficient for real job.
+
+If we agree on it, we may talk about the details of both exam and AWS environment and how AWS certification exam evaluates you. By the way, I have prepared for the associate exam with this course. I highly recommend it.
