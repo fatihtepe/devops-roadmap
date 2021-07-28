@@ -1,6 +1,8 @@
 
 [#100daysofAWS](https://towardsaws.com/100daysofaws-day-1-ec2-346c40430fae)
 
+[MariaDB Server Documentation](https://mariadb.com/kb/en/documentation/)
+
 [What's New with AWS?](https://aws.amazon.com/new)
 
 [AWS News Blog](https://aws.amazon.com/blogs/aws/)
