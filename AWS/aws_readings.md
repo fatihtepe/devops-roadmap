@@ -1,4 +1,8 @@
 
+[Tips from my Journey to an AWS Solutions Architect Associate Certification](https://medium.com/@lior.k.sh/tips-from-my-journey-for-aws-solutions-architect-associate-certification-8f4eb8344a98)
+
+I scheduled the exam for two months in advance and began the preparations 🎓. After achieving the certification recently (passed with 93% score), I’m sharing my personal insights about the process, which I hope you find useful and inspiring.
+
 [#100daysofAWS](https://towardsaws.com/100daysofaws-day-1-ec2-346c40430fae)
 
 [MariaDB Server Documentation](https://mariadb.com/kb/en/documentation/)
