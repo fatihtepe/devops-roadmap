@@ -91,3 +91,7 @@ Here are the top 5 AWS Services you should avoid:
 First things first: Passing the exam does not mean you are a solutions architect. Second, the real target is to be a solutions architect, not a plain certificate holder. So, a certificate may be required but not sufficient for real job.
 
 If we agree on it, we may talk about the details of both exam and AWS environment and how AWS certification exam evaluates you. By the way, I have prepared for the associate exam with this course. I highly recommend it.
+
+[AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-content-type=*all&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&awsf.whitepapers-business-category=*all&awsf.whitepapers-global-methodology=*all)
+
+Expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams.
