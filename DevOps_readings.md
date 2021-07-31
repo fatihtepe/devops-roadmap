@@ -79,3 +79,10 @@ Deploy Webserver using the best Principles, Tools, Techniques of DevOps Culture.
 
 Here I am using Ansible for the configuration management system, Jenkins for CI/CD, Jenkins with Multi-Node Cluster, Build Jobs using DSL Code of Jenkins, for production I am using one of the famous services of AWS,i ,e AWS EKS(Elastic k8s Service).
 
+[Successful DevOps Implementation: Nine Best Practices in 2021](https://medium.com/devopscurry/nine-best-practices-for-a-successful-devops-implementation-in-2021-ef87d4692fcb)
+
+The benefits of Devops implementation are clear; organizations that embrace the shift to DevOps release more capabilities, faster releases and experience fewer performance issues.
+
+So, if your organization has decided to take the plunge and implement DevOps based transformation project. This is an article that will try and help you guide your thoughts on the best practices, as you move ahead on the Devops implementation project.
+
+
