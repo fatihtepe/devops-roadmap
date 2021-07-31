@@ -99,3 +99,10 @@ If we agree on it, we may talk about the details of both exam and AWS environmen
 [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/?whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-content-type=*all&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&awsf.whitepapers-business-category=*all&awsf.whitepapers-global-methodology=*all)
 
 Expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams.
+
+[8 Interesting AWS Services](https://medium.com/devops-dudes/8-interesting-aws-services-3f802e2a7db8)
+
+I’ve used a lot of AWS services lately, and I’ve come across multiple interesting services in AWS.
+Most of them are related to cost management&saving, and security.
+
+
