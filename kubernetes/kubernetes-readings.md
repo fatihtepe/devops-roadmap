@@ -40,3 +40,7 @@ An Ingress can be configured to give Services externally-reachable URLs, load ba
 - pv : Persistent Volumes
 - pvc : PersistentVolumeClaims
 - in : Service Accounts
+
+[Kubernetes Fundamentals For Absolute Beginners: Architecture & Components](https://medium.com/the-programmer/kubernetes-fundamentals-for-absolute-beginners-architecture-components-1f7cda8ea536)
+
+K8s is a production-grade open-source container orchestration tool developed by Google to help you manage the containerized/dockerized applications supporting multiple deployment environments like On-premise, cloud, or virtual machines.
