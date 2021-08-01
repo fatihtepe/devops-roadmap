@@ -13,3 +13,7 @@ You don’t need to know everything about Terraform. For example, it’s complet
 [Detecting and Managing Drift with Terraform](https://www.hashicorp.com/blog/detecting-and-managing-drift-with-terraform)
 
 HashiCorp Terraform enables you to safely and predictably manage the lifecycle of your infrastructure using declarative configuration files. One challenge when managing infrastructure as code is drift. Drift is the term for when the real-world state of your infrastructure differs from the state defined in your configuration. This can happen for many reasons. Within the context of your configuration, it happens when adding or removing resources or changing resource definitions. External to your configuration, drift occurs when resources have been terminated or have failed, and when changes have been made manually or via other automation tools.
+
+[How to manage infrastructure as code (IaC) with Terraform on AWS?](https://medium.com/workfall/how-to-manage-infrastructure-as-code-iac-with-terraform-on-aws-1fa6cd6bccfe)
+
+With Infrastructure as Code and its tools like Terraform and AWS Cloudformation, this has changed. In this blog we will be discussing IaC, Terraform as one the best open source IaC tools and hands on using Terraform.
