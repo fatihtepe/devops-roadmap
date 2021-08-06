@@ -7,3 +7,11 @@ The DevOps has solved the most critical problem of application integration. The 
 [My Journey towards Certified Jenkins Engineer](https://sandeepbaldawa.medium.com/my-journey-toward-certified-jenkins-engineer-58e065a164f7)
 Why take this certification
 If you ever want to learn Jenkins in-depth, this is your goto certification(I am not aware of any other). Knowing a platform like Jenkins in depth would be a precious skill one could have(based on how commonly Jenkins is used as a CI-CD tool). Also, this might be a structured approach to learning something, validating your learning, and using it at your workplace. So it’s a good one for folks with all kinds of experience with Jenkins, in my opinion.
+
+[10 Jenkins Plugins You Need To Use Right Now](https://faun.pub/10-jenkins-plugins-you-need-to-use-right-now-da526f6398b)
+
+DevOps Engineer is one of the most niche fields which is expanding really fast in the industry. The demand for this particular job is really high and it is also a highly paid job.
+
+So I decided to write an article about it for the ones who are going to be in this field. Maybe this will…
+
+Jenkins is one of the most used, powerful, and open-source CI/CD tools in the industry. There are tons of plugins that make almost all our tasks so much easy.
