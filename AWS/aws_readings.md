@@ -105,4 +105,7 @@ Expand your knowledge of the cloud with AWS technical content authored by AWS an
 I’ve used a lot of AWS services lately, and I’ve come across multiple interesting services in AWS.
 Most of them are related to cost management&saving, and security.
 
+[AWS CloudFormation: Create a VPC with EC2 Instance](https://aws.plainenglish.io/aws-cloudformation-create-a-vpc-with-ec2-instance-34e27d59a842)
+
+AWS CloudFormation, an Infrastructure as Code service, includes a template made up of nine sections. Although made up of nine sections, the Resources section is the only one required. For this project we will be using Mappings, Resources, and Outputs. I’ve broken my template down to explain what is going on in each section, but if you want to jump straight to the full CloudFormation Template feel free to skip to the end.
 
