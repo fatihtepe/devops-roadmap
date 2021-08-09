@@ -120,3 +120,7 @@ Recently we had a scenario where we need to allow developers access to the param
 [Journey into the Cloud: How to Become a AWS Certified Solution Architect](https://towardsdatascience.com/journey-into-the-clouds-how-to-become-a-aws-certified-solution-architect-719cae167e70)
 
 I have been interested in expanding my knowledge as an IT solution architect from applications to infrastructure, so I decided to prepare for the Amazon Web Services Certified Solution Architect Associate exam which is one of the most important and widely recognized certificates in the IT industry*. I wanted to share my methodology for successfully preparing for the exam and thereby assist others on this journey.
+
+[Find the hands-on tutorials for your AWS needs](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&getting-started-all.sort-order=asc&awsf.getting-started-category=*all&awsf.getting-started-level=*all&awsf.getting-started-content-type=*all)
+
+Find the hands-on tutorials for your AWS needs Get started with step-by-step tutorials to launch your first application
