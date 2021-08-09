@@ -124,3 +124,7 @@ I have been interested in expanding my knowledge as an IT solution architect fro
 [Find the hands-on tutorials for your AWS needs](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&getting-started-all.sort-order=asc&awsf.getting-started-category=*all&awsf.getting-started-level=*all&awsf.getting-started-content-type=*all)
 
 Find the hands-on tutorials for your AWS needs Get started with step-by-step tutorials to launch your first application
+
+[How I passed two AWS certifications in less than two months.](https://ravindraelicherla.medium.com/how-i-passed-two-aws-certifications-in-two-months-511c484d0d0c)
+
+AWS certification has been in my to-do list since 2017. Finally, Covid-19 lockdown gave an opportunity to work from home and I realized I am saving lot of driving time. I could also plan my morning time bit more effectively. In May 2020, I decided I should look at completing few certifications after we had successfully gone live with a brand new project in office.
