@@ -128,3 +128,7 @@ Find the hands-on tutorials for your AWS needs Get started with step-by-step tut
 [How I passed two AWS certifications in less than two months.](https://ravindraelicherla.medium.com/how-i-passed-two-aws-certifications-in-two-months-511c484d0d0c)
 
 AWS certification has been in my to-do list since 2017. Finally, Covid-19 lockdown gave an opportunity to work from home and I realized I am saving lot of driving time. I could also plan my morning time bit more effectively. In May 2020, I decided I should look at completing few certifications after we had successfully gone live with a brand new project in office.
+
+[AWS — Site-to-Site VPN Connections Overview](https://medium.com/awesome-cloud/aws-site-to-site-vpn-connections-overview-introduction-to-aws-vpn-getting-started-ba889c2f1849)
+
+AWS VPN solutions establish secure connections between your on-premises networks, remote offices, client devices, and the AWS global network. You can extend your on-premises networks to the cloud and securely access them from anywhere.
