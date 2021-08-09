@@ -116,3 +116,7 @@ AWS offers many services, so many that it can often get pretty confusing for beg
 [https://towardsaws.com/managing-temporary-aws-console-access-169b1f331e79](https://towardsaws.com/managing-temporary-aws-console-access-169b1f331e79)
 
 Recently we had a scenario where we need to allow developers access to the parameter store so that they can check and update the parameters. Since developers may not be that comfortable working with AWS CLI, we decided to generate temporary IAM users with console access. In this post, we’ll see how we can create these temporary users and then delete them after some time.
+
+[Journey into the Cloud: How to Become a AWS Certified Solution Architect](https://towardsdatascience.com/journey-into-the-clouds-how-to-become-a-aws-certified-solution-architect-719cae167e70)
+
+I have been interested in expanding my knowledge as an IT solution architect from applications to infrastructure, so I decided to prepare for the Amazon Web Services Certified Solution Architect Associate exam which is one of the most important and widely recognized certificates in the IT industry*. I wanted to share my methodology for successfully preparing for the exam and thereby assist others on this journey.
