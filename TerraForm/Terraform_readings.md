@@ -17,3 +17,9 @@ HashiCorp Terraform enables you to safely and predictably manage the lifecycle o
 [How to manage infrastructure as code (IaC) with Terraform on AWS?](https://medium.com/workfall/how-to-manage-infrastructure-as-code-iac-with-terraform-on-aws-1fa6cd6bccfe)
 
 With Infrastructure as Code and its tools like Terraform and AWS Cloudformation, this has changed. In this blog we will be discussing IaC, Terraform as one the best open source IaC tools and hands on using Terraform.
+
+[7 Terraform tips for application modernization](https://medium.com/nclouds/7-terraform-tips-for-application-modernization-d5f3bd3029fb)
+
+Here at nClouds, we help companies modernize their applications on AWS. Sometimes we are modernizing a workload already running on AWS, and sometimes we are migrating a workload to AWS. With each application modernization project, we learn something new that enables us to do the next one even more efficiently.
+
+In this blog post, we’ll share some best practices around Terraform. Just like our other blog posts, most of the sharing comes from our experience in building infrastructure at scale across many clients. So, these tips are battle-tested. Hopefully, you’ll find them helpful.
