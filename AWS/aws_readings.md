@@ -113,7 +113,7 @@ AWS CloudFormation, an Infrastructure as Code service, includes a template made 
 
 AWS offers many services, so many that it can often get pretty confusing for beginners and experts alike. This is especially true when it comes to the many storage options AWS provides its users. Knowing the benefits and use cases of AWS storage services will help you design the best solution. In this article, we’ll be looking at S3 vs EBS vs EFS.
 
-[https://towardsaws.com/managing-temporary-aws-console-access-169b1f331e79](https://towardsaws.com/managing-temporary-aws-console-access-169b1f331e79)
+[Managing Temporary AWS Console Access](https://towardsaws.com/managing-temporary-aws-console-access-169b1f331e79)
 
 Recently we had a scenario where we need to allow developers access to the parameter store so that they can check and update the parameters. Since developers may not be that comfortable working with AWS CLI, we decided to generate temporary IAM users with console access. In this post, we’ll see how we can create these temporary users and then delete them after some time.
 
