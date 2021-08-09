@@ -109,3 +109,7 @@ Most of them are related to cost management&saving, and security.
 
 AWS CloudFormation, an Infrastructure as Code service, includes a template made up of nine sections. Although made up of nine sections, the Resources section is the only one required. For this project we will be using Mappings, Resources, and Outputs. I’ve broken my template down to explain what is going on in each section, but if you want to jump straight to the full CloudFormation Template feel free to skip to the end.
 
+[S3 vs EBS vs EFS — Comparing AWS Storage Services](https://neal-davis.medium.com/s3-vs-ebs-vs-efs-comparing-aws-storage-services-76080002cb49)
+
+AWS offers many services, so many that it can often get pretty confusing for beginners and experts alike. This is especially true when it comes to the many storage options AWS provides its users. Knowing the benefits and use cases of AWS storage services will help you design the best solution. In this article, we’ll be looking at S3 vs EBS vs EFS.
+
