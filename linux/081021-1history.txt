@@ -1,0 +1,82 @@
+    1  mkdir linux-lessons
+    2  export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+    3  cd linux-lessons/
+    4  touch clarusway.txt
+    5  vim clarusway.txt 
+    6  head clarusway.txt 
+    7  head -5 clarusway.txt 
+    8  clear
+    9  tail clarusway.txt 
+   10  tail -5 clarusway.txt 
+   11  clear
+   12  cat clarusway.txt 
+   13  clear
+   14  echo "file is file1" > file1
+   15  echo "file is file2" > file2
+   16  echo "file is file32" > file3
+   17  cat file1 file2 file3
+   18  cat file1 file2 file3 > all.txt
+   19  ls
+   20  cat > summer.txt
+   21  cat summer.txt 
+   22  clear
+   23  more clarusway.txt 
+   24  less clarusway.txt 
+   25  more clarusway.txt 
+   26  less clarusway.txt 
+   27  clear
+   28  tac clarusway.txt 
+   29  tac clarusway.txt > reverse-clarusway.txt
+   30  clear
+   31  find . -name clarusway.txt 
+   32  find /home -name clarusway.txt 
+   33  find /home -iname clarusway.txt 
+   34  find /home -type d -name linux-lessons
+   35  find . -type f -name "*.txt"
+   36  touch tepe.txt
+   37  find . -type f -empty
+   38  find /home -type f -empty
+   39  mkdir tepe
+   40  find /home -type d -empty
+   41  clear
+   42  find /home -size 100M
+   43  find . -size 100M
+   44  find . -size -100M
+   45  clear
+   46  find /home -size +50M -size -100M
+   47  find . -size +1M
+   48  find . -size -1M
+   49  find . -size -100M
+   50  clear
+   51  find . -size -100M -type d -empty
+   52  find . -mmin +10 -mmin -30
+   53  find . -mmin +10 -mmin-30
+   54  find . -mmin +10 -mmin -30
+   55  clear
+   56  vim grep.txt
+   57  vim linux.txt
+   58  grep "kernel" linux.txt 
+   59  grep "is" *
+   60  clear
+   61  grep "linux" linux.txt 
+   62  grep -i "linux" linux.txt 
+   63  grep -i "ker" linux.txt 
+   64  grep -w "ker" linux.txt 
+   65  grep -wi "ker" linux.txt 
+   66  grep -w "kernel" linux.txt 
+   67  grep -v "kernel" linux.txt 
+   68  grep "^li" clarusway.txt 
+   69  grep "kernel.$" linux.txt 
+   70  clear
+   71  grep -A3 "line 5" clarusway.txt
+   72  vim clarusway.txt 
+   73  grep -A3 "tepe" clarusway.txt
+   74  grep -B2 "tepe" clarusway.txt
+   75  grep -C2 "tepe" clarusway.txt
+   76  man pwd | grep "print"
+   77  man clear
+   78  clear
+   79  man find | grep -A "size"
+   80  man find | grep -A5 "size"
+   81  history | grep "find"
+   82  history > 1history.txt
