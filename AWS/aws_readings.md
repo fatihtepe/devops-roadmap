@@ -132,3 +132,7 @@ AWS certification has been in my to-do list since 2017. Finally, Covid-19 lockdo
 [AWS — Site-to-Site VPN Connections Overview](https://medium.com/awesome-cloud/aws-site-to-site-vpn-connections-overview-introduction-to-aws-vpn-getting-started-ba889c2f1849)
 
 AWS VPN solutions establish secure connections between your on-premises networks, remote offices, client devices, and the AWS global network. You can extend your on-premises networks to the cloud and securely access them from anywhere.
+
+[Disaster Recovery vs. Backups — What’s the Difference?](https://aws.plainenglish.io/what-we-misunderstand-about-disaster-recovery-and-backups-32d89e3cae77)
+
+The key for you to take away is that these two have entirely different use cases, two different goals. So, solving your disaster problem cannot be done with backups, and disaster recovery is not a backup of your production system. You can’t just have a disaster recovery site and assume that that is good enough. Your disaster recovery site should be taking backups of the data that lives within it, so in the event of a huge disaster where your streaming is interrupted or corrupted, you have a proper backup. I mean, host failures can also happen in a disaster recovery site just like they can happen in a production site.
