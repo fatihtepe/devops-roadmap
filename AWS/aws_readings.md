@@ -136,3 +136,19 @@ AWS VPN solutions establish secure connections between your on-premises networks
 [Disaster Recovery vs. Backups — What’s the Difference?](https://aws.plainenglish.io/what-we-misunderstand-about-disaster-recovery-and-backups-32d89e3cae77)
 
 The key for you to take away is that these two have entirely different use cases, two different goals. So, solving your disaster problem cannot be done with backups, and disaster recovery is not a backup of your production system. You can’t just have a disaster recovery site and assume that that is good enough. Your disaster recovery site should be taking backups of the data that lives within it, so in the event of a huge disaster where your streaming is interrupted or corrupted, you have a proper backup. I mean, host failures can also happen in a disaster recovery site just like they can happen in a production site.
+
+[Top 7 Serverless AWS Services](https://aws.plainenglish.io/top-7-serverless-aws-services-db8fab3d5901)
+
+What is Serverless?
+Serverless is a development model that allows us to build and run applications…
+
+The biggest advantage of this approach is that you pay only for the compute power, storage, and other resources you use without any up-front commitments. Also, your application can scale up based on demand. You have access to compute and storage resources when you need them.
+
+Although there are a lot of services available, there are only 7 core services to build a serverless application:
+- API Gateway — API, REST API
+- Lambda — Logic, Execute code
+- DynamoDB — Data, Store & - - Retrieve Data
+- Cognito — Auth, Authenticate Users
+- S3 — App, Serve static app
+- CloudFront — Cache, Improve Performance with Caching
+- Route 53 — DNS, Translate URL
