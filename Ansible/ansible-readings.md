@@ -1,0 +1,3 @@
+[Getting Started With Ansible](https://medium.com/swlh/getting-started-with-ansible-ee31be8c6a75)
+
+This article will help you to understand the basics of Most demanding Automation Tool — “Ansible”, along with setting up the environment to work on Ansible. Also I will show one practical where we gonna setup Docker environment and also we will configure webserver on Docker Container only by using Ansible.
