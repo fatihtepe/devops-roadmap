@@ -44,3 +44,9 @@ An Ingress can be configured to give Services externally-reachable URLs, load ba
 [Kubernetes Fundamentals For Absolute Beginners: Architecture & Components](https://medium.com/the-programmer/kubernetes-fundamentals-for-absolute-beginners-architecture-components-1f7cda8ea536)
 
 K8s is a production-grade open-source container orchestration tool developed by Google to help you manage the containerized/dockerized applications supporting multiple deployment environments like On-premise, cloud, or virtual machines.
+
+[Kubernetes in Action !!
+](https://faun.pub/kubernetes-in-action-dec7c0583b7)
+
+Kubernetes: History Overview
+When docker manages the microservices and containers, a container management system became a paramount requirement for all organizations and individuals, during time Google was already working on the project and opensource the project called Borg. To enchase the container management system company came up with the Kubernetes, an open-source project to automate the process of deploying and managing the multi-cloud application at scale.
