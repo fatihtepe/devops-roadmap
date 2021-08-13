@@ -152,3 +152,4 @@ Although there are a lot of services available, there are only 7 core services t
 - S3 — App, Serve static app
 - CloudFront — Cache, Improve Performance with Caching
 - Route 53 — DNS, Translate URL
+

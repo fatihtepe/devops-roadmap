@@ -86,3 +86,7 @@ The benefits of Devops implementation are clear; organizations that embrace the 
 So, if your organization has decided to take the plunge and implement DevOps based transformation project. This is an article that will try and help you guide your thoughts on the best practices, as you move ahead on the Devops implementation project.
 
 
+[YAML Tutorial: Get Started With YAML in 5 Minutes](https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8)
+
+YAML is a data serialization language that allows you to store complex data in a compact and readable format. It’s important for DevOps and virtualization because it’s essential in making efficient data management systems and automation.
+
