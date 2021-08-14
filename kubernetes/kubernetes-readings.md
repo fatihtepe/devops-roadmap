@@ -50,3 +50,7 @@ K8s is a production-grade open-source container orchestration tool developed by 
 
 Kubernetes: History Overview
 When docker manages the microservices and containers, a container management system became a paramount requirement for all organizations and individuals, during time Google was already working on the project and opensource the project called Borg. To enchase the container management system company came up with the Kubernetes, an open-source project to automate the process of deploying and managing the multi-cloud application at scale.
+
+[Kubernetes Journey — Basic Linux commands you should know](https://itnext.io/kubernetes-journey-basic-linux-commands-you-should-know-da4f95ceca5)
+
+If you are starting to get into Kubernetes, and don't know basic Linux commands yet, you should probably learn how to walk before you can run. Take my advice and read this blog until you learn these commands, and it will accelerate your learning.
