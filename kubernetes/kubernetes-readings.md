@@ -54,3 +54,9 @@ When docker manages the microservices and containers, a container management sys
 [Kubernetes Journey — Basic Linux commands you should know](https://itnext.io/kubernetes-journey-basic-linux-commands-you-should-know-da4f95ceca5)
 
 If you are starting to get into Kubernetes, and don't know basic Linux commands yet, you should probably learn how to walk before you can run. Take my advice and read this blog until you learn these commands, and it will accelerate your learning.
+
+[Kubernetes: Apprentice Cookbook](https://aveuiller.medium.com/kubernetes-apprentice-cookbook-90d8c11ccfc3)
+
+You probably already heard of Kubernetes, a powerful orchestrator that will ease deployment and automatically manage your applications on a set of machines, called a Cluster.
+
+With great power comes great complexity, even in the eyes of Google. Thus, learning Kubernetes is oftentimes considered as cumbersome and complex, namely because of the number of new concepts you have to learn. On the other hand, those very same concepts can be found in other orchestrators. As a result, mastering them will ease your onboarding on other orchestrators, such as Docker Swarm.
