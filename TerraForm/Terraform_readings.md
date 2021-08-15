@@ -27,3 +27,7 @@ In this blog post, we’ll share some best practices around Terraform. Just like
 [DevOps Journey — How to get certified in Terraform](https://bradmccoydev.medium.com/devops-journey-how-to-get-certified-in-terraform-c0bce1caa3d)
 
 This blog will focus on tips regarding how to prepare for the exam, and provide practice questions and answers. To study for this exam I highly recommend that you have practical experience as well as study the theory. The exam is a mixture of multi-choice questions, fill in the gaps, and type commands. You will get your exam results straight away after you finish the exam, to know if you passed or not. There is no free resit, so this one is important to get it right the first time. The cost of the exam is $70.50 USD, and you have one hour to complete around 57 questions. The exam is split into 9 different categories as listed below.
+
+[Kubernetes Journey — CKA / CKAD Exam Tips](https://itnext.io/kubernetes-journey-cka-ckad-exam-tips-ff73e4672833)
+
+I have recently passed my CKAD, and CKA exam, and have a passion for coaching and mentoring engineers, so wanted to share some tips and my secret sauce for passing the exams. I will try and keep this blog as interactive as possible as one thing I found when looking for information is I had to go through videos to find the solution that I was looking for and it was time-consuming. You can also find the video version of this blog here.
