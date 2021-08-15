@@ -31,3 +31,7 @@ This blog will focus on tips regarding how to prepare for the exam, and provide 
 [Kubernetes Journey — CKA / CKAD Exam Tips](https://itnext.io/kubernetes-journey-cka-ckad-exam-tips-ff73e4672833)
 
 I have recently passed my CKAD, and CKA exam, and have a passion for coaching and mentoring engineers, so wanted to share some tips and my secret sauce for passing the exams. I will try and keep this blog as interactive as possible as one thing I found when looking for information is I had to go through videos to find the solution that I was looking for and it was time-consuming. You can also find the video version of this blog here.
+
+[How to get your first job as a DevOps Engineer](https://bradmccoydev.medium.com/how-to-get-your-first-job-as-a-devops-engineer-a0bffbbdc6b8)
+
+This blog will go over some tips to land your first job as a DevOps engineer, please remember a DevOps engineer is a senior role and requires a lot of study and hard work to get, this blog is aimed to give you a kick start in meeting some of those requirements and give tips for your CV and interviews.
