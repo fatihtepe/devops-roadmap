@@ -44,3 +44,9 @@ If an Elastic IP address is attached to your instance, AWS CloudFormation reatta
 [Status Code Definitions-part of Hypertext Transfer Protocol -- HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 
 Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.
+
+[As a tech guy, you will thank me for these websites](https://blog.devgenius.io/as-a-tech-guy-you-will-thank-me-for-these-websites-be09e86ebcef)
+
+As a technical person, I fetch some regular basis tasks. There are tasks that we can solve in several ways. Many tools, open-source programs, coding, or anything can be helpful in these cases.
+
+## Work smarter, Not harder
