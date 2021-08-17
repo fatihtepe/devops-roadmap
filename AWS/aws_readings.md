@@ -160,3 +160,7 @@ Before starting preparation for this exam, I had zero experience with AWS. But a
 [AWS Cost Optimization Checklist](https://thechief.io/c/hrishikesh/aws-cost-optimization-checklist/)
 
 Are you sure you’re following all of the practices and strategies to optimize your expenses? AWS has many flexible methods of keeping your expenditure to a minimum but the myriad of services and strategies could overwhelm you. Check out the list of essential strategies below to see if you’ve got all your bases covered.
+
+[Use These Tools to Optimize your AWS Costs](https://faun.pub/use-these-tools-to-optimize-your-aws-costs-38e6bb2404cf)
+
+Cloud services, AWS especially comes with a bunch of resources and features that can both enhance your experience and on the other hand, be a little bit pricey. Use the following tools to observe, analyze, and optimize the costs of your AWS cloud infrastructure.
