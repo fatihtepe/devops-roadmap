@@ -60,3 +60,7 @@ If you are starting to get into Kubernetes, and don't know basic Linux commands 
 You probably already heard of Kubernetes, a powerful orchestrator that will ease deployment and automatically manage your applications on a set of machines, called a Cluster.
 
 With great power comes great complexity, even in the eyes of Google. Thus, learning Kubernetes is oftentimes considered as cumbersome and complex, namely because of the number of new concepts you have to learn. On the other hand, those very same concepts can be found in other orchestrators. As a result, mastering them will ease your onboarding on other orchestrators, such as Docker Swarm.
+
+[Learnings From Two Years of Kubernetes in Production](https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-production-b0ec21aa2814)
+
+Almost two years back, we took the decision to leave behind our Ansible based configuration management setup for deploying applications on EC2 and move towards containerisation and orchestration of applications using Kubernetes. We have migrated most of our infrastructure to Kubernetes. It was a big undertaking and had its own challenges — from technical challenges of running a hybrid infrastructure until most of the migration is done to training the entire team on a completely new paradigm of operations to name a few.
