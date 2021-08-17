@@ -164,3 +164,7 @@ Are you sure you’re following all of the practices and strategies to optimize 
 [Use These Tools to Optimize your AWS Costs](https://faun.pub/use-these-tools-to-optimize-your-aws-costs-38e6bb2404cf)
 
 Cloud services, AWS especially comes with a bunch of resources and features that can both enhance your experience and on the other hand, be a little bit pricey. Use the following tools to observe, analyze, and optimize the costs of your AWS cloud infrastructure.
+
+[Using Amazon Servers — EC2 vs LightSail](https://neal-davis.medium.com/using-amazon-servers-ec2-vs-lightsail-7abc0a6d9a47)
+
+Which type of Amazon Server should you use for your next project? This is a question that often comes up. Amazon Web Services (AWS) provides several options for running compute services. You can run virtual servers in an Infrastructure as a Service (IaaS) model on Amazon EC2 and Amazon LightSail. You can run serverless compute functions on AWS Lambda and you can run Docker containers on Amazon ECS.
