@@ -35,3 +35,7 @@ I have recently passed my CKAD, and CKA exam, and have a passion for coaching an
 [How to get your first job as a DevOps Engineer](https://bradmccoydev.medium.com/how-to-get-your-first-job-as-a-devops-engineer-a0bffbbdc6b8)
 
 This blog will go over some tips to land your first job as a DevOps engineer, please remember a DevOps engineer is a senior role and requires a lot of study and hard work to get, this blog is aimed to give you a kick start in meeting some of those requirements and give tips for your CV and interviews.
+
+[Using Atlantis To Automate Terraform](https://medium.com/payu-engineering/using-atlantis-to-automate-terraform-195c16d3312c)
+
+As a DevOps engineer at ZOOZ for over one year now, I have been working with an almost fully automated deployment system. The only part missing was the ability to deliver automated Terraform operations. One of my team members came across an open-source automation tool called Atlantis, a tool that, as it seemed, could bring us the last part of automation we were missing!
