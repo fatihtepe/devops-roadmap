@@ -168,3 +168,7 @@ Cloud services, AWS especially comes with a bunch of resources and features that
 [Using Amazon Servers — EC2 vs LightSail](https://neal-davis.medium.com/using-amazon-servers-ec2-vs-lightsail-7abc0a6d9a47)
 
 Which type of Amazon Server should you use for your next project? This is a question that often comes up. Amazon Web Services (AWS) provides several options for running compute services. You can run virtual servers in an Infrastructure as a Service (IaaS) model on Amazon EC2 and Amazon LightSail. You can run serverless compute functions on AWS Lambda and you can run Docker containers on Amazon ECS.
+
+[What Is the Difference Between EBS, EFS, and Instance Store?](https://medium.com/programmingnotes/aws-storage-ebs-efs-and-instance-store-d5e958eab838)
+
+The EBS provides persistent block storage volumes for use with Amazon EC2 instances. EFS is used for network storage and the instance store provides temporary block-level storage for your instance. Let's explore each of these in detail over this article.
