@@ -156,3 +156,7 @@ Although there are a lot of services available, there are only 7 core services t
 [How I Passed the AWS Certified Solutions Architect (SAA-C02) With Zero Experience Within Two Months](https://towardsdatascience.com/how-i-passed-the-aws-certified-solutions-architect-saa-c02-with-zero-experience-within-two-months-ecc3fa5c1d28)
 
 Before starting preparation for this exam, I had zero experience with AWS. But after two months, I’m certified! Do I say that this is an easy exam? NO! Absolutely wrong. The scope of this exam is extremely large and nearly most of the AWS services involved. In this article, I will share how I studied and passed the AWS Certified Solutions Architect (SAA-C02).
+
+[AWS Cost Optimization Checklist](https://thechief.io/c/hrishikesh/aws-cost-optimization-checklist/)
+
+Are you sure you’re following all of the practices and strategies to optimize your expenses? AWS has many flexible methods of keeping your expenditure to a minimum but the myriad of services and strategies could overwhelm you. Check out the list of essential strategies below to see if you’ve got all your bases covered.
