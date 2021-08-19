@@ -1,0 +1,81 @@
+  405  docker
+ 7034  git commit - 'How you should think about docker containers if you understand linux'
+ 7035  git commit -m 'How you should think about docker containers if you understand linux'
+ 7767  docker ps -a
+10199  docker version
+10321  docker
+10322  docker --version
+10323  docker ps
+10325  docker ps
+10327  docker pull nginx
+10337  docker --version
+10338  docker run hello-world
+10340  docker version
+10347  docker version
+10349  docker info
+10351  docker
+10352  docker ps
+10353  docker run docker run hello-world
+10354  docker kill hello-world
+10355  docker ps
+10356  docker container run hello-world
+10358  docker config
+10359  docker container rm 
+10360  docker container rm hello-world
+10362  docker volume
+10363  docker image --help
+10364  docker image rm  --help
+10365  docker image rm  -f hello.world
+10366  docker container hello-world
+10367  docker container run hello-world
+10368  docker image rm -f hello-world
+10369  docker pull nginx
+10372  docker images
+10373  docker run nginx:latest
+10375  docker container ls
+10376  docker images
+10377  docker container ls
+10379  docker container ls 
+10380  docker run -d nginx:latest
+10381  docker container ls
+10383  docker ps
+10384  history | grep docker
+10386  docker ps
+10387  docker stop 3fc50ee3c781
+10388  docker ps
+10390  docker run -d -p 8080:80 nginx:latest
+10391  docker ps
+10392  docker stop 1bd0dd8e4627
+10393  docker run -d -p 3000:80 nginx:latest
+10394  docker stop 1bd0dd8e4627
+10395  docker ps
+10396  docker stop 30527a383c5b
+10397  docker ps
+10399  docker run -d -p 3000:80 -p 8080:80 nginx:latest
+10400  docker ps
+10401  docker stop blissful_bardeen
+10402  docker ps
+10403  docker start blissful_bardeen
+10404  docker ps
+10405  docker stop blissful_bardeen
+10406  docker ps 
+10407  docker ps --help
+10408  docker ps -a
+10410  docker ps -a
+10411  docker rm 869c72a71115
+10412  docker ps -a
+10413  docker rm 30527a383c5b
+10414  docker ps -a
+10416  docker ps --help
+10417  docker ps -aq
+10418  docker rm $(docker ps -aq)
+10419  docker ps
+10421  docker ps -a 
+10422  docker run -d -p 3000:80 -p 8080:80 nginx:latest
+10423  docker ps
+10424  docker rm $(docker ps -aq)
+10425  docker ps
+10426  docker rm -f $(docker ps -aq)
+10427  docker ps
+10428  docker ps -aq
+10429  docker ps -a

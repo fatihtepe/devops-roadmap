@@ -172,3 +172,14 @@ Which type of Amazon Server should you use for your next project? This is a ques
 [What Is the Difference Between EBS, EFS, and Instance Store?](https://medium.com/programmingnotes/aws-storage-ebs-efs-and-instance-store-d5e958eab838)
 
 The EBS provides persistent block storage volumes for use with Amazon EC2 instances. EFS is used for network storage and the instance store provides temporary block-level storage for your instance. Let's explore each of these in detail over this article.
+
+[Amazon SQS (Simple Queue Service): Quick Overview and Tutorial](https://blog.iron.io/amazon-sqs-simple-queue-service-overview-and-tutorial/)
+
+Queues are a powerful way of combining software architectures. They allow for asynchronous communication between different systems, and are especially useful when the throughput of the systems is unequal.   Amazon offers their version of queues with Amazon SQS (Simple Queue Service).
+
+For example, if you have something like:
+
+- System A - produces messages periodically in huge bursts
+- System B - consumes messages constantly, at a slower pace
+
+
