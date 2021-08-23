@@ -44,4 +44,4 @@ As a DevOps engineer at ZOOZ for over one year now, I have been working with an 
 
 Welcome to Terraform Visual
 A simple visualization tool to help you understand your Terraform plan easily
-https://hieven.github.io/
+https://hieven.github.io/terraform-visual/
