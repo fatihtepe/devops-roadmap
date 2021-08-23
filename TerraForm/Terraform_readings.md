@@ -39,3 +39,9 @@ This blog will go over some tips to land your first job as a DevOps engineer, pl
 [Using Atlantis To Automate Terraform](https://medium.com/payu-engineering/using-atlantis-to-automate-terraform-195c16d3312c)
 
 As a DevOps engineer at ZOOZ for over one year now, I have been working with an almost fully automated deployment system. The only part missing was the ability to deliver automated Terraform operations. One of my team members came across an open-source automation tool called Atlantis, a tool that, as it seemed, could bring us the last part of automation we were missing!
+
+[Tools to Visualize your Terraform plan](https://medium.com/vmacwrites/tools-to-visualize-your-terraform-plan-d421c6255f9f)
+
+Welcome to Terraform Visual
+A simple visualization tool to help you understand your Terraform plan easily
+https://hieven.github.io/
