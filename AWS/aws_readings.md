@@ -182,4 +182,6 @@ For example, if you have something like:
 - System A - produces messages periodically in huge bursts
 - System B - consumes messages constantly, at a slower pace
 
+[The Absolute minimum every developer must know about AWS Security!](https://faun.pub/the-absolute-minimum-every-developer-must-know-about-aws-security-7b448a10570a)
 
+The cloud is becoming increasingly popular in our day and age. It is the driving force of the modern world, and engineers are starting to shift their careers accordingly. Whatever your profession, chances are that you will have to work with the cloud in some way or another. Terms such as VPCs, subnets, security groups, ECS, and so on will no longer sound unfamiliar. But have we really grasped the gravity of this seismic shift?
