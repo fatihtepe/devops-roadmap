@@ -185,3 +185,7 @@ For example, if you have something like:
 [The Absolute minimum every developer must know about AWS Security!](https://faun.pub/the-absolute-minimum-every-developer-must-know-about-aws-security-7b448a10570a)
 
 The cloud is becoming increasingly popular in our day and age. It is the driving force of the modern world, and engineers are starting to shift their careers accordingly. Whatever your profession, chances are that you will have to work with the cloud in some way or another. Terms such as VPCs, subnets, security groups, ECS, and so on will no longer sound unfamiliar. But have we really grasped the gravity of this seismic shift?
+
+[15 AWSome years of Amazon EC2 and still going strong!](https://medium.com/workfall/15-awsome-years-of-amazon-ec2-and-still-going-strong-fcc7916955ca)
+
+This year marks the 15th anniversary of Amazon EC2(Amazon Elastic Compute Cloud), marking a landmark milestone for both the firm and the computing industry it serves. The EC2 instance is at the heart of the AWS cloud platform, allowing users to rent storage, network connectivity, and computation resources.
