@@ -189,3 +189,9 @@ The cloud is becoming increasingly popular in our day and age. It is the driving
 [15 AWSome years of Amazon EC2 and still going strong!](https://medium.com/workfall/15-awsome-years-of-amazon-ec2-and-still-going-strong-fcc7916955ca)
 
 This year marks the 15th anniversary of Amazon EC2(Amazon Elastic Compute Cloud), marking a landmark milestone for both the firm and the computing industry it serves. The EC2 instance is at the heart of the AWS cloud platform, allowing users to rent storage, network connectivity, and computation resources.
+
+[AWS Basics: Security Groups vs NACL](https://aws.plainenglish.io/aws-basics-security-groups-vs-nacl-826de14c2bc1)
+
+The AWS VPC network layer can be protected with Security Group and with NACL (Network ACL). These constructs provide a “similar” functionality. Hence it becomes the confusing to understand which one should to use.
+First point to understand is that these are complementing constructs. Which means you should use both of them. Together these form a “Swiss cheese model”.
+
