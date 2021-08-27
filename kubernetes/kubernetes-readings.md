@@ -64,3 +64,7 @@ With great power comes great complexity, even in the eyes of Google. Thus, learn
 [Learnings From Two Years of Kubernetes in Production](https://lambda.grofers.com/learnings-from-two-years-of-kubernetes-in-production-b0ec21aa2814)
 
 Almost two years back, we took the decision to leave behind our Ansible based configuration management setup for deploying applications on EC2 and move towards containerisation and orchestration of applications using Kubernetes. We have migrated most of our infrastructure to Kubernetes. It was a big undertaking and had its own challenges — from technical challenges of running a hybrid infrastructure until most of the migration is done to training the entire team on a completely new paradigm of operations to name a few.
+
+[10 Reasons why Kubernetes is a Good Idea](https://aws.plainenglish.io/10-reasons-why-kubernetes-is-a-good-idea-9b3990ef7fb1)
+
+Kubernetes is the leading container orchestration platform for modern multi-cloud deployment.
