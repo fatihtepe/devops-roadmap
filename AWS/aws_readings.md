@@ -195,3 +195,9 @@ This year marks the 15th anniversary of Amazon EC2(Amazon Elastic Compute Cloud)
 The AWS VPC network layer can be protected with Security Group and with NACL (Network ACL). These constructs provide a “similar” functionality. Hence it becomes the confusing to understand which one should to use.
 First point to understand is that these are complementing constructs. Which means you should use both of them. Together these form a “Swiss cheese model”.
 
+[Protect your Infrastructure with Real-time Notifications of AWS Console User Changes](https://towardsdatascience.com/protect-your-infrastructure-with-real-time-notifications-of-aws-console-user-changes-3144fd18c680)
+
+![s3lambdasns](./img/s3lambdasns.png)
+
+You’ve embraced infrastructure as code (IoC) and painstakingly created Terraform or CloudFormation to model your EC2 Instances, AutoScaling Groups, ECS clusters, and everything else. The devops and development teams have committed to only modify and create infrastructure using your chosen IoC tools — but, surprise, some people just won’t comply. Maybe someone gets lazy during feature development or takes a shortcut during incident response. Maybe you’ve outsourced your level one support and you don’t entirely trust that group yet. Whatever the reason, you would love to know when a user logs in to the AWS Console web site and manually changes things.
+
