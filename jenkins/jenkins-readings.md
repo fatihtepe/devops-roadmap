@@ -15,3 +15,7 @@ DevOps Engineer is one of the most niche fields which is expanding really fast i
 So I decided to write an article about it for the ones who are going to be in this field. Maybe this will…
 
 Jenkins is one of the most used, powerful, and open-source CI/CD tools in the industry. There are tons of plugins that make almost all our tasks so much easy.
+
+[Jenkins Pipeline Tutorial For Beginners](https://devopscube.com/jenkins-pipeline-as-code/)
+
+Jenkins pipeline as code is a concept of defining Jenkins build pipeline in Jenkins DSL/Groovy format. This article covers the key concepts involved in writing Jenkins pipeline as code using declarative syntax.
