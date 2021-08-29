@@ -90,3 +90,9 @@ So, if your organization has decided to take the plunge and implement DevOps bas
 
 YAML is a data serialization language that allows you to store complex data in a compact and readable format. It’s important for DevOps and virtualization because it’s essential in making efficient data management systems and automation.
 
+[What is GitOps?](https://www.gitops.tech/)
+
+
+GitOps is a way of implementing Continuous Deployment for cloud native applications. It focuses on a developer-centric experience when operating infrastructure, by using tools developers are already familiar with, including Git and Continuous Deployment tools.
+
+The core idea of GitOps is having a Git repository that always contains declarative descriptions of the infrastructure currently desired in the production environment and an automated process to make the production environment match the described state in the repository. If you want to deploy a new application or update an existing one, you only need to update the repository - the automated process handles everything else. It’s like having cruise control for managing your applications in production.
