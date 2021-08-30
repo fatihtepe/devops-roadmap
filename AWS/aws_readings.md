@@ -201,3 +201,6 @@ First point to understand is that these are complementing constructs. Which mean
 
 You’ve embraced infrastructure as code (IoC) and painstakingly created Terraform or CloudFormation to model your EC2 Instances, AutoScaling Groups, ECS clusters, and everything else. The devops and development teams have committed to only modify and create infrastructure using your chosen IoC tools — but, surprise, some people just won’t comply. Maybe someone gets lazy during feature development or takes a shortcut during incident response. Maybe you’ve outsourced your level one support and you don’t entirely trust that group yet. Whatever the reason, you would love to know when a user logs in to the AWS Console web site and manually changes things.
 
+[AWS — WAF (Web Application Firewall) Overview](https://medium.com/awesome-cloud/aws-waf-web-application-firewall-overview-what-is-aws-waf-introduction-to-aws-web-application-firewall-6247a8a0283d)
+
+AWS WAF is a managed web application firewall service that helps you protect your web applications at the application layer from common web exploits that could affect application availability, compromise security, and/or consume excessive resources.

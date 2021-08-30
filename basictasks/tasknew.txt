@@ -1,0 +1,20 @@
+Sizden EKS Clusterinin auto scaling groubunda calisitirilmasi gereken bir launch template create etmeniz isteniyor.
+Launch template asagidaki sartlari saglamak zorunda.
+
+1-- keyname: eksworkerkey
+2-- instancetype: t3.medium
+3-- imageid: xxxxx
+4-- Tags | key: Name , value : LTName
+           key : alpha.eksctl.io/nodegroup-type , value: managed
+           key : eks:nodegroup-name , value : PreProd-Linux-WG
+		   key : eks:cluster-name , value : SESEKSCluster
+		   
+5-- Userdata 
+
+5a: Instance uzerinde calisacak loglarin(var/log/clarusway/*) 15 dakikada bir s3 bucketa copyalanmasi gerekiyor.
+5b: Eger ihtiyac aninda calistirilan EC2, daha sonra terminate edilecegi anda tum dosyalarin s3 ye o an copyalanmasi  gerekiyor. 
+5c: Log file'lari icerisinde error ve fail patternleri aratilip, bulunmasi durumunda mail gonderilmesi gerekiyor. 
+5d: EC2 icerisindeki loglarin 10 dakikadan eski olanlar silinmesi gerekiyor.
+5e: var/log/clarusway/* dizinindeki log filelarin canli olarak cloudwatchda monitor edilmesi gerekiyor.
+
+Good Luck.
