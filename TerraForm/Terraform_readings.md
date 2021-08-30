@@ -50,3 +50,7 @@ https://hieven.github.io/terraform-visual/
 [Tools and best practices. that makes your terraform life easier on AWS.](https://billhegazy.medium.com/terraform-in-aws-9793e3c01173)
 
 Tools and best practices. that makes your terraform life easier on AWS.
+
+[Deploying an AWS ECS Cluster of EC2 Instances With Terraform](https://medium.com/swlh/creating-an-aws-ecs-cluster-of-ec2-instances-with-terraform-85a10b5cfbe3)
+
+Terraform is an infrastructure orchestration tool (also known as “infrastructure as code(IaC)”). Using Terraform, you declare every single piece of your infrastructure once, in static files, allowing you to deploy and destroy cloud infrastructure easily, make incremental changes to the infrastructure, do rollbacks, infrastructure versioning, etc.

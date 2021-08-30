@@ -204,3 +204,4 @@ You’ve embraced infrastructure as code (IoC) and painstakingly created Terrafo
 [AWS — WAF (Web Application Firewall) Overview](https://medium.com/awesome-cloud/aws-waf-web-application-firewall-overview-what-is-aws-waf-introduction-to-aws-web-application-firewall-6247a8a0283d)
 
 AWS WAF is a managed web application firewall service that helps you protect your web applications at the application layer from common web exploits that could affect application availability, compromise security, and/or consume excessive resources.
+
